@@ -10,7 +10,6 @@ from ConfigLoader import logger, ss_size, vocab_size, config_model, path_parser
 
 
 class Model:
-
     def __init__(self):
         logger.info('INIT: #stock: {0}, #vocab+1: {1}'.format(ss_size, vocab_size))
 
@@ -259,130 +258,6 @@ class Model:
                     self.x = tf.concat([self.corpus_embed, self.price], axis=2)
                     self.x_size = self.corpus_embed_size + self.price_size
 
-    def _create_vmd_with_h_rec(self):
-        with tf.name_scope('vmd'):
-            with tf.variable_scope('vmd_h_rec'):
-                x = tf.nn.dropout(self.x, keep_prob=1-self.dropout_vmd_in)
-                x = tf.transpose(x, [1, 0, 2])  # max_n_days * batch_size * x_size
-                y_ = tf.transpose(self.y_ph, [1, 0, 2])  # max_n_days * batch_size * y_size
-
-                self.mask_aux_trading_days = tf.sequence_mask(self.T_ph - 1, self.max_n_days, dtype=tf.bool,
-                                                              name='mask_aux_trading_days')
-
-                def _loop_body(t, ta_h_s, ta_z_prior, ta_z_post, ta_kl):
-
-                    with tf.variable_scope('iter_body', reuse=tf.AUTO_REUSE):
-
-                        def _init():
-                            h_s_init = tf.nn.tanh(tf.random_normal(shape=[self.batch_size, self.h_size]))
-                            h_z_init = tf.nn.tanh(tf.random_normal(shape=[self.batch_size, self.z_size]))
-
-                            z_init, _ = self._z(arg=h_z_init, is_prior=False)
-
-                            return h_s_init, z_init
-
-                        def _subsequent():
-                            h_s_t_1 = tf.reshape(ta_h_s.read(t-1), [self.batch_size, self.h_size])
-                            z_t_1 = tf.reshape(ta_z_post.read(t-1), [self.batch_size, self.z_size])
-
-                            return h_s_t_1, z_t_1
-
-                        h_s_t_1, z_t_1 = tf.cond(t >= 1, _subsequent, _init)
-
-                        gate_args = [x[t], h_s_t_1, z_t_1]
-
-                        with tf.variable_scope('gru_r'):
-                            r = self._linear(gate_args, self.h_size, 'sigmoid')
-                        with tf.variable_scope('gru_u'):
-                            u = self._linear(gate_args, self.h_size, 'sigmoid')
-
-                        h_args = [x[t], tf.multiply(r, h_s_t_1), z_t_1]
-
-                        with tf.variable_scope('gru_h'):
-                            h_tilde = self._linear(h_args, self.h_size, 'tanh')
-
-                        h_s_t = tf.multiply(1 - u, h_s_t_1) + tf.multiply(u, h_tilde)
-
-                        with tf.variable_scope('h_z_prior'):
-                            h_z_prior_t = self._linear([x[t], h_s_t], self.z_size, 'tanh')
-                        with tf.variable_scope('z_prior'):
-                            z_prior_t, z_prior_t_pdf = self._z(h_z_prior_t, is_prior=True)
-
-                        with tf.variable_scope('h_z_post'):
-                            h_z_post_t = self._linear([x[t], h_s_t, y_[t]], self.z_size, 'tanh')
-                        with tf.variable_scope('z_post'):
-                            z_post_t, z_post_t_pdf = self._z(h_z_post_t, is_prior=False)
-
-                    kl_t = ds.kl_divergence(z_post_t_pdf, z_prior_t_pdf)
-
-                    # write
-                    ta_h_s = ta_h_s.write(t, h_s_t)
-                    ta_z_prior = ta_z_prior.write(t, z_prior_t)  # write: batch_size * z_size
-                    ta_z_post = ta_z_post.write(t, z_post_t)  # write: batch_size * z_size
-                    ta_kl = ta_kl.write(t, kl_t)  # write: batch_size * 1
-
-                    return t + 1, ta_h_s, ta_z_prior, ta_z_post, ta_kl
-
-                ta_h_s_init = tf.TensorArray(tf.float32, size=self.max_n_days, clear_after_read=False)
-                ta_z_prior_init = tf.TensorArray(tf.float32, size=self.max_n_days)
-                ta_z_post_init = tf.TensorArray(tf.float32, size=self.max_n_days, clear_after_read=False)
-                ta_kl_init = tf.TensorArray(tf.float32, size=self.max_n_days)
-
-                loop_init = (0, ta_h_s_init, ta_z_prior_init, ta_z_post_init, ta_kl_init)
-                loop_cond = lambda t, *args: t < self.max_n_days
-                _, ta_h_s, ta_z_prior, ta_z_post, ta_kl = tf.while_loop(loop_cond, _loop_body, loop_init)
-
-                h_s = tf.reshape(ta_h_s.stack(), shape=(self.max_n_days, self.batch_size, self.h_size))
-                z_shape = (self.max_n_days, self.batch_size, self.z_size)
-                z_prior = tf.reshape(ta_z_prior.stack(), shape=z_shape)
-                z_post = tf.reshape(ta_z_post.stack(), shape=z_shape)
-                kl = tf.reshape(ta_kl.stack(), shape=z_shape)
-
-                x = tf.transpose(x, [1, 0, 2])  # batch_size * max_n_days * x_size
-                h_s = tf.transpose(h_s, [1, 0, 2])  # batch_size * max_n_days * vmd_h_size
-                z_prior = tf.transpose(z_prior, [1, 0, 2])  # batch_size * max_n_days * z_size
-                z_post = tf.transpose(z_post, [1, 0, 2])  # batch_size * max_n_days * z_size
-                self.kl = tf.reduce_sum(tf.transpose(kl, [1, 0, 2]), axis=2)  # batch_size * max_n_days
-
-                with tf.variable_scope('g'):
-                    self.g = self._linear([x, h_s, z_post], self.g_size, 'tanh', use_bn=False)
-
-                with tf.variable_scope('y'):
-                    self.y = self._linear(self.g, self.y_size, 'softmax')
-
-                sample_index = tf.reshape(tf.range(self.batch_size), (self.batch_size, 1), name='sample_index')
-                self.indexed_T = tf.concat([sample_index, tf.reshape(self.T_ph-1, (self.batch_size, 1))], axis=1)
-
-                def _infer_func():
-                    g_T = tf.gather_nd(params=self.g, indices=self.indexed_T)  # batch_size * g_size
-
-                    if not self.daily_att:
-                        y_T = tf.gather_nd(params=self.y, indices=self.indexed_T)  # batch_size * y_size
-                        return g_T, y_T
-
-                    return g_T
-
-                def _gen_func():
-                    # use prior for g
-                    z_prior_T = tf.gather_nd(params=z_prior, indices=self.indexed_T)  # batch_size * z_size
-                    h_s_T = tf.gather_nd(params=h_s, indices=self.indexed_T)
-                    x_T = tf.gather_nd(params=x, indices=self.indexed_T)
-
-                    with tf.variable_scope('g', reuse=tf.AUTO_REUSE):
-                        g_T = self._linear([x_T, h_s_T, z_prior_T], self.g_size, 'tanh', use_bn=False)
-
-                    if not self.daily_att:
-                        with tf.variable_scope('y', reuse=tf.AUTO_REUSE):
-                            y_T = self._linear(g_T, self.y_size, 'softmax')
-                        return g_T, y_T
-
-                    return g_T
-
-                if not self.daily_att:
-                    self.g_T, self.y_T = tf.cond(tf.equal(self.is_training_phase, True), _infer_func, _gen_func)
-                else:
-                    self.g_T = tf.cond(tf.equal(self.is_training_phase, True), _infer_func, _gen_func)
-
     def _create_vmd_with_zh_rec(self):
         """
             Create a variational movement decoder.
@@ -502,87 +377,8 @@ class Model:
                 else:
                     self.g_T = tf.cond(tf.equal(self.is_training_phase, True), _infer_func, _gen_func)
 
-    def _create_discriminative_vmd(self):
-        """
-            Create a discriminative movement decoder.
-
-            x: batch_size * max_n_days * vmd_in_size
-            => vmd_h: batch_size * max_n_days * vmd_h_size
-            => z: batch_size * max_n_days * vmd_z_size
-            => y: batch_size * max_n_days * 2
-        """
-        with tf.name_scope('vmd'):
-            with tf.variable_scope('vmd_zh_rec', reuse=tf.AUTO_REUSE):
-                x = tf.nn.dropout(self.x, keep_prob=1-self.dropout_vmd_in)
-
-                self.mask_aux_trading_days = tf.sequence_mask(self.T_ph - 1, self.max_n_days, dtype=tf.bool,
-                                                              name='mask_aux_trading_days')
-
-                if self.vmd_cell_type == 'ln-lstm':
-                    cell = tf.contrib.rnn.LayerNormBasicLSTMCell(self.h_size)
-                else:
-                    cell = tf.contrib.rnn.GRUCell(self.h_size)
-                cell = tf.contrib.rnn.DropoutWrapper(cell, output_keep_prob=1.0-self.dropout_vmd)
-
-                init_state = None
-                h_s, _ = tf.nn.dynamic_rnn(cell, x, sequence_length=self.T_ph, initial_state=init_state, dtype=tf.float32)
-
-                # forward max_n_days
-                x = tf.transpose(x, [1, 0, 2])  # max_n_days * batch_size * x_size
-                h_s = tf.transpose(h_s, [1, 0, 2])  # max_n_days * batch_size * vmd_h_size
-
-                def _loop_body(t, ta_z):
-                    """
-                        iter body. iter over trading days.
-                    """
-                    with tf.variable_scope('iter_body', reuse=tf.AUTO_REUSE):
-
-                        init = lambda: tf.random_normal(shape=[self.batch_size, self.z_size], name='z_post_t_1')
-                        subsequent = lambda: tf.reshape(ta_z.read(t-1), [self.batch_size, self.z_size])
-
-                        z_t_1 = tf.cond(t >= 1, subsequent, init)
-
-                        with tf.variable_scope('h_z'):
-                            h_z_t = self._linear([x[t], h_s[t], z_t_1], self.z_size, 'tanh')
-                        with tf.variable_scope('z'):
-                            z_t = self._linear(h_z_t, self.z_size, 'tanh')
-
-                    ta_z = ta_z.write(t, z_t)  # write: batch_size * z_size
-                    return t + 1, ta_z
-
-                # loop_init
-                ta_z_init = tf.TensorArray(tf.float32, size=self.max_n_days, clear_after_read=False)
-
-                loop_init = (0, ta_z_init)
-                cond = lambda t, *args: t < self.max_n_days
-
-                _, ta_z_init = tf.while_loop(cond, _loop_body, loop_init)
-
-                z_shape = (self.max_n_days, self.batch_size, self.z_size)
-                z = tf.reshape(ta_z_init.stack(), shape=z_shape)
-
-                h_s = tf.transpose(h_s, [1, 0, 2])  # batch_size * max_n_days * vmd_h_size
-                z = tf.transpose(z, [1, 0, 2])  # batch_size * max_n_days * z_size
-
-                with tf.variable_scope('g'):
-                    self.g = self._linear([h_s, z], self.g_size, 'tanh')  # batch_size * max_n_days * g_size
-
-                with tf.variable_scope('y'):
-                    self.y = self._linear(self.g, self.y_size, 'softmax')  # batch_size * max_n_days * y_size
-
-                # get g_T
-                sample_index = tf.reshape(tf.range(self.batch_size), (self.batch_size, 1), name='sample_index')
-                self.indexed_T = tf.concat([sample_index, tf.reshape(self.T_ph-1, (self.batch_size, 1))], axis=1)
-                self.g_T = tf.gather_nd(params=self.g, indices=self.indexed_T)
-
     def _build_vmd(self):
-        if self.variant_type == 'discriminative':
-            self._create_discriminative_vmd()
-        else:
-            if self.vmd_rec == 'h':
-                self._create_vmd_with_h_rec()
-            else:
-                self._create_vmd_with_zh_rec()
+        self._create_vmd_with_zh_rec()
 
     def _build_temporal_att(self):
         """
@@ -648,42 +444,64 @@ class Model:
                 obj = obj_T + tf.reduce_sum(tf.multiply(obj_aux, v_aux), axis=1, keep_dims=True)  # batch_size * 1
                 self.loss = tf.reduce_mean(-obj, axis=[0, 1])
 
-    def _create_discriminative_ata(self):
-        """
-             calculate discriminative loss.
+    def gradient_boosted_trees (self):
 
-             g: batch_size * max_n_days * g_size
-             y: batch_size * max_n_days * y_size
-             => loss: batch_size
-        """
-        with tf.name_scope('ata'):
-            with tf.variable_scope('ata'):
-                v_aux = self.alpha * self.v_stared  # batch_size * max_n_days
+        dftrain = pd.read_csv('data/train.csv')
+        dfeval = pd.read_csv('data/eval.csv')
+        y_train = dftrain.pop('rise')
+        y_eval = dfeval.pop('rise')
 
-                minor = 0.0  # 0.0, 1e-7
-                likelihood_aux = tf.reduce_sum(tf.multiply(self.y_ph, tf.log(self.y + minor)), axis=2)  # batch_size * max_n_days
+        fc = tf.feature_column
+        CATEGORICAL_COLUMNS = ['materials', 'consumer_goods', 'healthcare', 'services', 'utilities',
+                               'cong', 'finance', 'industrial_goods', 'tech']
+        NUMERIC_COLUMNS = ['buy', 'sell']
 
-                # deal with T specially, likelihood_T: batch_size, 1
-                self.y_T_ = tf.gather_nd(params=self.y_ph, indices=self.indexed_T)  # batch_size * y_size
-                likelihood_T = tf.reduce_sum(tf.multiply(self.y_T_, tf.log(self.y_T + minor)), axis=1, keep_dims=True)
+        def one_hot_cat_column(feature_name, vocab):
+            return fc.indicator_column(
+                fc.categorical_column_with_vocabulary_list(feature_name,vocab))
 
-                obj = likelihood_T + tf.reduce_sum(tf.multiply(likelihood_aux, v_aux), axis=1, keep_dims=True)  # batch_size * 1
-                self.loss = tf.reduce_mean(-obj, axis=[0, 1])
+        feature_columns = []
+        for feature_name in CATEGORICAL_COLUMNS:
+            # Need to one-hot encode categorical features.
+            vocabulary = dftrain[feature_name].unique()
+            feature_columns.append(one_hot_cat_column(feature_name, vocabulary))
+
+        for feature_name in NUMERIC_COLUMNS:
+            feature_columns.append(fc.numeric_column(feature_name,dtype=tf.float32))
+
+        NUM_EXAMPLES = len(y_train)
+        def make_input_fn(X, y, n_epochs=None, shuffle=True):
+            def input_fn():
+                dataset = tf.data.Dataset.from_tensor_slices((X.to_dict(orient='list'), y))
+                if shuffle:
+                    dataset = dataset.shuffle(NUM_EXAMPLES)
+                dataset = (dataset.repeat(n_epochs).batch(NUM_EXAMPLES))
+                return dataset
+
+            return input_fn
+
+        train_input_fn = make_input_fn(dftrain, y_train)
+        eval_input_fn = make_input_fn(dfeval, y_eval, shuffle=False, n_epochs=1)
+
+        params = {
+            'n_trees': 50,
+            'max_depth': 3,
+            'n_batches_per_layer': 1,
+            'center_bias': True
+        }
+
+        est = tf.estimator.BoostedTreesClassifier(feature_columns, **params)
+        est.train(train_input_fn, max_steps=100)
+
+        results = est.evaluate(eval_input_fn)
+        pd.Series(results).to_frame()
 
     def _build_ata(self):
-        if self.variant_type == 'discriminative':
-            self._create_discriminative_ata()
-        else:
             self._create_generative_ata()
 
     def _create_optimizer(self):
         with tf.name_scope('optimizer'):
-            if self.opt == 'sgd':
-                decayed_lr = tf.train.exponential_decay(learning_rate=self.lr, global_step=self.global_step,
-                                                        decay_steps=self.decay_step, decay_rate=self.decay_rate)
-                optimizer = tf.train.MomentumOptimizer(learning_rate=decayed_lr, momentum=self.momentum)
-            else:
-                optimizer = tf.train.AdamOptimizer(self.lr)
+            optimizer = tf.train.AdamOptimizer(self.lr)
             gradients, variables = zip(*optimizer.compute_gradients(self.loss))
             gradients, _ = tf.clip_by_global_norm(gradients, self.clip)
             self.optimize = optimizer.apply_gradients(zip(gradients, variables))
@@ -731,6 +549,7 @@ class Model:
                 res = tf.nn.bias_add(res, bias)
 
         res = tf.reshape(res, shape)
+
 
         if use_bn:
             res = batch_norm(res, center=True, scale=True, decay=0.99, updates_collections=None,

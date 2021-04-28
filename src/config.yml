@@ -1,20 +1,20 @@
 ---
 model:
   mode: 'all'
-  variant_type: 'hedge' # hedge, tech, fund, discriminative
-  alpha: 0.5 # 0.1, 0.3, 0.5, 0.7, 0.9, 1.0
+  variant_type: 'hedge'
+  alpha: 0.5
   dropout_vmd_in: 0.3
   dropout_mel_in: 0.3
   n_epochs: 15
   batch_size: 32
 
-  kl_lambda_anneal_rate: 0.005  # 0.005, 0.002, 0.001, 0.0005
+  kl_lambda_anneal_rate: 0.005
   kl_lambda_start_step: 0
-  daily_att: 'y'  # y, g
+  daily_att: 'y' 
 
-  vmd_rec: 'zh'  # zh or h
+  vmd_rec: 'zh'
 
-  opt: 'adam'  # sgd, adam
+  opt: 'adam' 
   lr: 0.001
   clip: 15.0
 
@@ -24,8 +24,8 @@ model:
 
   word_embed_type: 'glove'
   weight_init: 'xavier-uniform'
-  mel_cell_type: 'gru'  # basic, gru, ln-lstm
-  vmd_cell_type: 'gru'  # basic, gru, ln-lstm
+  mel_cell_type: 'gru' 
+  vmd_cell_type: 'gru'
 
   word_embed_size: 50
   stock_embed_size: 150
@@ -59,15 +59,26 @@ dates:
   test_end_date: '2016-01-01'
 
 stocks:
-  materials: ['XOM', 'RDS-B', 'PTR', 'CVX', 'TOT', 'BP', 'BHP', 'SNP', 'SLB', 'BBL']
-  consumer_goods: ['AAPL', 'PG', 'BUD', 'KO', 'PM', 'TM', 'PEP', 'UN', 'UL', 'MO']
-  healthcare: ['JNJ', 'PFE', 'NVS', 'UNH', 'MRK', 'AMGN', 'MDT', 'ABBV', 'SNY', 'CELG']
-  services: ['AMZN', 'BABA', 'WMT', 'CMCSA', 'HD', 'DIS', 'MCD', 'CHTR', 'UPS', 'PCLN']
-  utilities: ['NEE', 'DUK', 'D', 'SO', 'NGG', 'AEP', 'PCG', 'EXC', 'SRE', 'PPL']
-  cong: ['IEP', 'HRG', 'CODI', 'REX', 'SPLP', 'PICO', 'AGFS', 'GMRE']
-  finance: ['BCH', 'BSAC', 'BRK-A', 'JPM', 'WFC', 'BAC', 'V', 'C', 'HSBC', 'MA']
-  industrial_goods: ['GE', 'MMM', 'BA', 'HON', 'UTX', 'LMT', 'CAT', 'GD', 'DHR', 'ABB']
-  tech: ['GOOG', 'MSFT', 'FB', 'T', 'CHL', 'ORCL', 'TSM', 'VZ', 'INTC', 'CSCO']
+  #materials: ['XOM', 'RDS-B', 'PTR', 'CVX', 'TOT', 'BP', 'BHP', 'SNP', 'SLB', 'BBL']
+  #consumer_goods: ['AAPL', 'PG', 'BUD', 'KO', 'PM', 'TM', 'PEP', 'UN', 'UL', 'MO']
+  #healthcare: ['JNJ', 'PFE', 'NVS', 'UNH', 'MRK', 'AMGN', 'MDT', 'ABBV', 'SNY', 'CELG']
+  #services: ['AMZN', 'BABA', 'WMT', 'CMCSA', 'HD', 'DIS', 'MCD', 'CHTR', 'UPS', 'PCLN']
+  #utilities: ['NEE', 'DUK', 'D', 'SO', 'NGG', 'AEP', 'PCG', 'EXC', 'SRE', 'PPL']
+  #cong: ['IEP', 'HRG', 'CODI', 'REX', 'SPLP', 'PICO', 'AGFS', 'GMRE']
+  #finance: ['BCH', 'BSAC', 'BRK-A', 'JPM', 'WFC', 'BAC', 'V', 'C', 'HSBC', 'MA']
+  #industrial_goods: ['GE', 'MMM', 'BA', 'HON', 'UTX', 'LMT', 'CAT', 'GD', 'DHR', 'ABB']
+  #tech: ['GOOG', 'MSFT', 'FB', 'T', 'CHL', 'ORCL', 'TSM', 'VZ', 'INTC', 'CSCO']
+
+  materials: ['XOM', 'RDS-B', 'PTR', 'CVX', 'TOT']
+  consumer_goods: ['AAPL', 'PG', 'BUD', 'KO', 'PM']
+  healthcare: ['JNJ', 'PFE', 'NVS', 'UNH', 'MRK']
+  services: ['AMZN', 'BABA', 'WMT', 'CMCSA', 'HD']
+  utilities: ['NEE', 'DUK', 'D', 'SO', 'NGG', 'AEP']
+  cong: ['IEP', 'HRG', 'CODI', 'REX', 'SPLP', 'PICO']
+  finance: ['BCH', 'BSAC', 'BRK-A', 'JPM', 'WFC']
+  industrial_goods: ['GE', 'MMM', 'BA', 'HON']
+  tech: ['GOOG', 'MSFT', 'FB', 'T', 'CHL', 'CSCO']
+
 
 paths:
   data: 'data/'
