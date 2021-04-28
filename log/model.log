@@ -1,1 +1,1755 @@
-This is the log file
+2021-04-12 02:11:04,024 INFO INIT: #stock: 88, #vocab+1: 29867
+2021-04-12 02:11:04,029 INFO Start graph assembling...
+2021-04-12 02:14:08,584 INFO INIT: #stock: 88, #vocab+1: 29867
+2021-04-12 02:14:08,589 INFO Start graph assembling...
+2021-04-12 02:14:36,795 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-12 02:14:44,338 INFO Word table init: done!
+2021-04-12 02:14:44,339 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, start a new session!
+2021-04-12 02:14:44,340 INFO Epoch: 1/15 start
+2021-04-12 02:28:48,701 INFO INIT: #stock: 88, #vocab+1: 29867
+2021-04-12 02:28:48,706 INFO Start graph assembling...
+2021-04-12 02:29:14,971 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-12 02:29:15,571 INFO Word table init: done!
+2021-04-12 02:29:15,572 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, start a new session!
+2021-04-12 02:29:15,573 INFO Epoch: 1/15 start
+2021-04-12 02:32:41,825 INFO INIT: #stock: 88, #vocab+1: 29867
+2021-04-12 02:32:41,830 INFO Start graph assembling...
+2021-04-12 02:33:08,264 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-12 02:33:08,858 INFO Word table init: done!
+2021-04-12 02:33:08,858 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, start a new session!
+2021-04-12 02:33:08,859 INFO Epoch: 1/15 start
+2021-04-12 02:36:19,958 INFO INIT: #stock: 88, #vocab+1: 29867
+2021-04-12 02:36:19,963 INFO Start graph assembling...
+2021-04-12 02:36:46,121 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-12 02:36:46,729 INFO Word table init: done!
+2021-04-12 02:36:46,730 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, start a new session!
+2021-04-12 02:36:46,730 INFO Epoch: 1/15 start
+2021-04-12 02:40:58,380 INFO 	iter: 20, batch loss: 7.31305408478, batch acc: 0.562500
+2021-04-12 02:46:15,135 INFO INIT: #stock: 88, #vocab+1: 29867
+2021-04-12 02:46:15,139 INFO Start graph assembling...
+2021-04-12 02:46:41,617 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-12 02:46:42,236 INFO Word table init: done!
+2021-04-12 02:46:42,236 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, start a new session!
+2021-04-12 02:46:42,237 INFO Epoch: 1/15 start
+2021-04-12 02:50:55,258 INFO 	iter: 20, batch loss: 7.05016851425, batch acc: 0.656250
+2021-04-12 03:07:47,793 INFO INIT: #stock: 88, #vocab+1: 29867
+2021-04-12 03:07:47,798 INFO Start graph assembling...
+2021-04-12 03:08:14,269 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-12 03:08:14,880 INFO Word table init: done!
+2021-04-12 03:08:14,881 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, start a new session!
+2021-04-12 03:08:14,881 INFO Epoch: 1/15 start
+2021-04-12 03:12:30,107 INFO 	iter: 20, batch loss: 7.58033895493, batch acc: 0.593750
+2021-04-12 03:14:19,030 INFO 	Eval, eval loss: 7.64894628525, acc: 0.507622
+2021-04-12 03:17:08,240 INFO 	iter: 40, batch loss: 7.02661514282, batch acc: 0.625000
+2021-04-12 03:18:57,433 INFO 	Eval, eval loss: 6.63871335983, acc: 0.533537
+2021-04-12 03:21:37,425 INFO 	iter: 60, batch loss: 4.53267097473, batch acc: 0.531250
+2021-04-12 03:23:28,834 INFO 	Eval, eval loss: 4.21971654892, acc: 0.501524
+2021-04-12 03:26:02,791 INFO 	iter: 80, batch loss: 2.98877859116, batch acc: 0.593750
+2021-04-12 03:27:54,833 INFO 	Eval, eval loss: 3.1432094574, acc: 0.515244
+2021-04-12 03:30:32,334 INFO 	iter: 100, batch loss: 2.59053707123, batch acc: 0.656250
+2021-04-12 03:32:28,270 INFO 	Eval, eval loss: 2.58320188522, acc: 0.522866
+2021-04-12 03:35:09,383 INFO 	iter: 120, batch loss: 2.27490568161, batch acc: 0.750000
+2021-04-12 03:37:05,908 INFO 	Eval, eval loss: 2.45859527588, acc: 0.550305
+2021-04-12 03:39:47,242 INFO 	iter: 140, batch loss: 2.43120574951, batch acc: 0.625000
+2021-04-12 03:41:44,465 INFO 	Eval, eval loss: 2.4154419899, acc: 0.498476
+2021-04-12 03:43:51,254 INFO Epoch: loss: 4.099857, acc: 0.601411
+2021-04-12 03:43:51,254 INFO Epoch: 2/15 start
+2021-04-12 03:45:19,275 INFO 	iter: 160, batch loss: 2.4253847599, batch acc: 0.625000
+2021-04-12 03:47:17,588 INFO 	Eval, eval loss: 2.371301651, acc: 0.474085
+2021-04-12 03:50:50,735 INFO 	iter: 180, batch loss: 2.2816619873, batch acc: 0.562500
+2021-04-12 03:52:51,479 INFO 	Eval, eval loss: 2.26495528221, acc: 0.487805
+2021-04-12 03:55:39,146 INFO 	iter: 200, batch loss: 2.11360502243, batch acc: 0.718750
+2021-04-12 03:57:38,940 INFO 	Eval, eval loss: 2.23589730263, acc: 0.475610
+2021-04-12 04:00:16,039 INFO 	iter: 220, batch loss: 2.14675283432, batch acc: 0.468750
+2021-04-12 04:02:16,971 INFO 	Eval, eval loss: 2.039270401, acc: 0.483232
+2021-04-12 04:04:55,535 INFO 	iter: 240, batch loss: 1.83336114883, batch acc: 0.625000
+2021-04-12 04:06:57,840 INFO 	Eval, eval loss: 1.83880102634, acc: 0.471037
+2021-04-12 04:09:34,652 INFO 	iter: 260, batch loss: 1.79657149315, batch acc: 0.562500
+2021-04-12 04:11:38,511 INFO 	Eval, eval loss: 1.73109984398, acc: 0.493902
+2021-04-12 04:14:22,395 INFO 	iter: 280, batch loss: 1.7069991827, batch acc: 0.468750
+2021-04-12 04:16:28,349 INFO 	Eval, eval loss: 1.64587628841, acc: 0.493902
+2021-04-12 04:19:17,414 INFO 	iter: 300, batch loss: 1.65187728405, batch acc: 0.312500
+2021-04-12 04:21:26,860 INFO 	Eval, eval loss: 1.5652384758, acc: 0.478659
+2021-04-12 04:22:54,169 INFO Epoch: loss: 1.964170, acc: 0.570565
+2021-04-12 04:22:54,170 INFO Epoch: 3/15 start
+2021-04-12 04:25:30,114 INFO 	iter: 320, batch loss: 1.58192372322, batch acc: 0.562500
+2021-04-12 04:27:40,140 INFO 	Eval, eval loss: 1.50008487701, acc: 0.504573
+2021-04-12 04:30:47,741 INFO 	iter: 340, batch loss: 1.4991736412, batch acc: 0.343750
+2021-04-12 04:32:59,687 INFO 	Eval, eval loss: 1.4669085741, acc: 0.477134
+2021-04-12 04:35:49,853 INFO 	iter: 360, batch loss: 1.40344905853, batch acc: 0.531250
+2021-04-12 04:38:03,034 INFO 	Eval, eval loss: 1.40279078484, acc: 0.516768
+2021-04-12 04:40:49,821 INFO 	iter: 380, batch loss: 1.39707875252, batch acc: 0.500000
+2021-04-12 04:43:05,048 INFO 	Eval, eval loss: 1.3592416048, acc: 0.492378
+2021-04-12 04:45:51,806 INFO 	iter: 400, batch loss: 1.25076425076, batch acc: 0.687500
+2021-04-12 04:48:08,596 INFO 	Eval, eval loss: 1.32387542725, acc: 0.477134
+2021-04-12 04:50:55,836 INFO 	iter: 420, batch loss: 1.20193457603, batch acc: 0.718750
+2021-04-12 04:53:14,823 INFO 	Eval, eval loss: 1.28519999981, acc: 0.538110
+2021-04-12 04:56:02,039 INFO 	iter: 440, batch loss: 1.30633962154, batch acc: 0.531250
+2021-04-12 04:58:22,534 INFO 	Eval, eval loss: 1.28533482552, acc: 0.506098
+2021-04-12 05:01:16,601 INFO 	iter: 460, batch loss: 1.32041835785, batch acc: 0.468750
+2021-04-12 05:03:38,986 INFO 	Eval, eval loss: 1.28344678879, acc: 0.486280
+2021-04-12 05:04:25,629 INFO Epoch: loss: 1.383459, acc: 0.540121
+2021-04-12 05:04:25,630 INFO Epoch: 4/15 start
+2021-04-12 05:07:52,832 INFO 	iter: 480, batch loss: 1.23265743256, batch acc: 0.656250
+2021-04-12 05:10:16,921 INFO 	Eval, eval loss: 1.24307572842, acc: 0.489329
+2021-04-12 05:13:27,581 INFO 	iter: 500, batch loss: 1.18172466755, batch acc: 0.593750
+2021-04-12 05:15:53,116 INFO 	Eval, eval loss: 1.23072373867, acc: 0.500000
+2021-04-12 05:18:47,320 INFO 	iter: 520, batch loss: 1.19135570526, batch acc: 0.531250
+2021-04-12 05:21:14,443 INFO 	Eval, eval loss: 1.21905696392, acc: 0.496951
+2021-04-12 05:24:04,051 INFO 	iter: 540, batch loss: 1.21550369263, batch acc: 0.531250
+2021-04-12 05:26:32,703 INFO 	Eval, eval loss: 1.20043563843, acc: 0.489329
+2021-04-12 05:29:23,123 INFO 	iter: 560, batch loss: 1.22845876217, batch acc: 0.437500
+2021-04-12 05:31:53,548 INFO 	Eval, eval loss: 1.17577004433, acc: 0.512195
+2021-04-12 05:34:45,486 INFO 	iter: 580, batch loss: 1.1797015667, batch acc: 0.625000
+2021-04-12 05:37:18,301 INFO 	Eval, eval loss: 1.1754014492, acc: 0.490854
+2021-04-12 05:40:12,513 INFO 	iter: 600, batch loss: 1.25126159191, batch acc: 0.406250
+2021-04-12 05:42:46,976 INFO 	Eval, eval loss: 1.17998874187, acc: 0.492378
+2021-04-12 05:45:48,261 INFO 	iter: 620, batch loss: 1.25509727001, batch acc: 0.406250
+2021-04-12 05:48:24,616 INFO 	Eval, eval loss: 1.16426849365, acc: 0.487805
+2021-04-12 05:48:25,232 INFO Epoch: loss: 1.215929, acc: 0.526815
+2021-04-12 05:48:25,232 INFO Epoch: 5/15 start
+2021-04-12 05:52:46,711 INFO 	iter: 640, batch loss: 1.1297955513, batch acc: 0.562500
+2021-04-12 05:55:25,331 INFO 	Eval, eval loss: 1.15504109859, acc: 0.496951
+2021-04-12 05:58:35,549 INFO 	iter: 660, batch loss: 1.17727947235, batch acc: 0.468750
+2021-04-12 06:01:16,022 INFO 	Eval, eval loss: 1.15450751781, acc: 0.495427
+2021-04-12 06:04:16,828 INFO 	iter: 680, batch loss: 1.11964416504, batch acc: 0.562500
+2021-04-12 06:06:59,363 INFO 	Eval, eval loss: 1.14321029186, acc: 0.492378
+2021-04-12 06:09:51,839 INFO 	iter: 700, batch loss: 1.10728335381, batch acc: 0.656250
+2021-04-12 06:12:36,063 INFO 	Eval, eval loss: 1.12929463387, acc: 0.538110
+2021-04-12 06:15:30,913 INFO 	iter: 720, batch loss: 1.03904628754, batch acc: 0.687500
+2021-04-12 06:18:17,226 INFO 	Eval, eval loss: 1.12335574627, acc: 0.500000
+2021-04-12 06:21:13,928 INFO 	iter: 740, batch loss: 1.12965583801, batch acc: 0.656250
+2021-04-12 06:24:01,880 INFO 	Eval, eval loss: 1.12342095375, acc: 0.487805
+2021-04-12 06:27:01,479 INFO 	iter: 760, batch loss: 1.14911222458, batch acc: 0.593750
+2021-04-12 06:29:51,419 INFO 	Eval, eval loss: 1.11982214451, acc: 0.486280
+2021-04-12 06:32:14,804 INFO Epoch: loss: 1.145763, acc: 0.525202
+2021-04-12 06:32:14,804 INFO Epoch: 6/15 start
+2021-04-12 06:34:00,957 INFO 	iter: 780, batch loss: 1.06462144852, batch acc: 0.718750
+2021-04-12 06:36:52,687 INFO 	Eval, eval loss: 1.13167083263, acc: 0.516768
+2021-04-12 06:40:29,297 INFO 	iter: 800, batch loss: 1.09971237183, batch acc: 0.375000
+2021-04-12 06:43:23,208 INFO 	Eval, eval loss: 1.12108135223, acc: 0.492378
+2021-04-12 06:46:28,209 INFO 	iter: 820, batch loss: 1.0941067934, batch acc: 0.593750
+2021-04-12 06:49:24,389 INFO 	Eval, eval loss: 1.11169469357, acc: 0.498476
+2021-04-12 06:52:25,605 INFO 	iter: 840, batch loss: 1.11047935486, batch acc: 0.593750
+2021-04-12 06:55:23,243 INFO 	Eval, eval loss: 1.0986007452, acc: 0.544207
+2021-04-12 06:58:22,125 INFO 	iter: 860, batch loss: 1.12201333046, batch acc: 0.531250
+2021-04-12 07:01:21,158 INFO 	Eval, eval loss: 1.10558128357, acc: 0.493902
+2021-04-12 07:04:22,926 INFO 	iter: 880, batch loss: 1.16331219673, batch acc: 0.343750
+2021-04-12 07:07:24,465 INFO 	Eval, eval loss: 1.10068547726, acc: 0.533537
+2021-04-12 07:10:29,005 INFO 	iter: 900, batch loss: 1.09882843494, batch acc: 0.562500
+2021-04-12 07:13:32,258 INFO 	Eval, eval loss: 1.1042548418, acc: 0.513720
+2021-04-12 07:16:44,101 INFO 	iter: 920, batch loss: 1.11713719368, batch acc: 0.468750
+2021-04-12 07:19:49,631 INFO 	Eval, eval loss: 1.09809088707, acc: 0.513720
+2021-04-12 07:21:27,702 INFO Epoch: loss: 1.113345, acc: 0.547177
+2021-04-12 07:21:27,703 INFO Epoch: 7/15 start
+2021-04-12 07:24:12,724 INFO 	iter: 940, batch loss: 1.12734460831, batch acc: 0.437500
+2021-04-12 07:27:19,226 INFO 	Eval, eval loss: 1.09270370007, acc: 0.553354
+2021-04-12 07:30:51,303 INFO 	iter: 960, batch loss: 1.07591629028, batch acc: 0.593750
+2021-04-12 07:34:00,014 INFO 	Eval, eval loss: 1.09769201279, acc: 0.509146
+2021-04-12 07:37:09,868 INFO 	iter: 980, batch loss: 1.01483893394, batch acc: 0.750000
+2021-04-12 07:40:21,148 INFO 	Eval, eval loss: 1.07614839077, acc: 0.527439
+2021-04-12 07:43:29,871 INFO 	iter: 1000, batch loss: 1.04649591446, batch acc: 0.562500
+2021-04-12 07:46:42,223 INFO 	Eval, eval loss: 1.09336912632, acc: 0.504573
+2021-04-12 07:49:47,997 INFO 	iter: 1020, batch loss: 1.05037271976, batch acc: 0.625000
+2021-04-12 07:53:02,710 INFO 	Eval, eval loss: 1.08951044083, acc: 0.507622
+2021-04-12 07:56:10,116 INFO 	iter: 1040, batch loss: 1.11608707905, batch acc: 0.500000
+2021-04-12 07:59:26,460 INFO 	Eval, eval loss: 1.07662296295, acc: 0.548780
+2021-04-12 08:02:36,931 INFO 	iter: 1060, batch loss: 1.02650547028, batch acc: 0.593750
+2021-04-12 08:05:55,097 INFO 	Eval, eval loss: 1.0867357254, acc: 0.500000
+2021-04-12 08:09:09,399 INFO 	iter: 1080, batch loss: 1.04762029648, batch acc: 0.625000
+2021-04-12 08:12:29,720 INFO 	Eval, eval loss: 1.09335374832, acc: 0.498476
+2021-04-12 08:13:21,544 INFO Epoch: loss: 1.092266, acc: 0.535484
+2021-04-12 08:13:21,544 INFO Epoch: 8/15 start
+2021-04-12 08:17:10,294 INFO 	iter: 1100, batch loss: 1.08412826061, batch acc: 0.500000
+2021-04-12 08:20:32,109 INFO 	Eval, eval loss: 1.09243071079, acc: 0.501524
+2021-04-12 08:24:00,059 INFO 	iter: 1120, batch loss: 1.06027030945, batch acc: 0.468750
+2021-04-12 08:27:23,600 INFO 	Eval, eval loss: 1.0745511055, acc: 0.524390
+2021-04-12 08:30:38,637 INFO 	iter: 1140, batch loss: 1.06895232201, batch acc: 0.593750
+2021-04-12 08:34:03,683 INFO 	Eval, eval loss: 1.08844971657, acc: 0.495427
+2021-04-12 08:37:13,242 INFO 	iter: 1160, batch loss: 1.1179933548, batch acc: 0.531250
+2021-04-12 08:40:40,793 INFO 	Eval, eval loss: 1.08541560173, acc: 0.487805
+2021-04-12 08:43:53,846 INFO 	iter: 1180, batch loss: 1.10786855221, batch acc: 0.625000
+2021-04-12 08:47:24,615 INFO 	Eval, eval loss: 1.08230543137, acc: 0.521341
+2021-04-12 08:50:36,525 INFO 	iter: 1200, batch loss: 1.04497742653, batch acc: 0.593750
+2021-04-12 08:54:08,252 INFO 	Eval, eval loss: 1.09674501419, acc: 0.495427
+2021-04-12 08:57:25,136 INFO 	iter: 1220, batch loss: 1.0624666214, batch acc: 0.687500
+2021-04-12 09:00:58,268 INFO 	Eval, eval loss: 1.07685911655, acc: 0.532012
+2021-04-12 09:04:22,475 INFO 	iter: 1240, batch loss: 1.05448460579, batch acc: 0.500000
+2021-04-12 09:07:57,838 INFO 	Eval, eval loss: 1.07575917244, acc: 0.513720
+2021-04-12 09:07:58,371 INFO Epoch: loss: 1.083620, acc: 0.533871
+2021-04-12 09:07:58,371 INFO Epoch: 9/15 start
+2021-04-12 09:12:44,026 INFO 	iter: 1260, batch loss: 1.0702239275, batch acc: 0.656250
+2021-04-12 09:16:20,568 INFO 	Eval, eval loss: 1.07851231098, acc: 0.500000
+2021-04-12 09:19:48,291 INFO 	iter: 1280, batch loss: 1.09253525734, batch acc: 0.562500
+2021-04-12 09:23:28,178 INFO 	Eval, eval loss: 1.0800909996, acc: 0.498476
+2021-04-12 09:26:47,430 INFO 	iter: 1300, batch loss: 1.08796989918, batch acc: 0.562500
+2021-04-12 09:30:29,470 INFO 	Eval, eval loss: 1.07059156895, acc: 0.532012
+2021-04-12 09:33:46,529 INFO 	iter: 1320, batch loss: 1.06245493889, batch acc: 0.562500
+2021-04-12 09:37:29,591 INFO 	Eval, eval loss: 1.06756722927, acc: 0.516768
+2021-04-12 09:40:46,517 INFO 	iter: 1340, batch loss: 1.11990714073, batch acc: 0.562500
+2021-04-12 09:44:31,727 INFO 	Eval, eval loss: 1.06295263767, acc: 0.539634
+2021-04-12 09:47:53,346 INFO 	iter: 1360, batch loss: 1.13293886185, batch acc: 0.500000
+2021-04-12 09:51:41,113 INFO 	Eval, eval loss: 1.06758332253, acc: 0.486280
+2021-04-12 09:55:06,642 INFO 	iter: 1380, batch loss: 1.08530902863, batch acc: 0.625000
+2021-04-12 09:58:55,584 INFO 	Eval, eval loss: 1.0622574091, acc: 0.525915
+2021-04-12 10:01:32,579 INFO Epoch: loss: 1.072808, acc: 0.544153
+2021-04-12 10:01:32,580 INFO Epoch: 10/15 start
+2021-04-12 10:03:14,199 INFO 	iter: 1400, batch loss: 1.14542102814, batch acc: 0.375000
+2021-04-12 10:07:05,412 INFO 	Eval, eval loss: 1.06835651398, acc: 0.538110
+2021-04-12 10:11:11,816 INFO 	iter: 1420, batch loss: 1.06197953224, batch acc: 0.593750
+2021-04-12 10:15:05,281 INFO 	Eval, eval loss: 1.06636714935, acc: 0.522866
+2021-04-12 10:18:33,082 INFO 	iter: 1440, batch loss: 1.05852675438, batch acc: 0.562500
+2021-04-12 10:22:28,779 INFO 	Eval, eval loss: 1.0565867424, acc: 0.539634
+2021-04-12 10:25:54,207 INFO 	iter: 1460, batch loss: 1.02789950371, batch acc: 0.625000
+2021-04-12 10:29:51,042 INFO 	Eval, eval loss: 1.07635140419, acc: 0.518293
+2021-04-12 10:33:12,576 INFO 	iter: 1480, batch loss: 1.08992815018, batch acc: 0.437500
+2021-04-12 10:37:11,657 INFO 	Eval, eval loss: 1.07278037071, acc: 0.510671
+2021-04-12 10:40:33,251 INFO 	iter: 1500, batch loss: 1.022747159, batch acc: 0.562500
+2021-04-12 10:44:33,679 INFO 	Eval, eval loss: 1.08274352551, acc: 0.483232
+2021-04-12 10:48:00,537 INFO 	iter: 1520, batch loss: 1.046189785, batch acc: 0.562500
+2021-04-12 10:52:03,439 INFO 	Eval, eval loss: 1.06677341461, acc: 0.541159
+2021-04-12 10:55:36,553 INFO 	iter: 1540, batch loss: 1.00715589523, batch acc: 0.687500
+2021-04-12 10:59:45,902 INFO 	Eval, eval loss: 1.07419538498, acc: 0.510671
+2021-04-12 11:01:37,989 INFO Epoch: loss: 1.061200, acc: 0.547984
+2021-04-12 11:01:37,990 INFO Epoch: 11/15 start
+2021-04-12 11:04:33,629 INFO 	iter: 1560, batch loss: 1.04844880104, batch acc: 0.625000
+2021-04-12 11:08:42,627 INFO 	Eval, eval loss: 1.0764977932, acc: 0.495427
+2021-04-12 11:12:33,294 INFO 	iter: 1580, batch loss: 1.04045605659, batch acc: 0.593750
+2021-04-12 11:16:43,806 INFO 	Eval, eval loss: 1.06949806213, acc: 0.500000
+2021-04-12 11:20:21,206 INFO 	iter: 1600, batch loss: 0.998943150043, batch acc: 0.687500
+2021-04-13 02:17:40,397 INFO INIT: #stock: 88, #vocab+1: 29867
+2021-04-13 02:17:40,651 INFO Start graph assembling...
+2021-04-13 02:18:13,155 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-13 02:18:20,799 INFO Word table init: done!
+2021-04-13 02:18:23,534 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-13 02:18:23,534 INFO Epoch: 1/15 start
+2021-04-13 03:11:05,717 INFO 	iter: 2680, batch loss: 1.01853466034, batch acc: 0.687500
+2021-04-13 03:25:24,238 INFO 	Eval, eval loss: 1.15121102333, acc: 0.518293
+2021-04-13 03:53:17,202 INFO 	iter: 2700, batch loss: 1.00765109062, batch acc: 0.625000
+2021-04-13 03:55:15,409 INFO 	Eval, eval loss: 1.17330491543, acc: 0.509146
+2021-04-13 04:13:27,174 INFO 	iter: 2720, batch loss: 0.924828827381, batch acc: 0.687500
+2021-04-13 04:15:30,571 INFO 	Eval, eval loss: 1.22485172749, acc: 0.480183
+2021-04-13 04:29:12,842 INFO 	iter: 2740, batch loss: 1.10458135605, batch acc: 0.500000
+2021-04-13 04:31:20,080 INFO 	Eval, eval loss: 1.11559045315, acc: 0.506098
+2021-04-13 04:40:33,211 INFO 	iter: 2760, batch loss: 1.00272166729, batch acc: 0.531250
+2021-04-13 04:42:30,254 INFO 	Eval, eval loss: 1.10053086281, acc: 0.516768
+2021-04-13 04:49:34,665 INFO 	iter: 2780, batch loss: 1.02068424225, batch acc: 0.593750
+2021-04-13 04:51:38,630 INFO 	Eval, eval loss: 1.13408005238, acc: 0.498476
+2021-04-13 04:56:51,340 INFO 	iter: 2800, batch loss: 0.984050154686, batch acc: 0.593750
+2021-04-13 04:58:58,580 INFO 	Eval, eval loss: 1.17012858391, acc: 0.506098
+2021-04-13 05:02:03,137 INFO Epoch: loss: 1.008162, acc: 0.624597
+2021-04-13 05:02:03,138 INFO Epoch: 2/15 start
+2021-04-13 05:03:46,748 INFO 	iter: 2820, batch loss: 1.01372361183, batch acc: 0.625000
+2021-04-13 05:06:00,823 INFO 	Eval, eval loss: 1.17485630512, acc: 0.518293
+2021-04-13 05:09:42,215 INFO 	iter: 2840, batch loss: 0.982532203197, batch acc: 0.750000
+2021-04-13 05:11:57,989 INFO 	Eval, eval loss: 1.18374693394, acc: 0.510671
+2021-04-13 05:15:03,849 INFO 	iter: 2860, batch loss: 0.942318379879, batch acc: 0.656250
+2021-04-13 05:17:21,183 INFO 	Eval, eval loss: 1.23703360558, acc: 0.498476
+2021-04-13 05:20:22,485 INFO 	iter: 2880, batch loss: 1.08248603344, batch acc: 0.437500
+2021-04-13 05:22:36,551 INFO 	Eval, eval loss: 1.16261184216, acc: 0.535061
+2021-04-13 05:25:38,510 INFO 	iter: 2900, batch loss: 1.02430176735, batch acc: 0.500000
+2021-04-13 05:27:55,573 INFO 	Eval, eval loss: 1.21251547337, acc: 0.489329
+2021-04-13 05:30:52,670 INFO 	iter: 2920, batch loss: 0.999188899994, batch acc: 0.625000
+2021-04-13 05:33:08,757 INFO 	Eval, eval loss: 1.1668599844, acc: 0.504573
+2021-04-13 05:35:56,190 INFO 	iter: 2940, batch loss: 0.977188229561, batch acc: 0.562500
+2021-04-13 05:38:06,613 INFO 	Eval, eval loss: 1.16901290417, acc: 0.507622
+2021-04-13 05:41:02,153 INFO 	iter: 2960, batch loss: 1.08627927303, batch acc: 0.437500
+2021-04-13 05:43:15,796 INFO 	Eval, eval loss: 1.16935741901, acc: 0.525915
+2021-04-13 05:44:50,872 INFO Epoch: loss: 0.992554, acc: 0.636089
+2021-04-13 05:44:50,873 INFO Epoch: 3/15 start
+2021-04-13 05:47:32,671 INFO 	iter: 2980, batch loss: 1.0166478157, batch acc: 0.625000
+2021-04-13 05:49:46,377 INFO 	Eval, eval loss: 1.18062949181, acc: 0.509146
+2021-04-13 05:53:01,029 INFO 	iter: 3000, batch loss: 0.961704850197, batch acc: 0.593750
+2021-04-13 05:55:16,695 INFO 	Eval, eval loss: 1.21321809292, acc: 0.506098
+2021-04-13 05:58:13,004 INFO 	iter: 3020, batch loss: 1.07761740685, batch acc: 0.562500
+2021-04-13 06:00:30,305 INFO 	Eval, eval loss: 1.22766816616, acc: 0.504573
+2021-04-13 06:03:17,227 INFO 	iter: 3040, batch loss: 1.0447922945, batch acc: 0.500000
+2021-04-13 06:05:36,013 INFO 	Eval, eval loss: 1.17931258678, acc: 0.525915
+2021-04-13 06:08:29,055 INFO 	iter: 3060, batch loss: 0.948164463043, batch acc: 0.656250
+2021-04-13 06:10:49,453 INFO 	Eval, eval loss: 1.22808134556, acc: 0.498476
+2021-04-13 06:13:41,660 INFO 	iter: 3080, batch loss: 0.979336500168, batch acc: 0.593750
+2021-04-13 06:16:04,342 INFO 	Eval, eval loss: 1.20434951782, acc: 0.504573
+2021-04-13 06:19:06,446 INFO 	iter: 3100, batch loss: 0.942933678627, batch acc: 0.687500
+2021-04-13 06:21:30,462 INFO 	Eval, eval loss: 1.19596409798, acc: 0.525915
+2021-04-13 06:24:29,177 INFO 	iter: 3120, batch loss: 1.09953188896, batch acc: 0.593750
+2021-04-13 06:26:54,427 INFO 	Eval, eval loss: 1.22151589394, acc: 0.492378
+2021-04-13 06:27:42,542 INFO Epoch: loss: 0.978243, acc: 0.650403
+2021-04-13 06:27:42,542 INFO Epoch: 4/15 start
+2021-04-13 06:31:18,809 INFO 	iter: 3140, batch loss: 0.949066758156, batch acc: 0.625000
+2021-04-13 06:33:45,922 INFO 	Eval, eval loss: 1.18891394138, acc: 0.516768
+2021-04-13 06:36:53,521 INFO 	iter: 3160, batch loss: 0.922984778881, batch acc: 0.750000
+2021-04-13 06:39:22,144 INFO 	Eval, eval loss: 1.22079753876, acc: 0.478659
+2021-04-13 06:42:20,391 INFO 	iter: 3180, batch loss: 0.909107983112, batch acc: 0.781250
+2021-04-13 06:44:51,451 INFO 	Eval, eval loss: 1.30436658859, acc: 0.515244
+2021-04-13 06:47:45,201 INFO 	iter: 3200, batch loss: 0.995862543583, batch acc: 0.750000
+2021-04-13 06:50:17,733 INFO 	Eval, eval loss: 1.25322890282, acc: 0.483232
+2021-04-13 06:53:14,870 INFO 	iter: 3220, batch loss: 0.916750073433, batch acc: 0.656250
+2021-04-13 06:55:49,448 INFO 	Eval, eval loss: 1.26396560669, acc: 0.475610
+2021-04-13 06:58:46,337 INFO 	iter: 3240, batch loss: 1.07710528374, batch acc: 0.593750
+2021-04-13 07:01:23,805 INFO 	Eval, eval loss: 1.18480587006, acc: 0.507622
+2021-04-13 07:04:30,214 INFO 	iter: 3260, batch loss: 0.887341499329, batch acc: 0.843750
+2021-04-13 07:07:14,005 INFO 	Eval, eval loss: 1.18049430847, acc: 0.495427
+2021-04-13 07:10:26,932 INFO 	iter: 3280, batch loss: 0.894496440887, batch acc: 0.843750
+2021-04-13 07:13:18,449 INFO 	Eval, eval loss: 1.14309418201, acc: 0.518293
+2021-04-13 07:13:19,045 INFO Epoch: loss: 0.965822, acc: 0.659879
+2021-04-13 07:13:19,045 INFO Epoch: 5/15 start
+2021-04-13 07:17:58,280 INFO 	iter: 3300, batch loss: 0.862571775913, batch acc: 0.718750
+2021-04-13 07:20:48,071 INFO 	Eval, eval loss: 1.21163773537, acc: 0.516768
+2021-04-13 07:23:56,523 INFO 	iter: 3320, batch loss: 0.958203852177, batch acc: 0.656250
+2021-04-13 07:26:40,848 INFO 	Eval, eval loss: 1.2352296114, acc: 0.525915
+2021-04-13 07:29:49,050 INFO 	iter: 3340, batch loss: 0.940021276474, batch acc: 0.750000
+2021-04-13 07:32:47,732 INFO 	Eval, eval loss: 1.26429748535, acc: 0.501524
+2021-04-13 07:36:02,209 INFO 	iter: 3360, batch loss: 0.923598825932, batch acc: 0.656250
+2021-04-13 07:39:03,464 INFO 	Eval, eval loss: 1.32276928425, acc: 0.492378
+2021-04-13 07:42:10,695 INFO 	iter: 3380, batch loss: 1.11398243904, batch acc: 0.500000
+2021-04-13 07:45:05,152 INFO 	Eval, eval loss: 1.25225389004, acc: 0.516768
+2021-04-13 07:48:11,416 INFO 	iter: 3400, batch loss: 0.91237872839, batch acc: 0.750000
+2021-04-13 07:51:15,399 INFO 	Eval, eval loss: 1.21810805798, acc: 0.521341
+2021-04-13 07:54:33,129 INFO 	iter: 3420, batch loss: 0.918439805508, batch acc: 0.687500
+2021-04-13 07:57:38,191 INFO 	Eval, eval loss: 1.19961309433, acc: 0.541159
+2021-04-13 08:00:06,969 INFO Epoch: loss: 0.951729, acc: 0.673387
+2021-04-13 08:00:06,970 INFO Epoch: 6/15 start
+2021-04-13 08:01:41,322 INFO 	iter: 3440, batch loss: 0.950314104557, batch acc: 0.750000
+2021-04-13 16:06:18,865 INFO INIT: #stock: 88, #vocab+1: 29867
+2021-04-13 16:06:19,505 INFO Start graph assembling...
+2021-04-13 16:06:50,044 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-13 16:06:57,289 INFO Word table init: done!
+2021-04-13 16:07:02,276 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-13 16:07:02,277 INFO Epoch: 1/15 start
+2021-04-13 17:30:25,166 INFO 	iter: 3460, batch loss: 0.942621827126, batch acc: 0.625000
+2021-04-13 17:52:51,557 INFO 	Eval, eval loss: 1.22645545006, acc: 0.509146
+2021-04-13 18:34:30,433 INFO 	iter: 3480, batch loss: 0.890049338341, batch acc: 0.750000
+2021-04-13 18:36:18,108 INFO 	Eval, eval loss: 1.25412118435, acc: 0.506098
+2021-04-13 19:03:01,409 INFO 	iter: 3500, batch loss: 0.923747241497, batch acc: 0.656250
+2021-04-13 19:04:48,419 INFO 	Eval, eval loss: 1.31153917313, acc: 0.487805
+2021-04-13 19:23:32,333 INFO 	iter: 3520, batch loss: 0.952024459839, batch acc: 0.625000
+2021-04-13 19:25:20,780 INFO 	Eval, eval loss: 1.36586201191, acc: 0.487805
+2021-04-13 19:38:25,342 INFO 	iter: 3540, batch loss: 0.871610283852, batch acc: 0.718750
+2021-04-13 19:40:15,696 INFO 	Eval, eval loss: 1.19584214687, acc: 0.509146
+2021-04-13 19:51:18,172 INFO 	iter: 3560, batch loss: 0.956254422665, batch acc: 0.625000
+2021-04-13 19:53:09,734 INFO 	Eval, eval loss: 1.19108521938, acc: 0.506098
+2021-04-13 19:59:58,417 INFO 	iter: 3580, batch loss: 0.994554519653, batch acc: 0.625000
+2021-04-13 20:01:51,231 INFO 	Eval, eval loss: 1.23834633827, acc: 0.510671
+2021-04-13 20:04:40,480 INFO Epoch: loss: 0.933860, acc: 0.681452
+2021-04-13 20:04:40,480 INFO Epoch: 2/15 start
+2021-04-13 20:06:16,415 INFO 	iter: 3600, batch loss: 0.968859791756, batch acc: 0.750000
+2021-04-13 20:08:10,865 INFO 	Eval, eval loss: 1.20508289337, acc: 0.500000
+2021-04-13 20:11:23,007 INFO 	iter: 3620, batch loss: 1.01935732365, batch acc: 0.656250
+2021-04-13 20:13:18,674 INFO 	Eval, eval loss: 1.23099696636, acc: 0.515244
+2021-04-13 20:16:01,440 INFO 	iter: 3640, batch loss: 0.994478344917, batch acc: 0.625000
+2021-04-13 20:17:59,060 INFO 	Eval, eval loss: 1.27353775501, acc: 0.516768
+2021-04-13 20:20:33,823 INFO 	iter: 3660, batch loss: 0.940376341343, batch acc: 0.625000
+2021-04-13 20:22:33,416 INFO 	Eval, eval loss: 1.33810448647, acc: 0.512195
+2021-04-13 20:25:06,321 INFO 	iter: 3680, batch loss: 1.03195273876, batch acc: 0.656250
+2021-04-13 20:27:07,294 INFO 	Eval, eval loss: 1.34979617596, acc: 0.500000
+2021-04-13 20:29:41,419 INFO 	iter: 3700, batch loss: 0.960870265961, batch acc: 0.718750
+2021-04-13 20:31:44,317 INFO 	Eval, eval loss: 1.26684129238, acc: 0.506098
+2021-04-13 20:34:21,831 INFO 	iter: 3720, batch loss: 0.799182295799, batch acc: 0.750000
+2021-04-13 20:36:26,572 INFO 	Eval, eval loss: 1.25034797192, acc: 0.516768
+2021-04-13 20:39:08,834 INFO 	iter: 3740, batch loss: 0.853583753109, batch acc: 0.781250
+2021-04-13 20:41:19,573 INFO 	Eval, eval loss: 1.26854479313, acc: 0.518293
+2021-04-13 20:42:44,523 INFO Epoch: loss: 0.919161, acc: 0.691129
+2021-04-13 20:42:44,523 INFO Epoch: 3/15 start
+2021-04-13 20:45:21,149 INFO 	iter: 3760, batch loss: 1.02973246574, batch acc: 0.625000
+2021-04-13 20:47:33,825 INFO 	Eval, eval loss: 1.25554335117, acc: 0.524390
+2021-04-13 20:50:36,690 INFO 	iter: 3780, batch loss: 0.826683163643, batch acc: 0.718750
+2021-04-13 20:52:50,563 INFO 	Eval, eval loss: 1.28857898712, acc: 0.495427
+2021-04-13 20:55:35,948 INFO 	iter: 3800, batch loss: 0.944325208664, batch acc: 0.687500
+2021-04-13 20:57:51,449 INFO 	Eval, eval loss: 1.36389362812, acc: 0.486280
+2021-04-13 21:00:35,828 INFO 	iter: 3820, batch loss: 0.936792910099, batch acc: 0.718750
+2021-04-13 21:02:52,426 INFO 	Eval, eval loss: 1.37043488026, acc: 0.500000
+2021-04-13 21:05:35,867 INFO 	iter: 3840, batch loss: 0.946269154549, batch acc: 0.656250
+2021-04-13 21:07:54,175 INFO 	Eval, eval loss: 1.31886339188, acc: 0.498476
+2021-04-13 21:10:36,688 INFO 	iter: 3860, batch loss: 1.02860724926, batch acc: 0.531250
+2021-04-13 21:12:57,203 INFO 	Eval, eval loss: 1.32667338848, acc: 0.496951
+2021-04-13 21:15:41,566 INFO 	iter: 3880, batch loss: 0.991214513779, batch acc: 0.593750
+2021-04-13 21:18:02,192 INFO 	Eval, eval loss: 1.38619339466, acc: 0.471037
+2021-04-13 21:20:50,105 INFO 	iter: 3900, batch loss: 0.756582975388, batch acc: 0.781250
+2021-04-13 21:23:12,393 INFO 	Eval, eval loss: 1.32138168812, acc: 0.495427
+2021-04-13 21:23:56,505 INFO Epoch: loss: 0.894041, acc: 0.704435
+2021-04-13 21:23:56,506 INFO Epoch: 4/15 start
+2021-04-13 21:27:22,819 INFO 	iter: 3920, batch loss: 0.85662651062, batch acc: 0.781250
+2021-04-13 21:29:46,787 INFO 	Eval, eval loss: 1.31361675262, acc: 0.527439
+2021-04-13 21:32:47,098 INFO 	iter: 3940, batch loss: 0.847003996372, batch acc: 0.843750
+2021-04-13 21:35:13,091 INFO 	Eval, eval loss: 1.31792294979, acc: 0.518293
+2021-04-13 21:38:04,429 INFO 	iter: 3960, batch loss: 0.92445909977, batch acc: 0.593750
+2021-04-13 21:40:35,033 INFO 	Eval, eval loss: 1.28340518475, acc: 0.507622
+2021-04-13 21:43:24,596 INFO 	iter: 3980, batch loss: 0.897959470749, batch acc: 0.750000
+2021-04-13 21:45:56,928 INFO 	Eval, eval loss: 1.37600910664, acc: 0.506098
+2021-04-13 21:48:43,348 INFO 	iter: 4000, batch loss: 1.0447063446, batch acc: 0.656250
+2021-04-13 21:51:17,196 INFO 	Eval, eval loss: 1.43812274933, acc: 0.492378
+2021-04-13 21:54:06,022 INFO 	iter: 4020, batch loss: 0.99176132679, batch acc: 0.656250
+2021-04-13 21:56:42,009 INFO 	Eval, eval loss: 1.40555822849, acc: 0.481707
+2021-04-13 21:59:33,269 INFO 	iter: 4040, batch loss: 0.768729448318, batch acc: 0.781250
+2021-04-13 22:02:10,831 INFO 	Eval, eval loss: 1.33661520481, acc: 0.496951
+2021-04-13 22:05:09,177 INFO 	iter: 4060, batch loss: 0.76823502779, batch acc: 0.812500
+2021-04-13 22:07:47,346 INFO 	Eval, eval loss: 1.36940145493, acc: 0.500000
+2021-04-13 22:07:47,964 INFO Epoch: loss: 0.877292, acc: 0.714113
+2021-04-13 22:07:47,965 INFO Epoch: 5/15 start
+2021-04-13 22:12:11,736 INFO 	iter: 4080, batch loss: 0.850230932236, batch acc: 0.781250
+2021-04-13 22:14:52,884 INFO 	Eval, eval loss: 1.39969277382, acc: 0.487805
+2021-04-13 22:17:55,019 INFO 	iter: 4100, batch loss: 0.877205193043, batch acc: 0.718750
+2021-04-13 22:20:38,286 INFO 	Eval, eval loss: 1.28878188133, acc: 0.515244
+2021-04-13 22:23:32,145 INFO 	iter: 4120, batch loss: 0.791420400143, batch acc: 0.750000
+2021-04-13 22:26:15,311 INFO 	Eval, eval loss: 1.27185583115, acc: 0.510671
+2021-04-13 22:29:03,097 INFO 	iter: 4140, batch loss: 1.02325773239, batch acc: 0.593750
+2021-04-13 22:31:47,730 INFO 	Eval, eval loss: 1.3381254673, acc: 0.515244
+2021-04-13 22:34:40,213 INFO 	iter: 4160, batch loss: 0.817870855331, batch acc: 0.687500
+2021-04-13 22:37:26,541 INFO 	Eval, eval loss: 1.35640799999, acc: 0.507622
+2021-04-13 22:40:20,986 INFO 	iter: 4180, batch loss: 0.886459827423, batch acc: 0.718750
+2021-04-13 22:43:08,947 INFO 	Eval, eval loss: 1.38116812706, acc: 0.500000
+2021-04-13 22:46:04,165 INFO 	iter: 4200, batch loss: 0.924345850945, batch acc: 0.625000
+2021-04-13 22:48:54,999 INFO 	Eval, eval loss: 1.34924268723, acc: 0.509146
+2021-04-13 22:51:15,215 INFO Epoch: loss: 0.859305, acc: 0.728427
+2021-04-13 22:51:15,215 INFO Epoch: 6/15 start
+2021-04-13 22:52:55,247 INFO 	iter: 4220, batch loss: 0.887453198433, batch acc: 0.687500
+2021-04-13 22:55:47,556 INFO 	Eval, eval loss: 1.36403036118, acc: 0.501524
+2021-04-13 22:59:15,318 INFO 	iter: 4240, batch loss: 0.713573694229, batch acc: 0.875000
+2021-04-13 23:02:07,616 INFO 	Eval, eval loss: 1.35543549061, acc: 0.513720
+2021-04-13 23:05:11,566 INFO 	iter: 4260, batch loss: 0.806102097034, batch acc: 0.781250
+2021-04-13 23:08:05,995 INFO 	Eval, eval loss: 1.35146915913, acc: 0.524390
+2021-04-13 23:11:03,841 INFO 	iter: 4280, batch loss: 0.858558773994, batch acc: 0.718750
+2021-04-13 23:14:02,057 INFO 	Eval, eval loss: 1.40957355499, acc: 0.515244
+2021-04-13 23:17:00,411 INFO 	iter: 4300, batch loss: 1.05254602432, batch acc: 0.593750
+2021-04-13 23:20:02,510 INFO 	Eval, eval loss: 1.40672469139, acc: 0.513720
+2021-04-13 23:23:02,220 INFO 	iter: 4320, batch loss: 0.966010451317, batch acc: 0.625000
+2021-04-13 23:26:06,487 INFO 	Eval, eval loss: 1.36404716969, acc: 0.495427
+2021-04-13 23:29:06,354 INFO 	iter: 4340, batch loss: 0.92613786459, batch acc: 0.812500
+2021-04-13 23:32:10,837 INFO 	Eval, eval loss: 1.38099443913, acc: 0.500000
+2021-04-13 23:35:15,820 INFO 	iter: 4360, batch loss: 0.736060619354, batch acc: 0.781250
+2021-04-13 23:38:22,408 INFO 	Eval, eval loss: 1.33459615707, acc: 0.522866
+2021-04-13 23:39:59,707 INFO Epoch: loss: 0.853339, acc: 0.735282
+2021-04-13 23:39:59,707 INFO Epoch: 7/15 start
+2021-04-13 23:42:44,829 INFO 	iter: 4380, batch loss: 0.9429666996, batch acc: 0.687500
+2021-04-13 23:45:53,093 INFO 	Eval, eval loss: 1.35515117645, acc: 0.510671
+2021-04-13 23:49:18,041 INFO 	iter: 4400, batch loss: 0.794019579887, batch acc: 0.843750
+2021-04-13 23:52:26,742 INFO 	Eval, eval loss: 1.35886585712, acc: 0.503049
+2021-04-13 23:55:35,219 INFO 	iter: 4420, batch loss: 0.964487075806, batch acc: 0.687500
+2021-04-13 23:58:45,290 INFO 	Eval, eval loss: 1.39598238468, acc: 0.518293
+2021-04-14 00:01:45,969 INFO 	iter: 4440, batch loss: 0.644514501095, batch acc: 0.875000
+2021-04-14 00:04:58,072 INFO 	Eval, eval loss: 1.39011371136, acc: 0.509146
+2021-04-14 00:07:58,507 INFO 	iter: 4460, batch loss: 0.841721951962, batch acc: 0.781250
+2021-04-14 00:11:13,024 INFO 	Eval, eval loss: 1.38207161427, acc: 0.506098
+2021-04-14 00:14:14,679 INFO 	iter: 4480, batch loss: 0.814375162125, batch acc: 0.687500
+2021-04-14 00:17:30,479 INFO 	Eval, eval loss: 1.40312027931, acc: 0.524390
+2021-04-14 00:20:35,103 INFO 	iter: 4500, batch loss: 0.664906382561, batch acc: 0.843750
+2021-04-14 00:23:49,534 INFO 	Eval, eval loss: 1.41607570648, acc: 0.516768
+2021-04-14 00:26:57,343 INFO 	iter: 4520, batch loss: 0.926456451416, batch acc: 0.718750
+2021-04-14 00:30:13,390 INFO 	Eval, eval loss: 1.43550133705, acc: 0.506098
+2021-04-14 00:31:03,689 INFO Epoch: loss: 0.825102, acc: 0.747379
+2021-04-14 00:31:03,689 INFO Epoch: 8/15 start
+2021-04-14 00:34:41,165 INFO 	iter: 4540, batch loss: 0.715297877789, batch acc: 0.875000
+2021-04-14 00:37:58,760 INFO 	Eval, eval loss: 1.46924889088, acc: 0.504573
+2021-04-14 00:41:22,284 INFO 	iter: 4560, batch loss: 0.745909571648, batch acc: 0.937500
+2021-04-14 00:44:42,343 INFO 	Eval, eval loss: 1.40604865551, acc: 0.516768
+2021-04-14 00:47:51,240 INFO 	iter: 4580, batch loss: 0.799805641174, batch acc: 0.812500
+2021-04-14 00:51:13,037 INFO 	Eval, eval loss: 1.43225455284, acc: 0.504573
+2021-04-14 00:54:19,442 INFO 	iter: 4600, batch loss: 0.877620279789, batch acc: 0.687500
+2021-04-14 00:57:45,419 INFO 	Eval, eval loss: 1.37146294117, acc: 0.522866
+2021-04-14 01:00:51,111 INFO 	iter: 4620, batch loss: 0.849098205566, batch acc: 0.750000
+2021-04-14 01:04:17,569 INFO 	Eval, eval loss: 1.29804050922, acc: 0.521341
+2021-04-14 01:07:25,022 INFO 	iter: 4640, batch loss: 0.853819787502, batch acc: 0.750000
+2021-04-14 01:10:53,924 INFO 	Eval, eval loss: 1.43227684498, acc: 0.509146
+2021-04-14 01:14:04,317 INFO 	iter: 4660, batch loss: 0.879847168922, batch acc: 0.781250
+2021-04-14 01:17:34,831 INFO 	Eval, eval loss: 1.42534101009, acc: 0.515244
+2021-04-14 01:20:48,905 INFO 	iter: 4680, batch loss: 0.770249962807, batch acc: 0.781250
+2021-04-14 01:24:21,182 INFO 	Eval, eval loss: 1.41358804703, acc: 0.515244
+2021-04-14 01:24:21,690 INFO Epoch: loss: 0.824089, acc: 0.760887
+2021-04-14 01:24:21,690 INFO Epoch: 9/15 start
+2021-04-14 01:29:07,803 INFO 	iter: 4700, batch loss: 0.864327251911, batch acc: 0.781250
+2021-04-14 01:32:58,745 INFO 	Eval, eval loss: 1.41447472572, acc: 0.504573
+2021-04-14 01:36:31,811 INFO 	iter: 4720, batch loss: 0.927380263805, batch acc: 0.750000
+2021-04-14 01:40:25,666 INFO 	Eval, eval loss: 1.42341995239, acc: 0.487805
+2021-04-14 01:43:49,004 INFO 	iter: 4740, batch loss: 0.83548116684, batch acc: 0.750000
+2021-04-14 01:47:44,680 INFO 	Eval, eval loss: 1.48056995869, acc: 0.498476
+2021-04-14 01:51:04,956 INFO 	iter: 4760, batch loss: 0.989866316319, batch acc: 0.718750
+2021-04-14 01:54:58,396 INFO 	Eval, eval loss: 1.47722327709, acc: 0.495427
+2021-04-14 01:58:08,782 INFO 	iter: 4780, batch loss: 0.902362585068, batch acc: 0.718750
+2021-04-14 02:01:51,504 INFO 	Eval, eval loss: 1.36157226562, acc: 0.518293
+2021-04-14 02:05:07,801 INFO 	iter: 4800, batch loss: 0.797012090683, batch acc: 0.750000
+2021-04-14 17:11:20,212 INFO INIT: #stock: 88, #vocab+1: 29867
+2021-04-14 17:11:20,417 INFO Start graph assembling...
+2021-04-14 17:11:50,686 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-14 17:11:58,323 INFO Word table init: done!
+2021-04-14 17:12:01,354 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-14 17:12:01,354 INFO Epoch: 1/15 start
+2021-04-14 18:01:01,170 INFO 	iter: 4820, batch loss: 0.830982804298, batch acc: 0.718750
+2021-04-14 18:13:17,761 INFO 	Eval, eval loss: 1.52411401272, acc: 0.518293
+2021-04-14 18:35:54,655 INFO 	iter: 4840, batch loss: 0.827342510223, batch acc: 0.750000
+2021-04-14 18:37:50,318 INFO 	Eval, eval loss: 1.53037798405, acc: 0.518293
+2021-04-14 18:53:46,102 INFO 	iter: 4860, batch loss: 0.69351708889, batch acc: 0.875000
+2021-04-14 18:55:36,703 INFO 	Eval, eval loss: 1.4155818224, acc: 0.527439
+2021-04-14 19:06:09,886 INFO 	iter: 4880, batch loss: 0.732329905033, batch acc: 0.843750
+2021-04-14 19:08:00,565 INFO 	Eval, eval loss: 1.41832172871, acc: 0.528963
+2021-04-14 19:16:10,018 INFO 	iter: 4900, batch loss: 0.744554579258, batch acc: 0.781250
+2021-04-14 19:18:02,779 INFO 	Eval, eval loss: 1.41856634617, acc: 0.524390
+2021-04-14 19:24:41,231 INFO 	iter: 4920, batch loss: 0.595481336117, batch acc: 0.968750
+2021-04-14 19:26:36,836 INFO 	Eval, eval loss: 1.40873777866, acc: 0.527439
+2021-04-14 19:31:26,852 INFO 	iter: 4940, batch loss: 0.757143139839, batch acc: 0.812500
+2021-04-14 19:33:24,436 INFO 	Eval, eval loss: 1.33688032627, acc: 0.516768
+2021-04-14 19:36:09,611 INFO Epoch: loss: 0.797042, acc: 0.766935
+2021-04-14 19:36:09,612 INFO Epoch: 2/15 start
+2021-04-14 19:37:49,291 INFO 	iter: 4960, batch loss: 0.948721647263, batch acc: 0.781250
+2021-04-14 19:39:57,210 INFO 	Eval, eval loss: 1.42679452896, acc: 0.524390
+2021-04-14 19:43:35,696 INFO 	iter: 4980, batch loss: 0.627001285553, batch acc: 0.875000
+2021-04-14 19:45:48,038 INFO 	Eval, eval loss: 1.41657686234, acc: 0.522866
+2021-04-14 19:48:47,584 INFO 	iter: 5000, batch loss: 0.946409344673, batch acc: 0.625000
+2021-04-14 19:51:01,889 INFO 	Eval, eval loss: 1.41127467155, acc: 0.519817
+2021-04-14 19:53:53,240 INFO 	iter: 5020, batch loss: 0.610497355461, batch acc: 0.937500
+2021-04-14 19:56:08,376 INFO 	Eval, eval loss: 1.46456778049, acc: 0.504573
+2021-04-14 19:58:59,379 INFO 	iter: 5040, batch loss: 0.582594096661, batch acc: 0.906250
+2021-04-14 20:01:17,296 INFO 	Eval, eval loss: 1.39071404934, acc: 0.512195
+2021-04-14 20:04:10,456 INFO 	iter: 5060, batch loss: 0.722851932049, batch acc: 0.875000
+2021-04-14 20:06:29,225 INFO 	Eval, eval loss: 1.38102829456, acc: 0.524390
+2021-04-14 20:09:22,803 INFO 	iter: 5080, batch loss: 0.886100113392, batch acc: 0.593750
+2021-04-14 20:11:45,077 INFO 	Eval, eval loss: 1.44445347786, acc: 0.506098
+2021-04-14 20:14:47,918 INFO 	iter: 5100, batch loss: 0.707351565361, batch acc: 0.750000
+2021-04-14 20:17:12,004 INFO 	Eval, eval loss: 1.44433271885, acc: 0.498476
+2021-04-14 20:18:46,276 INFO Epoch: loss: 0.790763, acc: 0.766129
+2021-04-14 20:18:46,276 INFO Epoch: 3/15 start
+2021-04-14 20:21:28,473 INFO 	iter: 5120, batch loss: 0.735271632671, batch acc: 0.875000
+2021-04-14 20:23:54,255 INFO 	Eval, eval loss: 1.4283144474, acc: 0.512195
+2021-04-14 20:27:22,393 INFO 	iter: 5140, batch loss: 0.72045558691, batch acc: 0.812500
+2021-04-14 20:29:48,803 INFO 	Eval, eval loss: 1.47093355656, acc: 0.507622
+2021-04-14 20:32:46,973 INFO 	iter: 5160, batch loss: 0.722840189934, batch acc: 0.812500
+2021-04-14 20:35:15,801 INFO 	Eval, eval loss: 1.51211702824, acc: 0.489329
+2021-04-14 20:38:09,688 INFO 	iter: 5180, batch loss: 0.76407957077, batch acc: 0.687500
+2021-04-14 20:40:25,620 INFO 	Eval, eval loss: 1.44678342342, acc: 0.501524
+2021-04-14 20:43:13,643 INFO 	iter: 5200, batch loss: 0.660812735558, batch acc: 0.843750
+2021-04-14 20:45:46,874 INFO 	Eval, eval loss: 1.48533630371, acc: 0.496951
+2021-04-14 20:48:43,699 INFO 	iter: 5220, batch loss: 0.62943226099, batch acc: 0.843750
+2021-04-14 20:51:19,500 INFO 	Eval, eval loss: 1.55796599388, acc: 0.496951
+2021-04-14 20:54:20,055 INFO 	iter: 5240, batch loss: 0.774543464184, batch acc: 0.812500
+2021-04-14 20:56:57,196 INFO 	Eval, eval loss: 1.41706442833, acc: 0.532012
+2021-04-14 21:00:04,801 INFO 	iter: 5260, batch loss: 0.646225750446, batch acc: 0.781250
+2021-04-14 21:02:44,052 INFO 	Eval, eval loss: 1.38462984562, acc: 0.535061
+2021-04-14 21:03:34,976 INFO Epoch: loss: 0.769321, acc: 0.781855
+2021-04-14 21:03:34,976 INFO Epoch: 4/15 start
+2021-04-14 21:07:15,711 INFO 	iter: 5280, batch loss: 0.705539882183, batch acc: 0.781250
+2021-04-14 21:09:57,049 INFO 	Eval, eval loss: 1.39043092728, acc: 0.498476
+2021-04-14 21:13:16,641 INFO 	iter: 5300, batch loss: 0.672200620174, batch acc: 0.812500
+2021-04-14 21:15:59,657 INFO 	Eval, eval loss: 1.43346643448, acc: 0.493902
+2021-04-14 21:19:04,439 INFO 	iter: 5320, batch loss: 0.76220959425, batch acc: 0.687500
+2021-04-14 21:21:52,497 INFO 	Eval, eval loss: 1.58593976498, acc: 0.500000
+2021-04-14 21:24:53,869 INFO 	iter: 5340, batch loss: 0.682360708714, batch acc: 0.875000
+2021-04-14 21:27:40,820 INFO 	Eval, eval loss: 1.46365487576, acc: 0.503049
+2021-04-14 21:30:46,668 INFO 	iter: 5360, batch loss: 0.696079492569, batch acc: 0.812500
+2021-04-14 21:33:37,302 INFO 	Eval, eval loss: 1.48679292202, acc: 0.503049
+2021-04-14 21:36:42,999 INFO 	iter: 5380, batch loss: 0.969659566879, batch acc: 0.625000
+2021-04-14 21:39:37,013 INFO 	Eval, eval loss: 1.53174889088, acc: 0.515244
+2021-04-14 21:42:50,885 INFO 	iter: 5400, batch loss: 0.786919236183, batch acc: 0.718750
+2021-04-14 21:45:34,004 INFO 	Eval, eval loss: 1.54261469841, acc: 0.500000
+2021-04-14 21:48:40,063 INFO 	iter: 5420, batch loss: 0.876474380493, batch acc: 0.687500
+2021-04-14 21:51:20,312 INFO 	Eval, eval loss: 1.46011650562, acc: 0.493902
+2021-04-14 21:51:20,803 INFO Epoch: loss: 0.763665, acc: 0.783468
+2021-04-14 21:51:20,804 INFO Epoch: 5/15 start
+2021-04-14 21:55:49,722 INFO 	iter: 5440, batch loss: 0.786165177822, batch acc: 0.781250
+2021-04-14 21:58:36,330 INFO 	Eval, eval loss: 1.46839535236, acc: 0.487805
+2021-04-14 22:01:46,394 INFO 	iter: 5460, batch loss: 0.709238052368, batch acc: 0.843750
+2021-04-14 22:04:32,169 INFO 	Eval, eval loss: 1.50091981888, acc: 0.481707
+2021-04-14 22:07:33,853 INFO 	iter: 5480, batch loss: 0.754360437393, batch acc: 0.750000
+2021-04-14 22:10:21,551 INFO 	Eval, eval loss: 1.47911560535, acc: 0.498476
+2021-04-14 22:13:19,612 INFO 	iter: 5500, batch loss: 0.793544054031, batch acc: 0.781250
+2021-04-14 22:16:07,874 INFO 	Eval, eval loss: 1.49411332607, acc: 0.480183
+2021-04-14 22:19:07,431 INFO 	iter: 5520, batch loss: 0.723812103271, batch acc: 0.843750
+2021-04-14 22:21:55,603 INFO 	Eval, eval loss: 1.507376194, acc: 0.498476
+2021-04-14 22:24:53,331 INFO 	iter: 5540, batch loss: 0.623024582863, batch acc: 0.875000
+2021-04-14 22:27:42,977 INFO 	Eval, eval loss: 1.49913847446, acc: 0.496951
+2021-04-14 22:30:44,944 INFO 	iter: 5560, batch loss: 0.692519903183, batch acc: 0.812500
+2021-04-14 22:33:36,021 INFO 	Eval, eval loss: 1.60503864288, acc: 0.483232
+2021-04-14 22:35:57,566 INFO Epoch: loss: 0.745649, acc: 0.794960
+2021-04-14 22:35:57,566 INFO Epoch: 6/15 start
+2021-04-14 22:37:41,598 INFO 	iter: 5580, batch loss: 0.988729953766, batch acc: 0.687500
+2021-04-14 22:40:35,231 INFO 	Eval, eval loss: 1.58191788197, acc: 0.489329
+2021-04-14 22:44:09,080 INFO 	iter: 5600, batch loss: 0.540427684784, batch acc: 0.937500
+2021-04-14 22:47:04,992 INFO 	Eval, eval loss: 1.48983252048, acc: 0.506098
+2021-04-14 22:50:15,822 INFO 	iter: 5620, batch loss: 0.751302480698, batch acc: 0.843750
+2021-04-14 22:53:13,664 INFO 	Eval, eval loss: 1.47737431526, acc: 0.512195
+2021-04-14 22:56:18,411 INFO 	iter: 5640, batch loss: 0.881707787514, batch acc: 0.718750
+2021-04-14 22:59:18,654 INFO 	Eval, eval loss: 1.51783311367, acc: 0.500000
+2021-04-14 23:02:18,253 INFO 	iter: 5660, batch loss: 0.575819730759, batch acc: 0.875000
+2021-04-14 23:05:21,097 INFO 	Eval, eval loss: 1.52335965633, acc: 0.489329
+2021-04-14 23:08:23,367 INFO 	iter: 5680, batch loss: 0.581581771374, batch acc: 0.875000
+2021-04-14 23:11:27,909 INFO 	Eval, eval loss: 1.66290569305, acc: 0.487805
+2021-04-14 23:14:32,474 INFO 	iter: 5700, batch loss: 0.748949468136, batch acc: 0.750000
+2021-04-14 23:17:37,592 INFO 	Eval, eval loss: 1.66729366779, acc: 0.492378
+2021-04-14 23:20:46,186 INFO 	iter: 5720, batch loss: 0.961074531078, batch acc: 0.750000
+2021-04-14 23:23:52,439 INFO 	Eval, eval loss: 1.6520460844, acc: 0.493902
+2021-04-14 23:25:31,789 INFO Epoch: loss: 0.757228, acc: 0.784274
+2021-04-14 23:25:31,789 INFO Epoch: 7/15 start
+2021-04-14 23:28:15,372 INFO 	iter: 5740, batch loss: 0.737211108208, batch acc: 0.812500
+2021-04-14 23:31:23,234 INFO 	Eval, eval loss: 1.58963441849, acc: 0.474085
+2021-04-15 18:09:55,072 INFO INIT: #stock: 88, #vocab+1: 29867
+2021-04-15 18:09:55,290 INFO Start graph assembling...
+2021-04-15 18:10:25,483 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-15 18:10:33,036 INFO Word table init: done!
+2021-04-15 18:10:35,934 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-15 18:10:35,936 INFO Epoch: 1/15 start
+2021-04-15 18:57:32,905 INFO 	iter: 5760, batch loss: 0.623740017414, batch acc: 0.843750
+2021-04-15 19:10:31,695 INFO 	Eval, eval loss: 1.57549357414, acc: 0.496951
+2021-04-15 19:33:49,928 INFO 	iter: 5780, batch loss: 0.900437712669, batch acc: 0.625000
+2021-04-15 19:35:41,375 INFO 	Eval, eval loss: 1.50718390942, acc: 0.504573
+2021-04-15 19:52:20,596 INFO 	iter: 5800, batch loss: 0.705241501331, batch acc: 0.875000
+2021-04-15 19:54:14,480 INFO 	Eval, eval loss: 1.5355271101, acc: 0.500000
+2021-04-15 20:05:40,199 INFO 	iter: 5820, batch loss: 0.69831264019, batch acc: 0.781250
+2021-04-15 20:07:33,249 INFO 	Eval, eval loss: 1.55332410336, acc: 0.506098
+2021-04-15 20:16:15,680 INFO 	iter: 5840, batch loss: 0.821285128593, batch acc: 0.687500
+2021-04-15 20:18:08,884 INFO 	Eval, eval loss: 1.51014614105, acc: 0.501524
+2021-04-15 20:24:28,628 INFO 	iter: 5860, batch loss: 0.640927135944, batch acc: 0.812500
+2021-04-15 20:26:25,534 INFO 	Eval, eval loss: 1.48137223721, acc: 0.512195
+2021-04-15 20:31:10,614 INFO 	iter: 5880, batch loss: 0.56999796629, batch acc: 0.937500
+2021-04-15 20:33:06,761 INFO 	Eval, eval loss: 1.5430765152, acc: 0.516768
+2021-04-15 20:35:34,993 INFO Epoch: loss: 0.730791, acc: 0.794556
+2021-04-15 20:35:34,993 INFO Epoch: 2/15 start
+2021-04-15 20:37:03,040 INFO 	iter: 5900, batch loss: 0.582747340202, batch acc: 0.937500
+2021-04-15 20:38:59,063 INFO 	Eval, eval loss: 1.57682418823, acc: 0.489329
+2021-04-15 20:42:23,175 INFO 	iter: 5920, batch loss: 0.72409760952, batch acc: 0.718750
+2021-04-15 20:44:20,708 INFO 	Eval, eval loss: 1.6010248661, acc: 0.500000
+2021-04-15 20:47:08,490 INFO 	iter: 5940, batch loss: 0.774478316307, batch acc: 0.718750
+2021-04-15 20:49:07,449 INFO 	Eval, eval loss: 1.68292534351, acc: 0.484756
+2021-04-15 20:51:46,815 INFO 	iter: 5960, batch loss: 0.691290438175, batch acc: 0.812500
+2021-04-15 20:53:47,566 INFO 	Eval, eval loss: 1.63628697395, acc: 0.504573
+2021-04-15 20:56:26,318 INFO 	iter: 5980, batch loss: 0.652562618256, batch acc: 0.875000
+2021-04-15 20:58:28,764 INFO 	Eval, eval loss: 1.64812004566, acc: 0.496951
+2021-04-15 21:01:08,554 INFO 	iter: 6000, batch loss: 0.814155936241, batch acc: 0.687500
+2021-04-15 21:03:12,439 INFO 	Eval, eval loss: 1.58525490761, acc: 0.483232
+2021-04-15 21:05:54,362 INFO 	iter: 6020, batch loss: 0.568987846375, batch acc: 0.781250
+2021-04-15 21:07:59,910 INFO 	Eval, eval loss: 1.64551985264, acc: 0.503049
+2021-04-15 21:10:46,594 INFO 	iter: 6040, batch loss: 0.672403514385, batch acc: 0.875000
+2021-04-15 21:12:54,221 INFO 	Eval, eval loss: 1.60075557232, acc: 0.510671
+2021-04-15 21:14:22,563 INFO Epoch: loss: 0.719069, acc: 0.798387
+2021-04-15 21:14:22,563 INFO Epoch: 3/15 start
+2021-04-15 21:16:50,588 INFO 	iter: 6060, batch loss: 0.786900162697, batch acc: 0.718750
+2021-04-15 21:18:59,488 INFO 	Eval, eval loss: 1.52406477928, acc: 0.500000
+2021-04-15 21:22:13,791 INFO 	iter: 6080, batch loss: 0.576595962048, batch acc: 0.937500
+2021-04-15 21:24:24,542 INFO 	Eval, eval loss: 1.57174921036, acc: 0.484756
+2021-04-15 21:27:17,414 INFO 	iter: 6100, batch loss: 0.743704915047, batch acc: 0.781250
+2021-04-15 21:29:29,303 INFO 	Eval, eval loss: 1.73062992096, acc: 0.481707
+2021-04-15 21:32:11,392 INFO 	iter: 6120, batch loss: 0.958494603634, batch acc: 0.781250
+2021-04-15 21:34:25,256 INFO 	Eval, eval loss: 1.67371845245, acc: 0.490854
+2021-04-15 21:37:08,161 INFO 	iter: 6140, batch loss: 0.57881963253, batch acc: 0.843750
+2021-04-15 21:39:24,091 INFO 	Eval, eval loss: 1.60130155087, acc: 0.489329
+2021-04-15 21:42:12,310 INFO 	iter: 6160, batch loss: 0.643856465816, batch acc: 0.843750
+2021-04-15 21:44:29,631 INFO 	Eval, eval loss: 1.65331447124, acc: 0.483232
+2021-04-15 21:47:17,669 INFO 	iter: 6180, batch loss: 0.782120347023, batch acc: 0.718750
+2021-04-15 21:49:36,330 INFO 	Eval, eval loss: 1.61670863628, acc: 0.498476
+2021-04-15 21:52:28,190 INFO 	iter: 6200, batch loss: 0.594379901886, batch acc: 0.812500
+2021-04-15 21:54:48,620 INFO 	Eval, eval loss: 1.59644794464, acc: 0.487805
+2021-04-15 21:55:33,337 INFO Epoch: loss: 0.708268, acc: 0.813306
+2021-04-15 21:55:33,337 INFO Epoch: 4/15 start
+2021-04-15 21:59:10,454 INFO 	iter: 6220, batch loss: 0.499247074127, batch acc: 0.875000
+2021-04-15 22:01:37,536 INFO 	Eval, eval loss: 1.61549377441, acc: 0.487805
+2021-04-15 22:04:48,581 INFO 	iter: 6240, batch loss: 0.626670777798, batch acc: 0.843750
+2021-04-15 22:07:18,079 INFO 	Eval, eval loss: 1.67325484753, acc: 0.493902
+2021-04-15 22:10:14,549 INFO 	iter: 6260, batch loss: 0.695718824863, batch acc: 0.843750
+2021-04-15 22:12:45,367 INFO 	Eval, eval loss: 1.64406681061, acc: 0.484756
+2021-04-15 22:15:37,892 INFO 	iter: 6280, batch loss: 0.481134951115, batch acc: 0.968750
+2021-04-15 22:18:10,313 INFO 	Eval, eval loss: 1.69240617752, acc: 0.496951
+2021-04-15 22:21:04,376 INFO 	iter: 6300, batch loss: 0.763247728348, batch acc: 0.718750
+2021-04-15 22:23:40,362 INFO 	Eval, eval loss: 1.68090569973, acc: 0.506098
+2021-04-15 22:26:38,959 INFO 	iter: 6320, batch loss: 0.728817224503, batch acc: 0.812500
+2021-04-15 22:29:19,658 INFO 	Eval, eval loss: 1.6616538763, acc: 0.493902
+2021-04-15 22:32:17,551 INFO 	iter: 6340, batch loss: 0.53517472744, batch acc: 0.968750
+2021-04-15 22:35:02,197 INFO 	Eval, eval loss: 1.63622128963, acc: 0.500000
+2021-04-15 22:38:14,354 INFO 	iter: 6360, batch loss: 0.595722675323, batch acc: 0.781250
+2021-04-16 16:20:34,383 INFO INIT: #stock: 88, #vocab+1: 29867
+2021-04-16 16:20:34,716 INFO Start graph assembling...
+2021-04-16 16:21:06,186 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-16 16:21:14,115 INFO Word table init: done!
+2021-04-16 16:21:18,473 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-16 16:21:18,474 INFO Epoch: 1/15 start
+2021-04-16 17:12:41,535 INFO 	iter: 6380, batch loss: 0.824747681618, batch acc: 0.812500
+2021-04-16 17:26:41,773 INFO 	Eval, eval loss: 1.57667410374, acc: 0.487805
+2021-04-16 17:52:37,179 INFO 	iter: 6400, batch loss: 0.774750232697, batch acc: 0.781250
+2021-04-16 17:54:26,130 INFO 	Eval, eval loss: 1.63839673996, acc: 0.498476
+2021-04-16 18:11:50,407 INFO 	iter: 6420, batch loss: 0.668107390404, batch acc: 0.875000
+2021-04-16 18:13:42,958 INFO 	Eval, eval loss: 1.6593670845, acc: 0.489329
+2021-04-17 04:35:57,290 INFO INIT: #stock: 88, #vocab+1: 29867
+2021-04-17 04:35:57,304 INFO Start graph assembling...
+2021-04-17 04:36:31,548 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-17 04:36:32,413 INFO Word table init: done!
+2021-04-17 04:36:35,329 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-17 04:36:35,329 INFO Epoch: 1/15 start
+2021-04-17 05:20:27,225 INFO 	iter: 6440, batch loss: 0.708514094353, batch acc: 0.843750
+2021-04-17 05:31:58,783 INFO 	Eval, eval loss: 1.72094893456, acc: 0.480183
+2021-04-17 05:53:43,222 INFO 	iter: 6460, batch loss: 0.684208571911, batch acc: 0.875000
+2021-04-17 05:55:15,945 INFO 	Eval, eval loss: 1.72100269794, acc: 0.484756
+2021-04-17 06:11:03,010 INFO 	iter: 6480, batch loss: 0.639579415321, batch acc: 0.812500
+2021-04-17 06:12:31,201 INFO 	Eval, eval loss: 1.70408761501, acc: 0.464939
+2021-04-17 06:22:38,001 INFO 	iter: 6500, batch loss: 0.582568824291, batch acc: 0.875000
+2021-04-17 06:24:06,101 INFO 	Eval, eval loss: 1.76329147816, acc: 0.483232
+2021-04-17 06:30:17,771 INFO 	iter: 6520, batch loss: 0.600820541382, batch acc: 0.906250
+2021-04-17 06:31:47,256 INFO 	Eval, eval loss: 1.78380143642, acc: 0.474085
+2021-04-17 06:37:26,833 INFO 	iter: 6540, batch loss: 0.722838163376, batch acc: 0.843750
+2021-04-17 06:38:57,215 INFO 	Eval, eval loss: 1.76437366009, acc: 0.493902
+2021-04-17 06:43:14,744 INFO 	iter: 6560, batch loss: 0.840368807316, batch acc: 0.843750
+2021-04-17 06:44:48,724 INFO 	Eval, eval loss: 1.76506829262, acc: 0.498476
+2021-04-17 06:46:51,791 INFO Epoch: loss: 0.673867, acc: 0.826613
+2021-04-17 06:46:51,792 INFO Epoch: 2/15 start
+2021-04-17 06:48:41,062 INFO 	iter: 6580, batch loss: 0.775771319866, batch acc: 0.781250
+2021-04-17 06:50:16,740 INFO 	Eval, eval loss: 1.74802553654, acc: 0.503049
+2021-04-17 06:53:17,123 INFO 	iter: 6600, batch loss: 0.505987405777, batch acc: 0.937500
+2021-04-17 06:54:54,835 INFO 	Eval, eval loss: 1.78667771816, acc: 0.489329
+2021-04-17 06:57:13,867 INFO 	iter: 6620, batch loss: 0.704233646393, batch acc: 0.875000
+2021-04-17 06:58:51,523 INFO 	Eval, eval loss: 1.80639219284, acc: 0.493902
+2021-04-17 07:00:55,430 INFO 	iter: 6640, batch loss: 0.874150931835, batch acc: 0.718750
+2021-04-17 07:02:35,415 INFO 	Eval, eval loss: 1.75371217728, acc: 0.472561
+2021-04-17 07:04:35,390 INFO 	iter: 6660, batch loss: 0.619476437569, batch acc: 0.906250
+2021-04-17 07:06:18,176 INFO 	Eval, eval loss: 1.70956623554, acc: 0.496951
+2021-04-17 07:08:16,301 INFO 	iter: 6680, batch loss: 0.486493110657, batch acc: 0.968750
+2021-04-17 07:09:59,853 INFO 	Eval, eval loss: 1.76469504833, acc: 0.487805
+2021-04-17 07:11:56,397 INFO 	iter: 6700, batch loss: 0.744657099247, batch acc: 0.781250
+2021-04-17 07:13:42,786 INFO 	Eval, eval loss: 1.62627339363, acc: 0.509146
+2021-04-17 07:15:39,037 INFO 	iter: 6720, batch loss: 0.604878544807, batch acc: 0.906250
+2021-04-17 07:17:29,043 INFO 	Eval, eval loss: 1.65745937824, acc: 0.474085
+2021-04-17 07:18:32,085 INFO Epoch: loss: 0.675455, acc: 0.831250
+2021-04-17 07:18:32,085 INFO Epoch: 3/15 start
+2021-04-17 07:21:10,958 INFO 	iter: 6740, batch loss: 0.630361735821, batch acc: 0.875000
+2021-04-17 07:23:04,887 INFO 	Eval, eval loss: 1.69855189323, acc: 0.500000
+2021-04-17 07:25:58,346 INFO 	iter: 6760, batch loss: 0.63130658865, batch acc: 0.843750
+2021-04-17 07:27:51,574 INFO 	Eval, eval loss: 1.75898063183, acc: 0.510671
+2021-04-17 07:30:13,042 INFO 	iter: 6780, batch loss: 0.676433801651, batch acc: 0.781250
+2021-04-17 07:32:08,332 INFO 	Eval, eval loss: 1.72514951229, acc: 0.503049
+2021-04-17 07:34:14,725 INFO 	iter: 6800, batch loss: 0.828592419624, batch acc: 0.718750
+2021-04-17 07:36:12,579 INFO 	Eval, eval loss: 1.71327733994, acc: 0.492378
+2021-04-17 07:38:19,129 INFO 	iter: 6820, batch loss: 0.689661741257, batch acc: 0.812500
+2021-04-17 07:40:18,101 INFO 	Eval, eval loss: 1.69466328621, acc: 0.498476
+2021-04-17 07:42:21,753 INFO 	iter: 6840, batch loss: 0.533478498459, batch acc: 0.875000
+2021-04-17 07:44:23,094 INFO 	Eval, eval loss: 1.75187730789, acc: 0.492378
+2021-04-17 07:46:25,340 INFO 	iter: 6860, batch loss: 0.571081459522, batch acc: 0.843750
+2021-04-17 07:48:29,349 INFO 	Eval, eval loss: 1.71056365967, acc: 0.500000
+2021-04-17 07:50:34,346 INFO 	iter: 6880, batch loss: 0.712365627289, batch acc: 0.812500
+2021-04-17 07:52:40,456 INFO 	Eval, eval loss: 1.65767216682, acc: 0.519817
+2021-04-17 07:53:13,367 INFO Epoch: loss: 0.672472, acc: 0.824395
+2021-04-17 07:53:13,367 INFO Epoch: 4/15 start
+2021-04-17 07:56:45,919 INFO 	iter: 6900, batch loss: 0.601673007011, batch acc: 0.843750
+2021-04-17 07:58:53,860 INFO 	Eval, eval loss: 1.67489600182, acc: 0.493902
+2021-04-17 08:01:31,550 INFO 	iter: 6920, batch loss: 0.660819292068, batch acc: 0.906250
+2021-04-17 08:03:42,357 INFO 	Eval, eval loss: 1.75829398632, acc: 0.501524
+2021-04-17 08:06:06,768 INFO 	iter: 6940, batch loss: 0.500105917454, batch acc: 0.906250
+2021-04-17 08:08:20,078 INFO 	Eval, eval loss: 1.66538524628, acc: 0.474085
+2021-04-17 08:10:34,810 INFO 	iter: 6960, batch loss: 0.679456114769, batch acc: 0.843750
+2021-04-17 08:12:51,708 INFO 	Eval, eval loss: 1.69765615463, acc: 0.486280
+2021-04-17 08:15:02,623 INFO 	iter: 6980, batch loss: 0.575707435608, batch acc: 0.781250
+2021-04-17 08:17:21,491 INFO 	Eval, eval loss: 1.72259032726, acc: 0.487805
+2021-04-17 08:19:34,360 INFO 	iter: 7000, batch loss: 0.631946504116, batch acc: 0.843750
+2021-04-17 08:21:55,995 INFO 	Eval, eval loss: 1.68544781208, acc: 0.487805
+2021-04-17 08:24:06,553 INFO 	iter: 7020, batch loss: 0.877150416374, batch acc: 0.718750
+2021-04-17 08:26:30,838 INFO 	Eval, eval loss: 1.72344279289, acc: 0.493902
+2021-04-17 08:28:45,708 INFO 	iter: 7040, batch loss: 0.665790140629, batch acc: 0.718750
+2021-04-17 08:31:11,577 INFO 	Eval, eval loss: 1.80788469315, acc: 0.498476
+2021-04-17 08:31:12,241 INFO Epoch: loss: 0.651316, acc: 0.827621
+2021-04-17 08:31:12,241 INFO Epoch: 5/15 start
+2021-04-17 08:35:36,807 INFO 	iter: 7060, batch loss: 0.676301538944, batch acc: 0.781250
+2021-04-17 08:38:08,478 INFO 	Eval, eval loss: 1.83483302593, acc: 0.486280
+2021-04-17 08:40:51,629 INFO 	iter: 7080, batch loss: 0.76170539856, batch acc: 0.750000
+2021-04-17 08:43:28,949 INFO 	Eval, eval loss: 1.80237662792, acc: 0.466463
+2021-04-17 08:45:57,259 INFO 	iter: 7100, batch loss: 0.411170750856, batch acc: 1.000000
+2021-04-17 08:48:31,781 INFO 	Eval, eval loss: 1.76731717587, acc: 0.483232
+2021-04-17 08:50:54,626 INFO 	iter: 7120, batch loss: 0.511907815933, batch acc: 0.906250
+2021-04-17 08:53:30,093 INFO 	Eval, eval loss: 1.75531303883, acc: 0.489329
+2021-04-17 08:55:48,445 INFO 	iter: 7140, batch loss: 0.690295577049, batch acc: 0.906250
+2021-04-17 08:58:24,552 INFO 	Eval, eval loss: 1.81333756447, acc: 0.492378
+2021-04-17 09:00:39,445 INFO 	iter: 7160, batch loss: 0.640280663967, batch acc: 0.781250
+2021-04-17 09:03:17,317 INFO 	Eval, eval loss: 1.78043282032, acc: 0.506098
+2021-04-17 09:05:34,302 INFO 	iter: 7180, batch loss: 0.47068092227, batch acc: 0.968750
+2021-04-17 09:08:14,246 INFO 	Eval, eval loss: 1.75298392773, acc: 0.496951
+2021-04-17 09:10:01,104 INFO Epoch: loss: 0.633435, acc: 0.842137
+2021-04-17 09:10:01,105 INFO Epoch: 6/15 start
+2021-04-17 09:11:46,156 INFO 	iter: 7200, batch loss: 0.623918712139, batch acc: 0.812500
+2021-04-17 09:14:27,321 INFO 	Eval, eval loss: 1.71783471107, acc: 0.493902
+2021-04-17 09:17:57,276 INFO 	iter: 7220, batch loss: 0.62267023325, batch acc: 0.875000
+2021-04-17 09:20:41,896 INFO 	Eval, eval loss: 1.76704931259, acc: 0.510671
+2021-04-17 09:23:23,541 INFO 	iter: 7240, batch loss: 0.597762286663, batch acc: 0.875000
+2021-04-17 09:26:11,427 INFO 	Eval, eval loss: 1.75453329086, acc: 0.490854
+2021-04-17 09:28:40,990 INFO 	iter: 7260, batch loss: 0.437945902348, batch acc: 0.937500
+2021-04-17 09:31:31,284 INFO 	Eval, eval loss: 1.787976861, acc: 0.504573
+2021-04-17 09:33:55,852 INFO 	iter: 7280, batch loss: 0.526422262192, batch acc: 0.906250
+2021-04-17 09:36:55,938 INFO 	Eval, eval loss: 1.78722441196, acc: 0.507622
+2021-04-17 09:39:23,402 INFO 	iter: 7300, batch loss: 0.488568603992, batch acc: 0.875000
+2021-04-17 09:42:21,891 INFO 	Eval, eval loss: 1.78524231911, acc: 0.524390
+2021-04-17 09:44:46,421 INFO 	iter: 7320, batch loss: 0.71152806282, batch acc: 0.781250
+2021-04-17 09:47:44,908 INFO 	Eval, eval loss: 1.80386722088, acc: 0.509146
+2021-04-17 09:50:12,042 INFO 	iter: 7340, batch loss: 0.483451843262, batch acc: 0.875000
+2021-04-17 09:53:16,385 INFO 	Eval, eval loss: 1.76039659977, acc: 0.525915
+2021-04-17 09:54:33,059 INFO Epoch: loss: 0.613410, acc: 0.849395
+2021-04-17 09:54:33,060 INFO Epoch: 7/15 start
+2021-04-17 09:57:31,469 INFO 	iter: 7360, batch loss: 0.538003921509, batch acc: 1.000000
+2021-04-17 10:00:38,006 INFO 	Eval, eval loss: 1.72535932064, acc: 0.513720
+2021-04-17 10:03:53,970 INFO 	iter: 7380, batch loss: 0.702634334564, batch acc: 0.875000
+2021-04-17 10:07:02,293 INFO 	Eval, eval loss: 1.76992309093, acc: 0.515244
+2021-04-17 10:09:47,913 INFO 	iter: 7400, batch loss: 0.667905211449, batch acc: 0.843750
+2021-04-17 10:12:58,422 INFO 	Eval, eval loss: 1.69449698925, acc: 0.515244
+2021-04-17 10:15:36,810 INFO 	iter: 7420, batch loss: 0.499757170677, batch acc: 0.843750
+2021-04-17 10:18:49,382 INFO 	Eval, eval loss: 1.70774793625, acc: 0.512195
+2021-04-17 10:21:28,407 INFO 	iter: 7440, batch loss: 0.50040435791, batch acc: 0.968750
+2021-04-17 10:24:46,077 INFO 	Eval, eval loss: 1.72114992142, acc: 0.518293
+2021-04-17 10:27:19,568 INFO 	iter: 7460, batch loss: 0.588535249233, batch acc: 0.812500
+2021-04-17 10:30:37,403 INFO 	Eval, eval loss: 1.72927999496, acc: 0.519817
+2021-04-17 10:33:07,762 INFO 	iter: 7480, batch loss: 0.50503718853, batch acc: 0.906250
+2021-04-17 10:36:26,873 INFO 	Eval, eval loss: 1.82202982903, acc: 0.513720
+2021-04-17 10:39:10,164 INFO 	iter: 7500, batch loss: 0.571742534637, batch acc: 0.781250
+2021-04-17 10:42:34,436 INFO 	Eval, eval loss: 1.80575609207, acc: 0.509146
+2021-04-17 10:43:14,790 INFO Epoch: loss: 0.634415, acc: 0.838508
+2021-04-17 10:43:14,790 INFO Epoch: 8/15 start
+2021-04-17 10:47:07,205 INFO 	iter: 7520, batch loss: 0.465925365686, batch acc: 0.906250
+2021-04-17 10:50:37,355 INFO 	Eval, eval loss: 1.7695492506, acc: 0.513720
+2021-04-17 10:53:53,533 INFO 	iter: 7540, batch loss: 0.741539359093, batch acc: 0.875000
+2021-04-17 10:57:19,764 INFO 	Eval, eval loss: 1.83967721462, acc: 0.506098
+2021-04-17 11:00:13,782 INFO 	iter: 7560, batch loss: 0.636752128601, batch acc: 0.843750
+2021-04-17 11:03:46,002 INFO 	Eval, eval loss: 1.80637288094, acc: 0.509146
+2021-04-17 11:06:34,141 INFO 	iter: 7580, batch loss: 0.711922049522, batch acc: 0.812500
+2021-04-17 11:10:11,374 INFO 	Eval, eval loss: 1.85214471817, acc: 0.495427
+2021-04-17 11:12:59,773 INFO 	iter: 7600, batch loss: 0.417380899191, batch acc: 0.906250
+2021-04-17 15:40:16,464 INFO INIT: #stock: 88, #vocab+1: 29867
+2021-04-17 15:40:16,794 INFO Start graph assembling...
+2021-04-17 15:40:48,481 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-17 15:40:56,116 INFO Word table init: done!
+2021-04-17 15:41:01,384 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-17 15:41:01,385 INFO Epoch: 1/15 start
+2021-04-17 16:46:10,524 INFO 	iter: 7620, batch loss: 0.601720571518, batch acc: 0.843750
+2021-04-17 17:03:16,588 INFO 	Eval, eval loss: 1.78136432171, acc: 0.512195
+2021-04-17 21:47:12,454 INFO INIT: #stock: 15, #vocab+1: 29867
+2021-04-17 21:47:12,625 INFO Start graph assembling...
+2021-04-17 21:47:48,729 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-17 21:47:49,380 INFO Word table init: done!
+2021-04-17 21:47:51,708 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-17 21:47:51,709 INFO Epoch: 1/15 start
+2021-04-17 21:51:07,734 INFO INIT: #stock: 1, #vocab+1: 29867
+2021-04-17 21:51:07,742 INFO Start graph assembling...
+2021-04-17 21:51:40,375 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-17 21:51:41,216 INFO Word table init: done!
+2021-04-17 21:51:41,632 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-17 21:51:41,632 INFO Epoch: 1/15 start
+2021-04-17 21:54:21,393 INFO Epoch: loss: 0.581279, acc: 0.833333
+2021-04-17 21:54:21,395 INFO Epoch: 2/15 start
+2021-04-17 21:54:39,009 INFO Epoch: loss: 0.569422, acc: 0.885417
+2021-04-17 21:54:39,010 INFO Epoch: 3/15 start
+2021-04-17 21:54:57,330 INFO Epoch: loss: 0.448439, acc: 0.937500
+2021-04-17 21:54:57,330 INFO Epoch: 4/15 start
+2021-04-17 21:55:14,823 INFO Epoch: loss: 0.626822, acc: 0.822917
+2021-04-17 21:55:14,824 INFO Epoch: 5/15 start
+2021-04-17 21:55:32,568 INFO Epoch: loss: 0.571450, acc: 0.854167
+2021-04-17 21:55:32,569 INFO Epoch: 6/15 start
+2021-04-17 21:55:49,216 INFO Epoch: loss: 0.501413, acc: 0.916667
+2021-04-17 21:55:49,217 INFO Epoch: 7/15 start
+2021-04-17 21:56:00,993 INFO 	iter: 7640, batch loss: 0.602928578854, batch acc: 0.875000
+2021-04-17 21:56:16,039 INFO 	Eval, eval loss: 1.90308713913, acc: 0.437500
+2021-04-17 21:56:22,736 INFO Epoch: loss: 0.500840, acc: 0.916667
+2021-04-17 21:56:22,737 INFO Epoch: 8/15 start
+2021-04-17 21:56:40,048 INFO Epoch: loss: 0.452964, acc: 0.927083
+2021-04-17 21:56:40,049 INFO Epoch: 9/15 start
+2021-04-17 21:56:58,087 INFO Epoch: loss: 0.438712, acc: 0.895833
+2021-04-17 21:56:58,088 INFO Epoch: 10/15 start
+2021-04-17 21:57:15,782 INFO Epoch: loss: 0.379605, acc: 0.916667
+2021-04-17 21:57:15,782 INFO Epoch: 11/15 start
+2021-04-17 21:57:34,242 INFO Epoch: loss: 0.392939, acc: 0.937500
+2021-04-17 21:57:34,243 INFO Epoch: 12/15 start
+2021-04-17 21:57:51,290 INFO Epoch: loss: 0.365481, acc: 0.968750
+2021-04-17 21:57:51,292 INFO Epoch: 13/15 start
+2021-04-17 21:58:08,988 INFO Epoch: loss: 0.380742, acc: 0.958333
+2021-04-17 21:58:08,989 INFO Epoch: 14/15 start
+2021-04-17 21:58:14,213 INFO 	iter: 7660, batch loss: 0.353050798178, batch acc: 0.968750
+2021-04-17 21:58:16,389 INFO 	Eval, eval loss: 1.94854867458, acc: 0.437500
+2021-04-17 21:58:28,760 INFO Epoch: loss: 0.375201, acc: 0.947917
+2021-04-17 21:58:28,761 INFO Epoch: 15/15 start
+2021-04-17 21:58:47,728 INFO Epoch: loss: 0.303388, acc: 0.989583
+2021-04-17 21:58:47,816 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-17 21:59:11,862 INFO 	Eval, eval loss: 2.55109190941, acc: 0.483871
+2021-04-17 22:06:42,707 INFO INIT: #stock: 1, #vocab+1: 29867
+2021-04-17 22:06:42,713 INFO Start graph assembling...
+2021-04-17 22:07:15,212 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-17 22:07:16,112 INFO Word table init: done!
+2021-04-17 22:07:16,527 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-17 22:07:16,527 INFO Epoch: 1/15 start
+2021-04-17 22:07:37,721 INFO Epoch: loss: 0.263773, acc: 0.979167
+2021-04-17 22:07:37,721 INFO Epoch: 2/15 start
+2021-04-17 22:07:55,173 INFO Epoch: loss: 0.400830, acc: 0.947917
+2021-04-17 22:07:55,174 INFO Epoch: 3/15 start
+2021-04-17 22:08:11,933 INFO Epoch: loss: 0.325265, acc: 0.927083
+2021-04-17 22:08:11,934 INFO Epoch: 4/15 start
+2021-04-17 22:08:29,474 INFO Epoch: loss: 0.331462, acc: 0.947917
+2021-04-17 22:08:29,474 INFO Epoch: 5/15 start
+2021-04-17 22:08:47,158 INFO Epoch: loss: 0.331867, acc: 0.947917
+2021-04-17 22:08:47,158 INFO Epoch: 6/15 start
+2021-04-17 22:09:04,532 INFO Epoch: loss: 0.279791, acc: 0.979167
+2021-04-17 22:09:04,533 INFO Epoch: 7/15 start
+2021-04-17 22:09:15,884 INFO 	iter: 7680, batch loss: 0.358684778214, batch acc: 0.937500
+2021-04-17 22:09:18,598 INFO 	Eval, eval loss: 2.27697110176, acc: 0.437500
+2021-04-17 22:09:24,369 INFO Epoch: loss: 0.294774, acc: 0.968750
+2021-04-17 22:09:24,370 INFO Epoch: 8/15 start
+2021-04-17 22:09:41,771 INFO Epoch: loss: 0.383763, acc: 0.968750
+2021-04-17 22:09:41,772 INFO Epoch: 9/15 start
+2021-04-17 22:09:59,063 INFO Epoch: loss: 0.289347, acc: 0.958333
+2021-04-17 22:09:59,063 INFO Epoch: 10/15 start
+2021-04-17 22:10:16,457 INFO Epoch: loss: 0.269272, acc: 0.989583
+2021-04-17 22:10:16,457 INFO Epoch: 11/15 start
+2021-04-17 22:10:34,013 INFO Epoch: loss: 0.309532, acc: 0.947917
+2021-04-17 22:10:34,013 INFO Epoch: 12/15 start
+2021-04-17 22:10:51,369 INFO Epoch: loss: 0.226014, acc: 0.979167
+2021-04-17 22:10:51,370 INFO Epoch: 13/15 start
+2021-04-17 22:11:08,477 INFO Epoch: loss: 0.297088, acc: 0.979167
+2021-04-17 22:11:08,477 INFO Epoch: 14/15 start
+2021-04-17 22:11:13,928 INFO 	iter: 7700, batch loss: 0.270591080189, batch acc: 0.937500
+2021-04-17 22:11:15,821 INFO 	Eval, eval loss: 3.16142082214, acc: 0.375000
+2021-04-17 22:11:27,570 INFO Epoch: loss: 0.315421, acc: 0.968750
+2021-04-17 22:11:27,570 INFO Epoch: 15/15 start
+2021-04-17 22:11:44,978 INFO Epoch: loss: 0.368650, acc: 0.958333
+2021-04-17 22:11:45,051 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-17 22:11:49,023 INFO 	Eval, eval loss: 2.98523759842, acc: 0.483871
+2021-04-17 22:16:50,793 INFO INIT: #stock: 3, #vocab+1: 29867
+2021-04-17 22:16:50,804 INFO Start graph assembling...
+2021-04-17 22:17:22,190 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-17 22:17:23,004 INFO Word table init: done!
+2021-04-17 22:17:23,420 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-17 22:17:23,421 INFO Epoch: 1/15 start
+2021-04-17 22:23:57,921 INFO Epoch: loss: 0.647886, acc: 0.837891
+2021-04-17 22:23:57,922 INFO Epoch: 2/15 start
+2021-04-17 22:24:19,594 INFO 	iter: 7720, batch loss: 0.794273376465, batch acc: 0.750000
+2021-04-17 22:25:07,388 INFO 	Eval, eval loss: 1.8007196188, acc: 0.531250
+2021-04-17 22:26:16,261 INFO Epoch: loss: 0.588358, acc: 0.828125
+2021-04-17 22:26:16,261 INFO Epoch: 3/15 start
+2021-04-17 22:27:00,526 INFO 	iter: 7740, batch loss: 0.381393969059, batch acc: 0.906250
+2021-04-17 22:27:06,883 INFO 	Eval, eval loss: 1.68138062954, acc: 0.593750
+2021-04-17 22:27:56,064 INFO Epoch: loss: 0.462572, acc: 0.898438
+2021-04-17 22:27:56,065 INFO Epoch: 4/15 start
+2021-04-17 22:29:06,934 INFO 	iter: 7760, batch loss: 0.621417164803, batch acc: 0.875000
+2021-04-17 22:29:12,988 INFO 	Eval, eval loss: 2.00915932655, acc: 0.484375
+2021-04-17 22:29:37,659 INFO Epoch: loss: 0.475745, acc: 0.894531
+2021-04-17 22:29:37,659 INFO Epoch: 5/15 start
+2021-04-17 22:31:06,476 INFO 	iter: 7780, batch loss: 0.406419962645, batch acc: 0.937500
+2021-04-17 22:31:12,319 INFO 	Eval, eval loss: 1.83686494827, acc: 0.578125
+2021-04-17 22:31:12,922 INFO Epoch: loss: 0.453163, acc: 0.888672
+2021-04-17 22:31:12,922 INFO Epoch: 6/15 start
+2021-04-17 22:32:43,437 INFO Epoch: loss: 0.447826, acc: 0.900391
+2021-04-17 22:32:43,438 INFO Epoch: 7/15 start
+2021-04-17 22:33:05,528 INFO 	iter: 7800, batch loss: 0.343224197626, batch acc: 0.937500
+2021-04-17 22:33:12,197 INFO 	Eval, eval loss: 1.8482490778, acc: 0.546875
+2021-04-17 22:34:20,874 INFO Epoch: loss: 0.428685, acc: 0.916016
+2021-04-17 22:34:20,875 INFO Epoch: 8/15 start
+2021-04-17 22:35:07,037 INFO 	iter: 7820, batch loss: 0.388881772757, batch acc: 0.937500
+2021-04-17 22:35:13,653 INFO 	Eval, eval loss: 2.19622612, acc: 0.546875
+2021-04-17 22:36:01,555 INFO Epoch: loss: 0.391330, acc: 0.939453
+2021-04-17 22:36:01,556 INFO Epoch: 9/15 start
+2021-04-17 22:37:14,327 INFO 	iter: 7840, batch loss: 0.379814624786, batch acc: 0.906250
+2021-04-17 22:37:21,018 INFO 	Eval, eval loss: 1.74320876598, acc: 0.546875
+2021-04-17 22:37:44,829 INFO Epoch: loss: 0.389380, acc: 0.914062
+2021-04-17 22:37:44,830 INFO Epoch: 10/15 start
+2021-04-17 22:39:18,902 INFO 	iter: 7860, batch loss: 0.352147251368, batch acc: 0.906250
+2021-04-17 22:39:25,482 INFO 	Eval, eval loss: 1.99382054806, acc: 0.515625
+2021-04-17 22:39:26,042 INFO Epoch: loss: 0.359486, acc: 0.929688
+2021-04-17 22:39:26,043 INFO Epoch: 11/15 start
+2021-04-17 22:41:03,170 INFO Epoch: loss: 0.347364, acc: 0.933594
+2021-04-17 22:41:03,171 INFO Epoch: 12/15 start
+2021-04-17 22:41:26,889 INFO 	iter: 7880, batch loss: 0.524083375931, batch acc: 0.875000
+2021-04-17 22:41:33,145 INFO 	Eval, eval loss: 2.01788210869, acc: 0.546875
+2021-04-17 22:42:43,356 INFO Epoch: loss: 0.386095, acc: 0.917969
+2021-04-17 22:42:43,357 INFO Epoch: 13/15 start
+2021-04-17 22:43:28,766 INFO 	iter: 7900, batch loss: 0.292092204094, batch acc: 0.968750
+2021-04-17 22:43:35,385 INFO 	Eval, eval loss: 2.37165236473, acc: 0.484375
+2021-04-17 22:44:24,401 INFO Epoch: loss: 0.323845, acc: 0.927734
+2021-04-17 22:44:24,402 INFO Epoch: 14/15 start
+2021-04-17 22:45:34,467 INFO 	iter: 7920, batch loss: 0.452391862869, batch acc: 0.906250
+2021-04-17 22:45:41,962 INFO 	Eval, eval loss: 2.39758467674, acc: 0.453125
+2021-04-17 22:46:07,148 INFO Epoch: loss: 0.358986, acc: 0.923828
+2021-04-17 22:46:07,149 INFO Epoch: 15/15 start
+2021-04-17 22:47:43,573 INFO 	iter: 7940, batch loss: 0.481069684029, batch acc: 0.906250
+2021-04-17 22:47:50,609 INFO 	Eval, eval loss: 2.21891474724, acc: 0.500000
+2021-04-17 22:47:51,476 INFO Epoch: loss: 0.343905, acc: 0.919922
+2021-04-17 22:47:51,584 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-17 22:48:42,303 INFO 	Eval, eval loss: 2.41689801216, acc: 0.459184
+2021-04-23 20:41:12,353 INFO INIT: #stock: 37, #vocab+1: 29867
+2021-04-23 20:41:12,647 INFO Start graph assembling...
+2021-04-23 20:41:42,932 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-23 20:41:50,572 INFO Word table init: done!
+2021-04-23 20:41:54,134 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-23 20:41:54,134 INFO Epoch: 1/15 start
+2021-04-23 21:17:56,545 INFO 	iter: 7960, batch loss: 0.866062879562, batch acc: 0.750000
+2021-04-23 21:24:54,798 INFO 	Eval, eval loss: 1.94186937809, acc: 0.471545
+2021-04-23 21:39:43,604 INFO 	iter: 7980, batch loss: 0.744860649109, batch acc: 0.812500
+2021-04-23 21:40:44,045 INFO 	Eval, eval loss: 1.80307483673, acc: 0.485095
+2021-04-23 21:48:50,517 INFO 	iter: 8000, batch loss: 0.724415183067, batch acc: 0.781250
+2021-04-23 21:49:50,911 INFO 	Eval, eval loss: 1.68564152718, acc: 0.512195
+2021-04-23 21:54:39,746 INFO 	iter: 8020, batch loss: 0.335546165705, batch acc: 0.968750
+2021-04-23 21:55:38,938 INFO 	Eval, eval loss: 1.78854954243, acc: 0.495935
+2021-04-23 21:56:27,354 INFO Epoch: loss: 0.646508, acc: 0.842262
+2021-04-23 21:56:27,354 INFO Epoch: 2/15 start
+2021-04-23 21:59:19,578 INFO 	iter: 8040, batch loss: 0.686727404594, batch acc: 0.781250
+2021-04-23 22:00:19,108 INFO 	Eval, eval loss: 1.78231143951, acc: 0.520325
+2021-04-23 22:03:04,947 INFO 	iter: 8060, batch loss: 0.481769412756, batch acc: 0.843750
+2021-04-23 22:04:07,658 INFO 	Eval, eval loss: 1.82049942017, acc: 0.509485
+2021-04-23 22:06:54,825 INFO 	iter: 8080, batch loss: 0.420376777649, batch acc: 0.968750
+2021-04-23 22:07:55,312 INFO 	Eval, eval loss: 1.72679340839, acc: 0.490515
+2021-04-23 22:10:44,074 INFO 	iter: 8100, batch loss: 0.51662927866, batch acc: 0.906250
+2021-04-23 22:11:44,825 INFO 	Eval, eval loss: 1.81738579273, acc: 0.501355
+2021-04-23 22:12:56,752 INFO Epoch: loss: 0.565911, acc: 0.859375
+2021-04-23 22:12:56,752 INFO Epoch: 3/15 start
+2021-04-23 22:15:18,813 INFO 	iter: 8120, batch loss: 0.625645875931, batch acc: 0.843750
+2021-04-23 22:16:20,063 INFO 	Eval, eval loss: 1.89167320728, acc: 0.504065
+2021-04-23 22:19:03,922 INFO 	iter: 8140, batch loss: 0.545157194138, batch acc: 0.937500
+2021-04-23 22:20:05,991 INFO 	Eval, eval loss: 1.82795870304, acc: 0.490515
+2021-04-23 22:22:50,882 INFO 	iter: 8160, batch loss: 0.360063552856, batch acc: 0.937500
+2021-04-23 22:23:53,088 INFO 	Eval, eval loss: 1.85916447639, acc: 0.509485
+2021-04-23 22:26:46,190 INFO 	iter: 8180, batch loss: 0.718882441521, batch acc: 0.781250
+2021-04-23 22:27:49,905 INFO 	Eval, eval loss: 1.8812943697, acc: 0.498645
+2021-04-23 22:29:37,693 INFO Epoch: loss: 0.555999, acc: 0.864211
+2021-04-23 22:29:37,693 INFO Epoch: 4/15 start
+2021-04-23 22:31:24,008 INFO 	iter: 8200, batch loss: 0.586707830429, batch acc: 0.843750
+2021-04-23 22:32:27,433 INFO 	Eval, eval loss: 1.82934701443, acc: 0.487805
+2021-04-23 22:35:20,483 INFO 	iter: 8220, batch loss: 0.603272199631, batch acc: 0.843750
+2021-04-23 22:36:24,095 INFO 	Eval, eval loss: 1.76902854443, acc: 0.501355
+2021-04-23 22:39:09,918 INFO 	iter: 8240, batch loss: 0.518609702587, batch acc: 0.875000
+2021-04-23 22:40:13,561 INFO 	Eval, eval loss: 1.80821239948, acc: 0.487805
+2021-04-23 22:43:05,282 INFO 	iter: 8260, batch loss: 0.407947897911, batch acc: 0.906250
+2021-04-23 22:44:09,263 INFO 	Eval, eval loss: 1.87061572075, acc: 0.506775
+2021-04-23 22:46:30,194 INFO Epoch: loss: 0.519230, acc: 0.872768
+2021-04-23 22:46:30,195 INFO Epoch: 5/15 start
+2021-04-23 22:47:40,163 INFO 	iter: 8280, batch loss: 0.49833458662, batch acc: 0.937500
+2021-04-23 22:48:44,685 INFO 	Eval, eval loss: 2.02257680893, acc: 0.493225
+2021-04-23 22:51:40,661 INFO 	iter: 8300, batch loss: 0.410701692104, batch acc: 0.937500
+2021-04-23 22:52:45,261 INFO 	Eval, eval loss: 1.9567463398, acc: 0.493225
+2021-04-23 22:55:31,478 INFO 	iter: 8320, batch loss: 0.405000090599, batch acc: 0.875000
+2021-04-23 22:56:37,195 INFO 	Eval, eval loss: 1.86239147186, acc: 0.528455
+2021-04-23 22:59:28,499 INFO 	iter: 8340, batch loss: 0.374362945557, batch acc: 0.937500
+2021-04-23 23:00:33,781 INFO 	Eval, eval loss: 1.84279334545, acc: 0.509485
+2021-04-23 23:03:29,386 INFO 	iter: 8360, batch loss: 0.719045639038, batch acc: 0.781250
+2021-04-23 23:04:36,899 INFO 	Eval, eval loss: 1.86549925804, acc: 0.501355
+2021-04-23 23:04:37,444 INFO Epoch: loss: 0.521324, acc: 0.879836
+2021-04-23 23:04:37,444 INFO Epoch: 6/15 start
+2021-04-23 23:08:07,353 INFO 	iter: 8380, batch loss: 0.505823254585, batch acc: 0.906250
+2021-04-23 23:09:14,076 INFO 	Eval, eval loss: 1.91248822212, acc: 0.498645
+2021-04-23 23:12:06,657 INFO 	iter: 8400, batch loss: 0.272397696972, batch acc: 0.968750
+2021-04-23 23:13:14,547 INFO 	Eval, eval loss: 1.83863949776, acc: 0.520325
+2021-04-23 23:16:07,570 INFO 	iter: 8420, batch loss: 0.442414283752, batch acc: 0.875000
+2021-04-23 23:17:16,553 INFO 	Eval, eval loss: 2.02583551407, acc: 0.501355
+2021-04-23 23:20:16,061 INFO 	iter: 8440, batch loss: 0.469902038574, batch acc: 0.906250
+2021-04-23 23:21:26,185 INFO 	Eval, eval loss: 2.00241017342, acc: 0.509485
+2021-04-23 23:22:05,096 INFO Epoch: loss: 0.507144, acc: 0.883557
+2021-04-23 23:22:05,096 INFO Epoch: 7/15 start
+2021-04-23 23:25:05,430 INFO 	iter: 8460, batch loss: 0.445801705122, batch acc: 0.843750
+2021-04-23 23:26:14,056 INFO 	Eval, eval loss: 1.91634273529, acc: 0.528455
+2021-04-23 23:29:05,626 INFO 	iter: 8480, batch loss: 0.545149683952, batch acc: 0.906250
+2021-04-23 23:30:15,344 INFO 	Eval, eval loss: 1.89767277241, acc: 0.517615
+2021-04-23 23:33:07,838 INFO 	iter: 8500, batch loss: 0.53362005949, batch acc: 0.906250
+2021-04-23 23:34:18,159 INFO 	Eval, eval loss: 2.01266884804, acc: 0.509485
+2021-04-23 23:37:18,621 INFO 	iter: 8520, batch loss: 0.430075585842, batch acc: 0.875000
+2021-04-23 23:38:29,095 INFO 	Eval, eval loss: 2.00304508209, acc: 0.493225
+2021-04-23 23:39:42,936 INFO Epoch: loss: 0.493331, acc: 0.891369
+2021-04-23 23:39:42,937 INFO Epoch: 8/15 start
+2021-04-23 23:42:06,009 INFO 	iter: 8540, batch loss: 0.535137534142, batch acc: 0.937500
+2021-04-23 23:43:16,298 INFO 	Eval, eval loss: 2.00156378746, acc: 0.501355
+2021-04-24 00:32:07,908 INFO INIT: #stock: 22, #vocab+1: 29867
+2021-04-24 00:32:08,436 INFO Start graph assembling...
+2021-04-24 00:32:37,602 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-24 00:32:38,449 INFO Word table init: done!
+2021-04-24 00:32:43,011 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-24 00:32:43,012 INFO Epoch: 1/15 start
+2021-04-24 01:14:11,705 INFO 	iter: 8560, batch loss: 0.452364265919, batch acc: 0.906250
+2021-04-24 01:20:21,442 INFO 	Eval, eval loss: 1.74914574623, acc: 0.508000
+2021-04-24 01:31:27,679 INFO 	iter: 8580, batch loss: 0.426137566566, batch acc: 0.906250
+2021-04-24 01:31:51,708 INFO 	Eval, eval loss: 1.92880058289, acc: 0.492000
+2021-04-24 01:34:40,954 INFO Epoch: loss: 0.449366, acc: 0.899884
+2021-04-24 01:34:40,954 INFO Epoch: 2/15 start
+2021-04-24 01:35:44,183 INFO 	iter: 8600, batch loss: 0.446527570486, batch acc: 0.937500
+2021-04-24 01:36:07,771 INFO 	Eval, eval loss: 1.81817030907, acc: 0.532000
+2021-04-24 01:37:45,504 INFO 	iter: 8620, batch loss: 0.253773063421, batch acc: 1.000000
+2021-04-24 01:38:09,770 INFO 	Eval, eval loss: 1.83453774452, acc: 0.512000
+2021-04-24 01:39:42,665 INFO 	iter: 8640, batch loss: 0.357789754868, batch acc: 0.906250
+2021-04-24 01:40:07,352 INFO 	Eval, eval loss: 1.81361019611, acc: 0.524000
+2021-04-24 01:40:44,673 INFO Epoch: loss: 0.456416, acc: 0.903356
+2021-04-24 01:40:44,674 INFO Epoch: 3/15 start
+2021-04-24 01:42:21,030 INFO 	iter: 8660, batch loss: 0.33158069849, batch acc: 0.937500
+2021-04-24 01:42:45,581 INFO 	Eval, eval loss: 2.0095975399, acc: 0.472000
+2021-04-24 01:44:20,306 INFO 	iter: 8680, batch loss: 0.329357475042, batch acc: 0.875000
+2021-04-24 01:44:44,505 INFO 	Eval, eval loss: 1.98399674892, acc: 0.476000
+2021-04-24 01:46:18,443 INFO 	iter: 8700, batch loss: 0.436562001705, batch acc: 0.843750
+2021-04-24 01:46:43,849 INFO 	Eval, eval loss: 2.20620203018, acc: 0.484000
+2021-04-24 01:46:54,564 INFO Epoch: loss: 0.401860, acc: 0.916088
+2021-04-24 01:46:54,564 INFO Epoch: 4/15 start
+2021-04-24 01:48:59,500 INFO 	iter: 8720, batch loss: 0.349602162838, batch acc: 0.875000
+2021-04-24 01:49:24,818 INFO 	Eval, eval loss: 2.0059568882, acc: 0.488000
+2021-04-24 01:51:00,386 INFO 	iter: 8740, batch loss: 0.320776492357, batch acc: 0.906250
+2021-04-24 01:51:25,496 INFO 	Eval, eval loss: 1.90004277229, acc: 0.524000
+2021-04-24 01:52:41,189 INFO Epoch: loss: 0.423963, acc: 0.910880
+2021-04-24 01:52:41,189 INFO Epoch: 5/15 start
+2021-04-24 01:53:32,430 INFO 	iter: 8760, batch loss: 0.427007466555, batch acc: 0.875000
+2021-04-24 01:53:57,646 INFO 	Eval, eval loss: 1.91032207012, acc: 0.500000
+2021-04-24 01:55:37,871 INFO 	iter: 8780, batch loss: 0.448363542557, batch acc: 0.843750
+2021-04-24 01:56:04,317 INFO 	Eval, eval loss: 2.05824542046, acc: 0.492000
+2021-04-24 01:57:40,782 INFO 	iter: 8800, batch loss: 0.351508647203, batch acc: 0.937500
+2021-04-24 01:58:07,568 INFO 	Eval, eval loss: 2.08817267418, acc: 0.532000
+2021-04-24 01:58:56,634 INFO Epoch: loss: 0.404547, acc: 0.921296
+2021-04-24 01:58:56,634 INFO Epoch: 6/15 start
+2021-04-24 02:00:23,046 INFO 	iter: 8820, batch loss: 0.508741438389, batch acc: 0.906250
+2021-04-24 02:00:49,767 INFO 	Eval, eval loss: 2.02786684036, acc: 0.508000
+2021-04-24 02:02:28,169 INFO 	iter: 8840, batch loss: 0.286535918713, batch acc: 0.968750
+2021-04-24 02:02:54,883 INFO 	Eval, eval loss: 1.82850921154, acc: 0.524000
+2021-04-24 02:04:31,770 INFO 	iter: 8860, batch loss: 0.500207424164, batch acc: 0.906250
+2021-04-24 02:04:58,438 INFO 	Eval, eval loss: 1.80120742321, acc: 0.528000
+2021-04-24 02:05:17,741 INFO Epoch: loss: 0.421905, acc: 0.913773
+2021-04-24 02:05:17,741 INFO Epoch: 7/15 start
+2021-04-24 02:07:13,740 INFO 	iter: 8880, batch loss: 0.216902717948, batch acc: 0.968750
+2021-04-24 02:07:40,654 INFO 	Eval, eval loss: 1.9944781065, acc: 0.544000
+2021-04-24 02:09:16,356 INFO 	iter: 8900, batch loss: 0.516630530357, batch acc: 0.812500
+2021-04-24 02:09:43,371 INFO 	Eval, eval loss: 2.10887098312, acc: 0.548000
+2021-04-24 02:11:11,127 INFO Epoch: loss: 0.391565, acc: 0.920139
+2021-04-24 02:11:11,127 INFO Epoch: 8/15 start
+2021-04-24 02:11:46,309 INFO 	iter: 8920, batch loss: 0.518893837929, batch acc: 0.906250
+2021-04-24 02:12:14,022 INFO 	Eval, eval loss: 2.17836070061, acc: 0.504000
+2021-04-24 02:14:06,504 INFO 	iter: 8940, batch loss: 0.452549993992, batch acc: 0.937500
+2021-04-24 02:14:34,307 INFO 	Eval, eval loss: 2.01745271683, acc: 0.496000
+2021-04-24 02:16:12,427 INFO 	iter: 8960, batch loss: 0.280816018581, batch acc: 0.937500
+2021-04-24 02:16:40,190 INFO 	Eval, eval loss: 2.00596189499, acc: 0.528000
+2021-04-24 02:17:39,604 INFO Epoch: loss: 0.379181, acc: 0.927083
+2021-04-24 02:17:39,604 INFO Epoch: 9/15 start
+2021-04-24 02:18:54,356 INFO 	iter: 8980, batch loss: 0.515978693962, batch acc: 0.875000
+2021-04-24 02:19:23,513 INFO 	Eval, eval loss: 1.95259606838, acc: 0.520000
+2021-04-24 02:21:08,749 INFO 	iter: 9000, batch loss: 0.407390087843, batch acc: 0.906250
+2021-04-24 02:21:37,732 INFO 	Eval, eval loss: 1.89303719997, acc: 0.520000
+2021-04-24 02:23:16,079 INFO 	iter: 9020, batch loss: 0.570432603359, batch acc: 0.812500
+2021-04-24 02:23:45,436 INFO 	Eval, eval loss: 1.99361872673, acc: 0.560000
+2021-04-24 02:24:15,782 INFO Epoch: loss: 0.404715, acc: 0.909722
+2021-04-24 02:24:15,783 INFO Epoch: 10/15 start
+2021-04-24 02:26:05,981 INFO 	iter: 9040, batch loss: 0.291091412306, batch acc: 0.968750
+2021-04-24 02:26:35,981 INFO 	Eval, eval loss: 2.0173304081, acc: 0.516000
+2021-04-24 02:28:17,305 INFO 	iter: 9060, batch loss: 0.481903135777, batch acc: 0.906250
+2021-04-24 02:28:47,391 INFO 	Eval, eval loss: 2.01026439667, acc: 0.520000
+2021-04-24 02:30:25,541 INFO 	iter: 9080, batch loss: 0.475524246693, batch acc: 0.812500
+2021-04-24 02:30:55,247 INFO 	Eval, eval loss: 2.15072274208, acc: 0.496000
+2021-04-24 02:30:55,974 INFO Epoch: loss: 0.399285, acc: 0.921296
+2021-04-24 02:30:55,974 INFO Epoch: 11/15 start
+2021-04-24 02:33:15,680 INFO 	iter: 9100, batch loss: 0.155205309391, batch acc: 0.968750
+2021-04-24 02:33:49,683 INFO 	Eval, eval loss: 2.08698892593, acc: 0.508000
+2021-04-24 02:35:33,127 INFO 	iter: 9120, batch loss: 0.314296424389, batch acc: 0.875000
+2021-04-24 02:36:04,035 INFO 	Eval, eval loss: 2.16061758995, acc: 0.500000
+2021-04-24 02:37:16,570 INFO Epoch: loss: 0.352796, acc: 0.933449
+2021-04-24 02:37:16,571 INFO Epoch: 12/15 start
+2021-04-24 02:38:23,386 INFO 	iter: 9140, batch loss: 0.322404772043, batch acc: 0.906250
+2021-04-24 02:38:55,729 INFO 	Eval, eval loss: 2.3651201725, acc: 0.484000
+2021-04-24 02:40:46,960 INFO 	iter: 9160, batch loss: 0.260691523552, batch acc: 0.937500
+2021-04-24 02:41:18,989 INFO 	Eval, eval loss: 2.09574103355, acc: 0.508000
+2021-04-24 02:43:00,997 INFO 	iter: 9180, batch loss: 0.400265038013, batch acc: 0.875000
+2021-04-24 02:43:32,870 INFO 	Eval, eval loss: 2.07592153549, acc: 0.512000
+2021-04-24 02:44:14,995 INFO Epoch: loss: 0.382797, acc: 0.919560
+2021-04-24 02:44:14,996 INFO Epoch: 13/15 start
+2021-04-24 02:45:55,023 INFO 	iter: 9200, batch loss: 0.313364982605, batch acc: 0.937500
+2021-04-24 02:46:26,778 INFO 	Eval, eval loss: 2.15904712677, acc: 0.484000
+2021-04-24 02:48:12,419 INFO 	iter: 9220, batch loss: 0.269295364618, batch acc: 0.906250
+2021-04-24 02:48:44,574 INFO 	Eval, eval loss: 2.14043235779, acc: 0.512000
+2021-04-24 02:50:28,789 INFO 	iter: 9240, batch loss: 0.34880271554, batch acc: 0.875000
+2021-04-24 02:51:01,659 INFO 	Eval, eval loss: 2.09578800201, acc: 0.496000
+2021-04-24 02:51:12,573 INFO Epoch: loss: 0.367084, acc: 0.915509
+2021-04-24 02:51:12,573 INFO Epoch: 14/15 start
+2021-04-24 02:53:28,271 INFO 	iter: 9260, batch loss: 0.387442290783, batch acc: 1.000000
+2021-04-24 02:54:01,623 INFO 	Eval, eval loss: 2.31212663651, acc: 0.468000
+2021-04-24 02:55:47,906 INFO 	iter: 9280, batch loss: 0.557534337044, batch acc: 0.843750
+2021-04-24 02:56:21,081 INFO 	Eval, eval loss: 2.28449296951, acc: 0.480000
+2021-04-24 02:57:44,953 INFO Epoch: loss: 0.346129, acc: 0.934028
+2021-04-24 02:57:44,953 INFO Epoch: 15/15 start
+2021-04-24 02:58:39,402 INFO 	iter: 9300, batch loss: 0.230130076408, batch acc: 1.000000
+2021-04-24 02:59:12,229 INFO 	Eval, eval loss: 2.19289040565, acc: 0.488000
+2021-04-24 03:01:04,570 INFO 	iter: 9320, batch loss: 0.515515625477, batch acc: 0.937500
+2021-04-24 03:01:37,684 INFO 	Eval, eval loss: 2.05592989922, acc: 0.528000
+2021-04-24 03:03:22,684 INFO 	iter: 9340, batch loss: 0.286734044552, batch acc: 0.968750
+2021-04-24 03:03:57,025 INFO 	Eval, eval loss: 1.99447190762, acc: 0.532000
+2021-04-24 03:04:52,302 INFO Epoch: loss: 0.371861, acc: 0.931713
+2021-04-24 03:04:52,497 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-24 03:14:46,990 INFO 	Eval, eval loss: 2.91358661652, acc: 0.463687
+2021-04-27 00:18:25,770 INFO INIT: #stock: 2, #vocab+1: 29867
+2021-04-27 00:18:26,127 INFO Start graph assembling...
+2021-04-27 00:18:56,320 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-27 00:19:03,872 INFO Word table init: done!
+2021-04-27 00:19:08,108 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-27 00:19:08,109 INFO Epoch: 1/15 start
+2021-04-27 00:26:07,728 INFO Epoch: loss: 0.326772, acc: 0.931250
+2021-04-27 00:26:07,728 INFO Epoch: 2/15 start
+2021-04-27 00:27:34,673 INFO 	iter: 9360, batch loss: 0.392346292734, batch acc: 0.906250
+2021-04-27 00:28:18,723 INFO 	Eval, eval loss: 1.76498651505, acc: 0.541667
+2021-04-27 00:28:19,243 INFO Epoch: loss: 0.301008, acc: 0.940625
+2021-04-27 00:28:19,244 INFO Epoch: 3/15 start
+2021-04-27 00:29:46,780 INFO Epoch: loss: 0.271208, acc: 0.956250
+2021-04-27 00:29:46,780 INFO Epoch: 4/15 start
+2021-04-27 00:31:14,731 INFO 	iter: 9380, batch loss: 0.246082007885, batch acc: 1.000000
+2021-04-27 00:31:22,445 INFO 	Eval, eval loss: 1.94344615936, acc: 0.520833
+2021-04-27 00:31:22,825 INFO Epoch: loss: 0.224460, acc: 0.978125
+2021-04-27 00:31:22,825 INFO Epoch: 5/15 start
+2021-04-27 00:32:51,342 INFO Epoch: loss: 0.266734, acc: 0.959375
+2021-04-27 00:32:51,342 INFO Epoch: 6/15 start
+2021-04-27 00:34:18,258 INFO 	iter: 9400, batch loss: 0.378966063261, batch acc: 0.937500
+2021-04-27 00:34:25,787 INFO 	Eval, eval loss: 2.04506444931, acc: 0.604167
+2021-04-27 00:34:26,255 INFO Epoch: loss: 0.246908, acc: 0.962500
+2021-04-27 00:34:26,255 INFO Epoch: 7/15 start
+2021-04-27 00:35:54,307 INFO Epoch: loss: 0.217472, acc: 0.968750
+2021-04-27 00:35:54,307 INFO Epoch: 8/15 start
+2021-04-27 00:37:21,822 INFO 	iter: 9420, batch loss: 0.229641988873, batch acc: 0.968750
+2021-04-27 00:37:29,519 INFO 	Eval, eval loss: 2.10861611366, acc: 0.541667
+2021-04-27 00:37:29,934 INFO Epoch: loss: 0.219818, acc: 0.956250
+2021-04-27 00:37:29,934 INFO Epoch: 9/15 start
+2021-04-27 00:38:56,809 INFO Epoch: loss: 0.201416, acc: 0.971875
+2021-04-27 00:38:56,810 INFO Epoch: 10/15 start
+2021-04-27 00:40:24,037 INFO 	iter: 9440, batch loss: 0.18375480175, batch acc: 0.937500
+2021-04-27 00:40:31,742 INFO 	Eval, eval loss: 2.23613238335, acc: 0.604167
+2021-04-27 00:40:32,201 INFO Epoch: loss: 0.207142, acc: 0.959375
+2021-04-27 00:40:32,201 INFO Epoch: 11/15 start
+2021-04-27 00:42:00,150 INFO Epoch: loss: 0.189500, acc: 0.971875
+2021-04-27 00:42:00,150 INFO Epoch: 12/15 start
+2021-04-27 00:43:27,679 INFO 	iter: 9460, batch loss: 0.205665752292, batch acc: 0.968750
+2021-04-27 00:43:35,437 INFO 	Eval, eval loss: 2.18664884567, acc: 0.604167
+2021-04-27 00:43:35,952 INFO Epoch: loss: 0.161097, acc: 0.975000
+2021-04-27 00:43:35,953 INFO Epoch: 13/15 start
+2021-04-27 00:45:04,436 INFO Epoch: loss: 0.188808, acc: 0.978125
+2021-04-27 00:45:04,436 INFO Epoch: 14/15 start
+2021-04-27 00:46:32,343 INFO 	iter: 9480, batch loss: 0.238039627671, batch acc: 0.968750
+2021-04-27 00:46:40,212 INFO 	Eval, eval loss: 2.44435787201, acc: 0.562500
+2021-04-27 00:46:40,593 INFO Epoch: loss: 0.178671, acc: 0.978125
+2021-04-27 00:46:40,593 INFO Epoch: 15/15 start
+2021-04-27 00:48:09,219 INFO Epoch: loss: 0.169514, acc: 0.978125
+2021-04-27 00:48:09,308 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-27 00:49:15,922 INFO 	Eval, eval loss: 3.19158601761, acc: 0.472973
+2021-04-27 01:50:49,238 INFO INIT: #stock: 2, #vocab+1: 29867
+2021-04-27 01:50:49,508 INFO Start graph assembling...
+2021-04-27 01:51:19,420 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-27 01:51:26,649 INFO Word table init: done!
+2021-04-27 01:51:29,177 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-27 01:51:29,178 INFO Epoch: 1/15 start
+2021-04-27 01:57:25,857 INFO Epoch: loss: 0.159183, acc: 0.975000
+2021-04-27 01:57:25,858 INFO Epoch: 2/15 start
+2021-04-27 01:58:45,736 INFO 	iter: 9500, batch loss: 0.110722072423, batch acc: 1.000000
+2021-04-27 01:59:20,459 INFO 	Eval, eval loss: 2.57400512695, acc: 0.520833
+2021-04-27 01:59:20,941 INFO Epoch: loss: 0.120881, acc: 0.990625
+2021-04-27 01:59:20,941 INFO Epoch: 3/15 start
+2021-04-27 02:00:41,122 INFO Epoch: loss: 0.171904, acc: 0.975000
+2021-04-27 02:00:41,122 INFO Epoch: 4/15 start
+2021-04-27 02:02:01,426 INFO 	iter: 9520, batch loss: 0.23854714632, batch acc: 0.968750
+2021-04-27 02:02:08,483 INFO 	Eval, eval loss: 2.34243583679, acc: 0.604167
+2021-04-27 02:02:08,881 INFO Epoch: loss: 0.172024, acc: 0.975000
+2021-04-27 02:02:08,885 INFO Epoch: 5/15 start
+2021-04-27 02:03:29,671 INFO Epoch: loss: 0.146127, acc: 0.984375
+2021-04-27 02:03:29,671 INFO Epoch: 6/15 start
+2021-04-27 02:04:49,323 INFO 	iter: 9540, batch loss: 0.237020522356, batch acc: 0.937500
+2021-04-27 02:04:56,482 INFO 	Eval, eval loss: 2.44420957565, acc: 0.625000
+2021-04-27 02:04:56,979 INFO Epoch: loss: 0.161533, acc: 0.965625
+2021-04-27 02:04:56,980 INFO Epoch: 7/15 start
+2021-04-27 02:06:17,370 INFO Epoch: loss: 0.181834, acc: 0.971875
+2021-04-27 02:06:17,370 INFO Epoch: 8/15 start
+2021-04-27 02:07:37,392 INFO 	iter: 9560, batch loss: 0.179047107697, batch acc: 0.968750
+2021-04-27 02:07:44,639 INFO 	Eval, eval loss: 2.48999834061, acc: 0.500000
+2021-04-27 02:07:45,127 INFO Epoch: loss: 0.201026, acc: 0.965625
+2021-04-27 02:07:45,127 INFO Epoch: 9/15 start
+2021-04-27 02:09:05,743 INFO Epoch: loss: 0.168762, acc: 0.978125
+2021-04-27 02:09:05,743 INFO Epoch: 10/15 start
+2021-04-27 02:10:26,279 INFO 	iter: 9580, batch loss: 0.203228116035, batch acc: 1.000000
+2021-04-27 02:10:33,520 INFO 	Eval, eval loss: 2.8096344471, acc: 0.479167
+2021-04-27 02:10:33,958 INFO Epoch: loss: 0.152207, acc: 0.984375
+2021-04-27 02:10:33,959 INFO Epoch: 11/15 start
+2021-04-27 02:11:54,938 INFO Epoch: loss: 0.213833, acc: 0.971875
+2021-04-27 02:11:54,938 INFO Epoch: 12/15 start
+2021-04-27 02:13:15,685 INFO 	iter: 9600, batch loss: 0.179628044367, batch acc: 0.937500
+2021-04-27 02:13:23,050 INFO 	Eval, eval loss: 2.26029276848, acc: 0.562500
+2021-04-27 02:13:23,485 INFO Epoch: loss: 0.155183, acc: 0.971875
+2021-04-27 02:13:23,485 INFO Epoch: 13/15 start
+2021-04-27 02:14:44,754 INFO Epoch: loss: 0.164004, acc: 0.978125
+2021-04-27 02:14:44,754 INFO Epoch: 14/15 start
+2021-04-27 02:16:05,232 INFO 	iter: 9620, batch loss: 0.099741563201, batch acc: 1.000000
+2021-04-27 02:16:12,633 INFO 	Eval, eval loss: 2.48082923889, acc: 0.562500
+2021-04-27 02:16:13,107 INFO Epoch: loss: 0.159104, acc: 0.971875
+2021-04-27 02:16:13,107 INFO Epoch: 15/15 start
+2021-04-27 02:17:34,185 INFO Epoch: loss: 0.152077, acc: 0.987500
+2021-04-27 02:17:34,279 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-27 02:18:35,535 INFO 	Eval, eval loss: 3.21906852722, acc: 0.486486
+2021-04-27 02:18:39,488 INFO INIT: #stock: 2, #vocab+1: 29867
+2021-04-27 02:18:39,492 INFO Start graph assembling...
+2021-04-27 02:19:05,316 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-27 02:19:05,895 INFO Word table init: done!
+2021-04-27 02:19:06,213 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-27 02:19:06,214 INFO Epoch: 1/15 start
+2021-04-27 02:20:27,368 INFO Epoch: loss: 0.142747, acc: 0.981250
+2021-04-27 02:20:27,368 INFO Epoch: 2/15 start
+2021-04-27 02:21:46,577 INFO 	iter: 9640, batch loss: 0.140871778131, batch acc: 1.000000
+2021-04-27 02:21:54,111 INFO 	Eval, eval loss: 2.87451267242, acc: 0.500000
+2021-04-27 02:21:54,515 INFO Epoch: loss: 0.161710, acc: 0.981250
+2021-04-27 02:21:54,516 INFO Epoch: 3/15 start
+2021-04-27 02:23:14,120 INFO Epoch: loss: 0.145335, acc: 0.990625
+2021-04-27 02:23:14,121 INFO Epoch: 4/15 start
+2021-04-27 02:24:34,016 INFO 	iter: 9660, batch loss: 0.265655338764, batch acc: 0.968750
+2021-04-27 02:24:41,022 INFO 	Eval, eval loss: 2.68247890472, acc: 0.562500
+2021-04-27 02:24:41,460 INFO Epoch: loss: 0.170345, acc: 0.975000
+2021-04-27 02:24:41,460 INFO Epoch: 5/15 start
+2021-04-27 02:26:02,189 INFO Epoch: loss: 0.136346, acc: 0.978125
+2021-04-27 02:26:02,189 INFO Epoch: 6/15 start
+2021-04-27 02:27:21,818 INFO 	iter: 9680, batch loss: 0.0817134454846, batch acc: 1.000000
+2021-04-27 02:27:28,826 INFO 	Eval, eval loss: 2.42106127739, acc: 0.604167
+2021-04-27 02:27:29,194 INFO Epoch: loss: 0.117774, acc: 0.990625
+2021-04-27 02:27:29,194 INFO Epoch: 7/15 start
+2021-04-27 02:28:49,614 INFO Epoch: loss: 0.100410, acc: 0.990625
+2021-04-27 02:28:49,614 INFO Epoch: 8/15 start
+2021-04-27 02:30:09,243 INFO 	iter: 9700, batch loss: 0.216409444809, batch acc: 0.968750
+2021-04-27 02:30:16,361 INFO 	Eval, eval loss: 2.81620788574, acc: 0.562500
+2021-04-27 02:30:16,890 INFO Epoch: loss: 0.140819, acc: 0.971875
+2021-04-27 02:30:16,890 INFO Epoch: 9/15 start
+2021-04-27 02:31:36,932 INFO Epoch: loss: 0.145816, acc: 0.987500
+2021-04-27 02:31:36,932 INFO Epoch: 10/15 start
+2021-04-27 02:33:24,715 INFO INIT: #stock: 2, #vocab+1: 29867
+2021-04-27 02:33:25,029 INFO Start graph assembling...
+2021-04-27 02:33:55,288 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-27 02:34:02,912 INFO Word table init: done!
+2021-04-27 02:34:06,363 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-27 02:34:06,364 INFO Epoch: 1/15 start
+2021-04-27 02:39:51,715 INFO Epoch: loss: 0.125551, acc: 0.987500
+2021-04-27 02:39:51,715 INFO Epoch: 2/15 start
+2021-04-27 02:41:17,584 INFO 	iter: 9720, batch loss: 0.332943081856, batch acc: 0.937500
+2021-04-27 02:41:53,395 INFO 	Eval, eval loss: 2.81876993179, acc: 0.562500
+2021-04-27 02:41:53,875 INFO Epoch: loss: 0.143610, acc: 0.975000
+2021-04-27 02:41:53,876 INFO Epoch: 3/15 start
+2021-04-27 02:43:21,331 INFO Epoch: loss: 0.093772, acc: 0.990625
+2021-04-27 02:43:21,332 INFO Epoch: 4/15 start
+2021-04-27 02:44:47,638 INFO 	iter: 9740, batch loss: 0.0605839118361, batch acc: 1.000000
+2021-04-27 02:44:55,424 INFO 	Eval, eval loss: 2.83491849899, acc: 0.562500
+2021-04-27 02:44:55,866 INFO Epoch: loss: 0.109092, acc: 0.990625
+2021-04-27 02:44:55,866 INFO Epoch: 5/15 start
+2021-04-27 02:46:22,803 INFO Epoch: loss: 0.079197, acc: 0.993750
+2021-04-27 02:46:22,803 INFO Epoch: 6/15 start
+2021-04-27 02:47:48,909 INFO 	iter: 9760, batch loss: 0.0294131077826, batch acc: 1.000000
+2021-04-27 02:47:56,459 INFO 	Eval, eval loss: 2.75827121735, acc: 0.541667
+2021-04-27 02:47:56,924 INFO Epoch: loss: 0.094015, acc: 0.987500
+2021-04-27 02:47:56,925 INFO Epoch: 7/15 start
+2021-04-27 02:49:22,329 INFO Epoch: loss: 0.120384, acc: 0.987500
+2021-04-27 02:49:22,329 INFO Epoch: 8/15 start
+2021-04-27 02:50:46,535 INFO 	iter: 9780, batch loss: 0.160692840815, batch acc: 0.968750
+2021-04-27 02:50:54,166 INFO 	Eval, eval loss: 2.75991368294, acc: 0.541667
+2021-04-27 02:50:54,568 INFO Epoch: loss: 0.113383, acc: 0.987500
+2021-04-27 02:50:54,569 INFO Epoch: 9/15 start
+2021-04-27 02:52:19,610 INFO Epoch: loss: 0.087521, acc: 0.993750
+2021-04-27 02:52:19,611 INFO Epoch: 10/15 start
+2021-04-27 02:53:44,084 INFO 	iter: 9800, batch loss: 0.062990039587, batch acc: 1.000000
+2021-04-27 02:53:51,507 INFO 	Eval, eval loss: 2.71898126602, acc: 0.520833
+2021-04-27 02:53:51,921 INFO Epoch: loss: 0.064356, acc: 1.000000
+2021-04-27 02:53:51,922 INFO Epoch: 11/15 start
+2021-04-27 02:55:17,013 INFO Epoch: loss: 0.114151, acc: 0.984375
+2021-04-27 02:55:17,014 INFO Epoch: 12/15 start
+2021-04-27 02:56:42,535 INFO 	iter: 9820, batch loss: 0.187014788389, batch acc: 0.968750
+2021-04-27 02:56:50,214 INFO 	Eval, eval loss: 2.69999957085, acc: 0.583333
+2021-04-27 02:56:50,663 INFO Epoch: loss: 0.119725, acc: 0.981250
+2021-04-27 02:56:50,663 INFO Epoch: 13/15 start
+2021-04-27 02:58:16,743 INFO Epoch: loss: 0.106878, acc: 0.981250
+2021-04-27 02:58:16,743 INFO Epoch: 14/15 start
+2021-04-27 02:59:42,059 INFO 	iter: 9840, batch loss: 0.053927578032, batch acc: 1.000000
+2021-04-27 02:59:49,647 INFO 	Eval, eval loss: 2.78783416748, acc: 0.604167
+2021-04-27 02:59:50,151 INFO Epoch: loss: 0.087586, acc: 0.987500
+2021-04-27 02:59:50,152 INFO Epoch: 15/15 start
+2021-04-27 03:01:16,642 INFO Epoch: loss: 0.092590, acc: 0.987500
+2021-04-27 03:01:16,732 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-27 03:02:12,485 INFO 	Eval, eval loss: 3.81115627289, acc: 0.418919
+2021-04-27 15:10:23,655 INFO INIT: #stock: 2, #vocab+1: 29867
+2021-04-27 15:10:23,924 INFO Start graph assembling...
+2021-04-27 15:10:58,310 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-27 15:10:59,219 INFO Word table init: done!
+2021-04-27 15:11:02,431 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-27 15:11:02,431 INFO Epoch: 1/15 start
+2021-04-27 15:16:32,010 INFO Epoch: loss: 0.107828, acc: 0.987500
+2021-04-27 15:16:32,012 INFO Epoch: 2/15 start
+2021-04-27 15:17:30,460 INFO 	iter: 9860, batch loss: 0.0461087711155, batch acc: 1.000000
+2021-04-27 15:18:03,644 INFO 	Eval, eval loss: 2.6670987606, acc: 0.541667
+2021-04-27 15:18:04,199 INFO Epoch: loss: 0.142891, acc: 0.978125
+2021-04-27 15:18:04,199 INFO Epoch: 3/15 start
+2021-04-27 15:19:03,626 INFO Epoch: loss: 0.151964, acc: 0.965625
+2021-04-27 15:19:03,627 INFO Epoch: 4/15 start
+2021-04-27 15:20:02,816 INFO 	iter: 9880, batch loss: 0.114795379341, batch acc: 0.968750
+2021-04-27 15:20:07,476 INFO 	Eval, eval loss: 2.69729828835, acc: 0.604167
+2021-04-27 15:20:08,102 INFO Epoch: loss: 0.095162, acc: 0.987500
+2021-04-27 15:20:08,103 INFO Epoch: 5/15 start
+2021-04-27 15:21:07,256 INFO Epoch: loss: 0.074299, acc: 0.993750
+2021-04-27 15:21:07,257 INFO Epoch: 6/15 start
+2021-04-27 15:22:06,983 INFO 	iter: 9900, batch loss: 0.059466894716, batch acc: 1.000000
+2021-04-27 15:22:11,699 INFO 	Eval, eval loss: 2.86404418945, acc: 0.562500
+2021-04-27 15:22:12,369 INFO Epoch: loss: 0.088952, acc: 0.987500
+2021-04-27 15:22:12,369 INFO Epoch: 7/15 start
+2021-04-27 15:23:12,492 INFO Epoch: loss: 0.119558, acc: 0.981250
+2021-04-27 15:23:12,493 INFO Epoch: 8/15 start
+2021-04-27 15:24:11,081 INFO 	iter: 9920, batch loss: 0.200480237603, batch acc: 0.968750
+2021-04-27 15:24:15,668 INFO 	Eval, eval loss: 2.78031206131, acc: 0.500000
+2021-04-27 15:24:16,235 INFO Epoch: loss: 0.130570, acc: 0.990625
+2021-04-27 15:24:16,235 INFO Epoch: 9/15 start
+2021-04-27 15:25:16,823 INFO Epoch: loss: 0.130711, acc: 0.978125
+2021-04-27 15:25:16,823 INFO Epoch: 10/15 start
+2021-04-27 15:26:16,147 INFO 	iter: 9940, batch loss: 0.0566041097045, batch acc: 0.968750
+2021-04-27 15:26:20,792 INFO 	Eval, eval loss: 2.97361326218, acc: 0.520833
+2021-04-27 15:26:21,584 INFO Epoch: loss: 0.076407, acc: 0.987500
+2021-04-27 15:26:21,585 INFO Epoch: 11/15 start
+2021-04-27 15:27:22,009 INFO Epoch: loss: 0.075669, acc: 0.996875
+2021-04-27 15:27:22,009 INFO Epoch: 12/15 start
+2021-04-27 15:28:22,491 INFO 	iter: 9960, batch loss: 0.12597258389, batch acc: 1.000000
+2021-04-27 15:28:27,731 INFO 	Eval, eval loss: 2.92474150658, acc: 0.625000
+2021-04-27 15:28:28,465 INFO Epoch: loss: 0.085734, acc: 0.996875
+2021-04-27 15:28:28,466 INFO Epoch: 13/15 start
+2021-04-27 15:29:32,306 INFO Epoch: loss: 0.068862, acc: 0.990625
+2021-04-27 15:29:32,307 INFO Epoch: 14/15 start
+2021-04-27 15:30:32,069 INFO 	iter: 9980, batch loss: 0.0286149289459, batch acc: 1.000000
+2021-04-27 15:30:36,929 INFO 	Eval, eval loss: 3.01690626144, acc: 0.541667
+2021-04-27 15:30:37,684 INFO Epoch: loss: 0.064911, acc: 0.993750
+2021-04-27 15:30:37,685 INFO Epoch: 15/15 start
+2021-04-27 15:31:38,106 INFO Epoch: loss: 0.091124, acc: 0.984375
+2021-04-27 15:31:38,219 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-27 15:32:33,632 INFO 	Eval, eval loss: 4.29404592514, acc: 0.472973
+2021-04-27 19:31:19,862 INFO INIT: #stock: 2, #vocab+1: 29867
+2021-04-27 19:31:20,274 INFO Start graph assembling...
+2021-04-27 19:31:56,194 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-27 19:31:57,183 INFO Word table init: done!
+2021-04-27 19:32:01,791 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-27 19:32:01,791 INFO Epoch: 1/15 start
+2021-04-27 19:38:21,137 INFO Epoch: loss: 0.059830, acc: 0.996875
+2021-04-27 19:38:21,138 INFO Epoch: 2/15 start
+2021-04-27 19:39:21,866 INFO 	iter: 10000, batch loss: 0.0164618901908, batch acc: 1.000000
+2021-04-27 19:39:59,050 INFO 	Eval, eval loss: 3.04819011688, acc: 0.541667
+2021-04-27 19:39:59,837 INFO Epoch: loss: 0.108883, acc: 0.990625
+2021-04-27 19:39:59,837 INFO Epoch: 3/15 start
+2021-04-27 19:41:01,195 INFO Epoch: loss: 0.084651, acc: 0.990625
+2021-04-27 19:41:01,196 INFO Epoch: 4/15 start
+2021-04-27 19:42:01,871 INFO 	iter: 10020, batch loss: 0.0407879427075, batch acc: 1.000000
+2021-04-27 19:42:06,721 INFO 	Eval, eval loss: 3.38729143143, acc: 0.479167
+2021-04-27 19:42:07,421 INFO Epoch: loss: 0.069948, acc: 0.996875
+2021-04-27 19:42:07,422 INFO Epoch: 5/15 start
+2021-04-27 19:43:08,602 INFO Epoch: loss: 0.092615, acc: 0.987500
+2021-04-27 19:43:08,603 INFO Epoch: 6/15 start
+2021-04-27 19:44:09,665 INFO 	iter: 10040, batch loss: 0.0563099384308, batch acc: 1.000000
+2021-04-27 19:44:14,526 INFO 	Eval, eval loss: 3.24582099915, acc: 0.583333
+2021-04-27 19:44:15,091 INFO Epoch: loss: 0.103481, acc: 0.996875
+2021-04-27 19:44:15,092 INFO Epoch: 7/15 start
+2021-04-27 19:45:16,795 INFO Epoch: loss: 0.135262, acc: 0.984375
+2021-04-27 19:45:16,796 INFO Epoch: 8/15 start
+2021-04-27 19:46:17,777 INFO 	iter: 10060, batch loss: 0.0826082825661, batch acc: 1.000000
+2021-04-27 19:46:22,631 INFO 	Eval, eval loss: 3.01181292534, acc: 0.541667
+2021-04-27 19:46:23,203 INFO Epoch: loss: 0.099630, acc: 0.990625
+2021-04-27 19:46:23,204 INFO Epoch: 9/15 start
+2021-04-27 19:47:25,157 INFO Epoch: loss: 0.106283, acc: 0.993750
+2021-04-27 19:47:25,157 INFO Epoch: 10/15 start
+2021-04-27 19:48:25,621 INFO 	iter: 10080, batch loss: 0.0839629471302, batch acc: 1.000000
+2021-04-27 19:48:30,430 INFO 	Eval, eval loss: 3.00364160538, acc: 0.583333
+2021-04-27 19:48:31,155 INFO Epoch: loss: 0.106283, acc: 1.000000
+2021-04-27 19:48:31,156 INFO Epoch: 11/15 start
+2021-04-27 19:49:32,398 INFO Epoch: loss: 0.098807, acc: 0.987500
+2021-04-27 19:49:32,399 INFO Epoch: 12/15 start
+2021-04-27 19:50:33,376 INFO 	iter: 10100, batch loss: 0.0741077512503, batch acc: 0.968750
+2021-04-27 19:50:38,266 INFO 	Eval, eval loss: 2.8699798584, acc: 0.604167
+2021-04-27 19:50:38,784 INFO Epoch: loss: 0.115292, acc: 0.978125
+2021-04-27 19:50:38,784 INFO Epoch: 13/15 start
+2021-04-27 19:51:41,785 INFO Epoch: loss: 0.059710, acc: 0.990625
+2021-04-27 19:51:41,786 INFO Epoch: 14/15 start
+2021-04-27 19:52:43,824 INFO 	iter: 10120, batch loss: 0.0268071498722, batch acc: 1.000000
+2021-04-27 19:52:48,832 INFO 	Eval, eval loss: 2.97651576996, acc: 0.583333
+2021-04-27 19:52:49,422 INFO Epoch: loss: 0.096328, acc: 0.990625
+2021-04-27 19:52:49,423 INFO Epoch: 15/15 start
+2021-04-27 19:53:50,784 INFO Epoch: loss: 0.082515, acc: 0.984375
+2021-04-27 19:53:50,891 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-27 19:54:51,894 INFO 	Eval, eval loss: 4.14310073853, acc: 0.432432
+2021-04-27 21:58:54,484 INFO INIT: #stock: 3, #vocab+1: 29867
+2021-04-27 21:58:54,491 INFO Start graph assembling...
+2021-04-27 21:59:29,216 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-27 21:59:30,017 INFO Word table init: done!
+2021-04-27 21:59:30,495 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-27 21:59:30,496 INFO Epoch: 1/15 start
+2021-04-27 22:00:40,093 INFO Epoch: loss: 0.063297, acc: 0.990625
+2021-04-27 22:00:40,094 INFO Epoch: 2/15 start
+2021-04-27 22:01:43,109 INFO 	iter: 10140, batch loss: 0.0335058309138, batch acc: 1.000000
+2021-04-27 22:01:48,753 INFO 	Eval, eval loss: 3.23524999619, acc: 0.541667
+2021-04-27 22:01:49,438 INFO Epoch: loss: 0.033934, acc: 1.000000
+2021-04-27 22:01:49,438 INFO Epoch: 3/15 start
+2021-04-27 22:02:53,559 INFO Epoch: loss: 0.052755, acc: 0.993750
+2021-04-27 22:02:53,560 INFO Epoch: 4/15 start
+2021-04-27 22:03:56,514 INFO 	iter: 10160, batch loss: 0.0213423985988, batch acc: 1.000000
+2021-04-27 22:04:01,406 INFO 	Eval, eval loss: 3.20642948151, acc: 0.520833
+2021-04-27 22:04:01,946 INFO Epoch: loss: 0.048947, acc: 0.993750
+2021-04-27 22:04:01,947 INFO Epoch: 5/15 start
+2021-04-27 22:05:05,231 INFO Epoch: loss: 0.073282, acc: 0.987500
+2021-04-27 22:05:05,232 INFO Epoch: 6/15 start
+2021-04-27 22:06:07,890 INFO 	iter: 10180, batch loss: 0.0201680622995, batch acc: 1.000000
+2021-04-27 22:06:13,051 INFO 	Eval, eval loss: 3.21135354042, acc: 0.500000
+2021-04-27 22:06:13,798 INFO Epoch: loss: 0.097906, acc: 0.993750
+2021-04-27 22:06:13,799 INFO Epoch: 7/15 start
+2021-04-27 22:07:23,072 INFO Epoch: loss: 0.066235, acc: 0.996875
+2021-04-27 22:07:23,073 INFO Epoch: 8/15 start
+2021-04-27 22:08:26,692 INFO 	iter: 10200, batch loss: 0.0538697615266, batch acc: 1.000000
+2021-04-27 22:08:31,720 INFO 	Eval, eval loss: 3.60770893097, acc: 0.520833
+2021-04-27 22:08:32,327 INFO Epoch: loss: 0.065239, acc: 0.987500
+2021-04-27 22:08:32,328 INFO Epoch: 9/15 start
+2021-04-27 22:09:36,624 INFO Epoch: loss: 0.075315, acc: 0.996875
+2021-04-27 22:09:36,625 INFO Epoch: 10/15 start
+2021-04-27 22:10:40,391 INFO 	iter: 10220, batch loss: 0.0829226002097, batch acc: 1.000000
+2021-04-27 22:10:45,476 INFO 	Eval, eval loss: 3.82096457481, acc: 0.458333
+2021-04-27 22:10:46,016 INFO Epoch: loss: 0.067355, acc: 0.990625
+2021-04-27 22:10:46,016 INFO Epoch: 11/15 start
+2021-04-27 22:11:50,909 INFO Epoch: loss: 0.083025, acc: 0.993750
+2021-04-27 22:11:50,909 INFO Epoch: 12/15 start
+2021-04-27 22:12:55,411 INFO 	iter: 10240, batch loss: 0.182682558894, batch acc: 0.968750
+2021-04-27 22:13:00,620 INFO 	Eval, eval loss: 3.93034124374, acc: 0.437500
+2021-04-27 22:13:01,317 INFO Epoch: loss: 0.098689, acc: 0.984375
+2021-04-27 22:13:01,318 INFO Epoch: 13/15 start
+2021-04-27 22:14:05,846 INFO Epoch: loss: 0.118122, acc: 0.981250
+2021-04-27 22:14:05,846 INFO Epoch: 14/15 start
+2021-04-27 22:15:09,538 INFO 	iter: 10260, batch loss: 0.0876043960452, batch acc: 1.000000
+2021-04-27 22:15:14,635 INFO 	Eval, eval loss: 3.54309439659, acc: 0.416667
+2021-04-27 22:15:15,293 INFO Epoch: loss: 0.074992, acc: 0.993750
+2021-04-27 22:15:15,294 INFO Epoch: 15/15 start
+2021-04-27 22:16:19,680 INFO Epoch: loss: 0.080817, acc: 0.984375
+2021-04-27 22:16:19,766 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-27 22:16:27,851 INFO 	Eval, eval loss: 4.28040027618, acc: 0.418919
+2021-04-27 23:16:14,241 INFO INIT: #stock: 4, #vocab+1: 29867
+2021-04-27 23:16:14,248 INFO Start graph assembling...
+2021-04-27 23:16:46,650 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-27 23:16:47,528 INFO Word table init: done!
+2021-04-27 23:16:47,982 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-27 23:16:47,983 INFO Epoch: 1/15 start
+2021-04-27 23:19:47,278 INFO Epoch: loss: 0.526032, acc: 0.912500
+2021-04-27 23:19:47,278 INFO Epoch: 2/15 start
+2021-04-27 23:20:25,719 INFO Epoch: loss: 0.448183, acc: 0.918750
+2021-04-27 23:20:25,720 INFO Epoch: 3/15 start
+2021-04-27 23:21:04,799 INFO Epoch: loss: 0.518013, acc: 0.900000
+2021-04-27 23:21:04,800 INFO Epoch: 4/15 start
+2021-04-27 23:21:42,026 INFO 	iter: 10280, batch loss: 0.340066313744, batch acc: 0.937500
+2021-04-27 23:22:01,258 INFO 	Eval, eval loss: 3.51682806015, acc: 0.413793
+2021-04-27 23:22:03,058 INFO Epoch: loss: 0.245038, acc: 0.962500
+2021-04-27 23:22:03,059 INFO Epoch: 5/15 start
+2021-04-27 23:22:41,554 INFO Epoch: loss: 0.327074, acc: 0.931250
+2021-04-27 23:22:41,554 INFO Epoch: 6/15 start
+2021-04-27 23:23:19,633 INFO Epoch: loss: 0.314686, acc: 0.937500
+2021-04-27 23:23:19,633 INFO Epoch: 7/15 start
+2021-04-27 23:23:57,697 INFO Epoch: loss: 0.247776, acc: 0.968750
+2021-04-27 23:23:57,698 INFO Epoch: 8/15 start
+2021-04-27 23:24:34,591 INFO 	iter: 10300, batch loss: 0.375146389008, batch acc: 0.906250
+2021-04-27 23:24:38,537 INFO 	Eval, eval loss: 2.92199993134, acc: 0.448276
+2021-04-27 23:24:39,672 INFO Epoch: loss: 0.232914, acc: 0.975000
+2021-04-27 23:24:39,672 INFO Epoch: 9/15 start
+2021-04-27 23:25:17,890 INFO Epoch: loss: 0.252741, acc: 0.968750
+2021-04-27 23:25:17,891 INFO Epoch: 10/15 start
+2021-04-27 23:25:56,281 INFO Epoch: loss: 0.257225, acc: 0.956250
+2021-04-27 23:25:56,282 INFO Epoch: 11/15 start
+2021-04-27 23:26:35,307 INFO Epoch: loss: 0.355841, acc: 0.937500
+2021-04-27 23:26:35,308 INFO Epoch: 12/15 start
+2021-04-27 23:27:12,897 INFO 	iter: 10320, batch loss: 0.138069853187, batch acc: 1.000000
+2021-04-27 23:27:17,046 INFO 	Eval, eval loss: 3.17087459564, acc: 0.413793
+2021-04-27 23:27:18,410 INFO Epoch: loss: 0.330356, acc: 0.925000
+2021-04-27 23:27:18,410 INFO Epoch: 13/15 start
+2021-04-27 23:27:57,627 INFO Epoch: loss: 0.192220, acc: 0.993750
+2021-04-27 23:27:57,628 INFO Epoch: 14/15 start
+2021-04-27 23:28:36,614 INFO Epoch: loss: 0.253901, acc: 0.968750
+2021-04-27 23:28:36,615 INFO Epoch: 15/15 start
+2021-04-27 23:29:15,046 INFO Epoch: loss: 0.303012, acc: 0.943750
+2021-04-27 23:29:15,122 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-27 23:29:48,942 INFO 	Eval, eval loss: 3.10947799683, acc: 0.478261
+2021-04-27 23:33:11,941 INFO INIT: #stock: 39, #vocab+1: 29867
+2021-04-27 23:33:11,948 INFO Start graph assembling...
+2021-04-27 23:33:43,936 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-27 23:33:44,807 INFO Word table init: done!
+2021-04-27 23:33:45,255 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-27 23:33:45,256 INFO Epoch: 1/15 start
+2021-04-28 00:06:26,816 INFO 	iter: 10340, batch loss: 0.793337583542, batch acc: 0.812500
+2021-04-28 00:12:16,214 INFO 	Eval, eval loss: 2.60740232468, acc: 0.476965
+2021-04-28 00:24:49,367 INFO 	iter: 10360, batch loss: 0.984452366829, batch acc: 0.687500
+2021-04-28 00:25:32,044 INFO 	Eval, eval loss: 2.02128052711, acc: 0.487805
+2021-04-28 00:32:33,756 INFO 	iter: 10380, batch loss: 0.679286837578, batch acc: 0.781250
+2021-04-28 00:33:16,816 INFO 	Eval, eval loss: 2.11310815811, acc: 0.495935
+2021-04-28 00:36:44,463 INFO 	iter: 10400, batch loss: 0.394049972296, batch acc: 0.875000
+2021-04-28 00:37:28,079 INFO 	Eval, eval loss: 1.93223488331, acc: 0.504065
+2021-04-28 00:38:03,702 INFO Epoch: loss: 0.574666, acc: 0.862500
+2021-04-28 00:38:03,703 INFO Epoch: 2/15 start
+2021-04-28 00:40:43,940 INFO 	iter: 10420, batch loss: 0.589563012123, batch acc: 0.906250
+2021-04-28 00:41:28,857 INFO 	Eval, eval loss: 1.83735442162, acc: 0.517615
+2021-04-28 00:43:34,808 INFO 	iter: 10440, batch loss: 0.488355100155, batch acc: 0.968750
+2021-04-28 00:44:19,733 INFO 	Eval, eval loss: 1.96422672272, acc: 0.487805
+2021-04-28 00:46:18,848 INFO 	iter: 10460, batch loss: 0.307567477226, batch acc: 0.937500
+2021-04-28 00:47:03,778 INFO 	Eval, eval loss: 2.00153279305, acc: 0.498645
+2021-04-28 00:48:59,427 INFO 	iter: 10480, batch loss: 0.569832921028, batch acc: 0.843750
+2021-04-28 00:49:45,781 INFO 	Eval, eval loss: 1.99110412598, acc: 0.512195
+2021-04-28 00:50:46,647 INFO Epoch: loss: 0.481850, acc: 0.890441
+2021-04-28 00:50:46,648 INFO Epoch: 3/15 start
+2021-04-28 00:52:56,646 INFO 	iter: 10500, batch loss: 0.279738515615, batch acc: 1.000000
+2021-04-28 00:53:43,916 INFO 	Eval, eval loss: 1.98146653175, acc: 0.512195
+2021-04-28 00:55:53,902 INFO 	iter: 10520, batch loss: 0.381596177816, batch acc: 0.968750
+2021-04-28 00:56:41,851 INFO 	Eval, eval loss: 1.92121958733, acc: 0.528455
+2021-04-28 00:58:47,261 INFO 	iter: 10540, batch loss: 0.401552468538, batch acc: 0.906250
+2021-04-28 00:59:35,457 INFO 	Eval, eval loss: 1.98503541946, acc: 0.514905
+2021-04-28 01:01:36,377 INFO 	iter: 10560, batch loss: 0.549872040749, batch acc: 0.781250
+2021-04-28 01:02:25,276 INFO 	Eval, eval loss: 2.00038766861, acc: 0.531165
+2021-04-28 01:03:56,649 INFO Epoch: loss: 0.436649, acc: 0.901838
+2021-04-28 01:03:56,649 INFO Epoch: 4/15 start
+2021-04-28 01:05:26,042 INFO 	iter: 10580, batch loss: 0.368777394295, batch acc: 0.968750
+2021-04-28 01:06:15,179 INFO 	Eval, eval loss: 1.95562207699, acc: 0.514905
+2021-04-28 01:08:32,894 INFO 	iter: 10600, batch loss: 0.629756689072, batch acc: 0.843750
+2021-04-28 01:09:26,100 INFO 	Eval, eval loss: 2.01602363586, acc: 0.525745
+2021-04-28 01:11:31,523 INFO 	iter: 10620, batch loss: 0.202818110585, batch acc: 0.968750
+2021-04-28 01:12:21,229 INFO 	Eval, eval loss: 2.02757835388, acc: 0.525745
+2021-04-28 01:14:21,824 INFO 	iter: 10640, batch loss: 0.453814834356, batch acc: 0.875000
+2021-04-28 01:15:11,937 INFO 	Eval, eval loss: 1.96588766575, acc: 0.528455
+2021-04-28 01:17:16,488 INFO 	iter: 10660, batch loss: 0.503813147545, batch acc: 0.875000
+2021-04-28 01:18:07,255 INFO 	Eval, eval loss: 1.89356064796, acc: 0.536585
+2021-04-28 01:18:07,481 INFO Epoch: loss: 0.441988, acc: 0.908456
+2021-04-28 01:18:07,482 INFO Epoch: 5/15 start
+2021-04-28 01:21:32,153 INFO 	iter: 10680, batch loss: 0.491547584534, batch acc: 0.875000
+2021-04-28 01:22:24,002 INFO 	Eval, eval loss: 1.92638266087, acc: 0.514905
+2021-04-28 01:24:31,879 INFO 	iter: 10700, batch loss: 0.396302431822, batch acc: 0.906250
+2021-04-28 01:25:23,628 INFO 	Eval, eval loss: 1.98667216301, acc: 0.501355
+2021-04-28 01:27:27,706 INFO 	iter: 10720, batch loss: 0.383579850197, batch acc: 0.906250
+2021-04-28 01:28:20,140 INFO 	Eval, eval loss: 2.11849212646, acc: 0.493225
+2021-04-28 01:30:26,437 INFO 	iter: 10740, batch loss: 0.228535890579, batch acc: 0.968750
+2021-04-28 01:31:19,457 INFO 	Eval, eval loss: 2.13083600998, acc: 0.487805
+2021-04-28 01:31:51,909 INFO Epoch: loss: 0.423475, acc: 0.909191
+2021-04-28 01:31:51,910 INFO Epoch: 6/15 start
+2021-04-28 01:34:36,619 INFO 	iter: 10760, batch loss: 0.334527254105, batch acc: 0.937500
+2021-04-28 01:35:29,802 INFO 	Eval, eval loss: 2.04725575447, acc: 0.506775
+2021-04-28 01:37:42,609 INFO 	iter: 10780, batch loss: 0.630684733391, batch acc: 0.781250
+2021-04-28 01:38:37,132 INFO 	Eval, eval loss: 2.02522826195, acc: 0.512195
+2021-04-28 01:40:45,368 INFO 	iter: 10800, batch loss: 0.282920598984, batch acc: 0.937500
+2021-04-28 01:41:40,804 INFO 	Eval, eval loss: 2.07319164276, acc: 0.498645
+2021-04-28 01:43:48,267 INFO 	iter: 10820, batch loss: 0.510879814625, batch acc: 0.937500
+2021-04-28 01:44:43,245 INFO 	Eval, eval loss: 2.18925333023, acc: 0.525745
+2021-04-28 01:45:48,368 INFO Epoch: loss: 0.399928, acc: 0.916544
+2021-04-28 01:45:48,369 INFO Epoch: 7/15 start
+2021-04-28 01:47:56,202 INFO 	iter: 10840, batch loss: 0.300831735134, batch acc: 0.937500
+2021-04-28 01:48:53,355 INFO 	Eval, eval loss: 2.31251645088, acc: 0.482385
+2021-04-28 01:51:16,685 INFO 	iter: 10860, batch loss: 0.469979047775, batch acc: 0.937500
+2021-04-28 01:52:13,871 INFO 	Eval, eval loss: 2.104398489, acc: 0.512195
+2021-04-28 01:54:28,499 INFO 	iter: 10880, batch loss: 0.605763792992, batch acc: 0.843750
+2021-04-28 01:55:27,083 INFO 	Eval, eval loss: 2.07375097275, acc: 0.501355
+2021-04-28 01:57:37,815 INFO 	iter: 10900, batch loss: 0.312221199274, batch acc: 1.000000
+2021-04-28 01:58:36,742 INFO 	Eval, eval loss: 2.17523384094, acc: 0.485095
+2021-04-28 02:00:16,227 INFO Epoch: loss: 0.415663, acc: 0.909926
+2021-04-28 02:00:16,228 INFO Epoch: 8/15 start
+2021-04-28 02:01:45,968 INFO 	iter: 10920, batch loss: 0.429602444172, batch acc: 0.937500
+2021-04-28 02:02:45,822 INFO 	Eval, eval loss: 2.21178197861, acc: 0.485095
+2021-04-28 02:05:13,688 INFO 	iter: 10940, batch loss: 0.501400589943, batch acc: 0.937500
+2021-04-28 02:06:13,419 INFO 	Eval, eval loss: 2.18199539185, acc: 0.485095
+2021-04-28 02:08:28,886 INFO 	iter: 10960, batch loss: 0.344357788563, batch acc: 0.937500
+2021-04-28 02:09:29,151 INFO 	Eval, eval loss: 2.15844488144, acc: 0.493225
+2021-04-28 02:11:40,172 INFO 	iter: 10980, batch loss: 0.299534618855, batch acc: 0.937500
+2021-04-28 02:12:40,650 INFO 	Eval, eval loss: 2.27417230606, acc: 0.493225
+2021-04-28 02:16:34,694 INFO INIT: #stock: 25, #vocab+1: 29867
+2021-04-28 02:16:35,690 INFO Start graph assembling...
+2021-04-28 02:17:10,197 INFO ASSEMBLE: word table #replacement: 19485
+2021-04-28 02:17:11,026 INFO Word table init: done!
+2021-04-28 02:17:14,677 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-28 02:17:14,678 INFO Epoch: 1/15 start
+2021-04-28 02:41:35,322 INFO 	iter: 11000, batch loss: 0.35662394762, batch acc: 0.937500
+2021-04-28 02:45:27,016 INFO 	Eval, eval loss: 1.95164382458, acc: 0.505226
+2021-04-28 02:53:34,436 INFO 	iter: 11020, batch loss: 0.194434091449, batch acc: 0.968750
+2021-04-28 02:54:01,560 INFO 	Eval, eval loss: 1.91616797447, acc: 0.501742
+2021-04-28 02:57:48,456 INFO 	iter: 11040, batch loss: 0.328497827053, batch acc: 0.906250
+2021-04-28 02:58:15,471 INFO 	Eval, eval loss: 1.92857587337, acc: 0.515679
+2021-04-28 02:58:34,235 INFO Epoch: loss: 0.359667, acc: 0.931052
+2021-04-28 02:58:34,236 INFO Epoch: 2/15 start
+2021-04-28 03:00:45,861 INFO 	iter: 11060, batch loss: 0.272201478481, batch acc: 0.968750
+2021-04-28 03:01:12,721 INFO 	Eval, eval loss: 2.02723431587, acc: 0.484321
+2021-04-28 03:03:00,470 INFO 	iter: 11080, batch loss: 0.396471112967, batch acc: 0.968750
+2021-04-28 03:03:28,181 INFO 	Eval, eval loss: 2.04179501534, acc: 0.494774
+2021-04-28 03:05:17,462 INFO 	iter: 11100, batch loss: 0.268939435482, batch acc: 0.937500
+2021-04-28 03:05:46,408 INFO 	Eval, eval loss: 1.97466039658, acc: 0.512195
+2021-04-28 03:06:19,678 INFO Epoch: loss: 0.337846, acc: 0.939980
+2021-04-28 03:06:19,678 INFO Epoch: 3/15 start
+2021-04-28 03:08:22,895 INFO 	iter: 11120, batch loss: 0.650804758072, batch acc: 0.875000
+2021-04-28 03:08:52,025 INFO 	Eval, eval loss: 2.10452747345, acc: 0.508711
+2021-04-28 03:10:44,172 INFO 	iter: 11140, batch loss: 0.1983474195, batch acc: 1.000000
+2021-04-28 03:11:13,291 INFO 	Eval, eval loss: 2.07979512215, acc: 0.515679
+2021-04-28 03:13:01,368 INFO 	iter: 11160, batch loss: 0.349412232637, batch acc: 0.937500
+2021-04-28 03:13:29,951 INFO 	Eval, eval loss: 2.04110884666, acc: 0.529617
+2021-04-28 03:14:18,883 INFO Epoch: loss: 0.343284, acc: 0.934524
+2021-04-28 03:14:18,883 INFO Epoch: 4/15 start
+2021-04-28 03:15:58,884 INFO 	iter: 11180, batch loss: 0.298167228699, batch acc: 0.937500
+2021-04-28 03:16:28,053 INFO 	Eval, eval loss: 2.23585033417, acc: 0.501742
+2021-04-28 03:18:19,807 INFO 	iter: 11200, batch loss: 0.373333722353, batch acc: 0.937500
+2021-04-28 03:18:49,886 INFO 	Eval, eval loss: 2.33946704865, acc: 0.459930
+2021-04-28 03:20:41,906 INFO 	iter: 11220, batch loss: 0.274046093225, batch acc: 0.968750
+2021-04-28 03:21:12,550 INFO 	Eval, eval loss: 2.13295602798, acc: 0.508711
+2021-04-28 03:22:20,946 INFO Epoch: loss: 0.312895, acc: 0.944444
+2021-04-28 03:22:20,946 INFO Epoch: 5/15 start
+2021-04-28 03:23:44,832 INFO 	iter: 11240, batch loss: 0.341899305582, batch acc: 0.968750
+2021-04-28 03:24:15,526 INFO 	Eval, eval loss: 2.39853262901, acc: 0.466899
+2021-04-28 03:26:12,526 INFO 	iter: 11260, batch loss: 0.317437648773, batch acc: 0.906250
+2021-04-28 03:26:43,791 INFO 	Eval, eval loss: 2.10878920555, acc: 0.505226
+2021-04-28 03:28:35,029 INFO 	iter: 11280, batch loss: 0.528322935104, batch acc: 0.812500
+2021-04-28 03:29:05,952 INFO 	Eval, eval loss: 2.26982283592, acc: 0.501742
+2021-04-28 03:30:31,969 INFO Epoch: loss: 0.346907, acc: 0.939484
+2021-04-28 03:30:31,970 INFO Epoch: 6/15 start
+2021-04-28 03:31:32,415 INFO 	iter: 11300, batch loss: 0.31043189764, batch acc: 0.968750
+2021-04-28 03:32:03,704 INFO 	Eval, eval loss: 2.01040697098, acc: 0.550523
+2021-04-28 03:34:07,987 INFO 	iter: 11320, batch loss: 0.262455940247, batch acc: 0.906250
+2021-04-28 03:34:39,933 INFO 	Eval, eval loss: 1.98283207417, acc: 0.508711
+2021-04-28 03:36:32,801 INFO 	iter: 11340, batch loss: 0.39936709404, batch acc: 0.968750
+2021-04-28 03:37:04,789 INFO 	Eval, eval loss: 2.23070001602, acc: 0.487805
+2021-04-28 03:38:48,323 INFO Epoch: loss: 0.304684, acc: 0.944940
+2021-04-28 03:38:48,323 INFO Epoch: 7/15 start
+2021-04-28 03:39:28,142 INFO 	iter: 11360, batch loss: 0.291339367628, batch acc: 0.968750
+2021-04-28 03:40:00,338 INFO 	Eval, eval loss: 2.23351955414, acc: 0.470383
+2021-04-28 03:42:08,214 INFO 	iter: 11380, batch loss: 0.661323785782, batch acc: 0.875000
+2021-04-28 03:42:41,035 INFO 	Eval, eval loss: 2.28874254227, acc: 0.473868
+2021-04-28 03:44:35,713 INFO 	iter: 11400, batch loss: 0.196273565292, batch acc: 0.968750
+2021-04-28 03:45:08,155 INFO 	Eval, eval loss: 2.16409349442, acc: 0.498258
+2021-04-28 03:47:05,002 INFO 	iter: 11420, batch loss: 0.403298735619, batch acc: 0.937500
+2021-04-28 03:47:38,819 INFO 	Eval, eval loss: 2.16161298752, acc: 0.480836
+2021-04-28 03:47:44,955 INFO Epoch: loss: 0.310734, acc: 0.940476
+2021-04-28 03:47:44,956 INFO Epoch: 8/15 start
+2021-04-28 03:50:16,427 INFO 	iter: 11440, batch loss: 0.196966022253, batch acc: 0.937500
+2021-04-28 03:50:49,176 INFO 	Eval, eval loss: 2.27293181419, acc: 0.473868
+2021-04-28 03:52:43,861 INFO 	iter: 11460, batch loss: 0.19982111454, batch acc: 1.000000
+2021-04-28 03:53:16,866 INFO 	Eval, eval loss: 2.10152077675, acc: 0.515679
+2021-04-28 03:55:08,837 INFO 	iter: 11480, batch loss: 0.388222366571, batch acc: 0.906250
+2021-04-28 03:55:42,182 INFO 	Eval, eval loss: 2.38769435883, acc: 0.470383
+2021-04-28 03:56:04,819 INFO Epoch: loss: 0.315902, acc: 0.939484
+2021-04-28 03:56:04,819 INFO Epoch: 9/15 start
+2021-04-28 03:58:15,258 INFO 	iter: 11500, batch loss: 0.165789410472, batch acc: 1.000000
+2021-04-28 03:58:48,782 INFO 	Eval, eval loss: 2.74823832512, acc: 0.445993
+2021-04-28 04:00:43,640 INFO 	iter: 11520, batch loss: 0.434264063835, batch acc: 0.906250
+2021-04-28 04:01:17,125 INFO 	Eval, eval loss: 2.43138861656, acc: 0.480836
+2021-04-28 04:03:08,014 INFO 	iter: 11540, batch loss: 0.297330677509, batch acc: 0.968750
+2021-04-28 04:03:40,870 INFO 	Eval, eval loss: 2.27165651321, acc: 0.484321
+2021-04-28 04:04:20,879 INFO Epoch: loss: 0.293556, acc: 0.942956
+2021-04-28 04:04:20,879 INFO Epoch: 10/15 start
+2021-04-28 04:06:16,739 INFO 	iter: 11560, batch loss: 0.212296977639, batch acc: 0.968750
+2021-04-28 04:06:50,967 INFO 	Eval, eval loss: 2.40964913368, acc: 0.473868
+2021-04-28 04:08:48,346 INFO 	iter: 11580, batch loss: 0.297079592943, batch acc: 0.937500
+2021-04-28 04:09:23,419 INFO 	Eval, eval loss: 2.78554534912, acc: 0.466899
+2021-04-28 04:11:20,365 INFO 	iter: 11600, batch loss: 0.41130900383, batch acc: 0.906250
+2021-04-28 04:11:56,613 INFO 	Eval, eval loss: 2.51722836494, acc: 0.470383
+2021-04-28 04:12:55,834 INFO Epoch: loss: 0.287956, acc: 0.943948
+2021-04-28 04:12:55,834 INFO Epoch: 11/15 start
+2021-04-28 04:14:35,339 INFO 	iter: 11620, batch loss: 0.213361293077, batch acc: 0.968750
+2021-04-28 04:15:10,202 INFO 	Eval, eval loss: 2.44455480576, acc: 0.487805
+2021-04-28 04:17:11,453 INFO 	iter: 11640, batch loss: 0.166441231966, batch acc: 1.000000
+2021-04-28 04:17:47,852 INFO 	Eval, eval loss: 2.61940312386, acc: 0.480836
+2021-04-28 04:19:47,870 INFO 	iter: 11660, batch loss: 0.387137025595, batch acc: 0.937500
+2021-04-28 04:20:23,761 INFO 	Eval, eval loss: 2.33673548698, acc: 0.491289
+2021-04-28 04:21:41,301 INFO Epoch: loss: 0.325637, acc: 0.934524
+2021-04-28 04:21:41,301 INFO Epoch: 12/15 start
+2021-04-28 04:23:01,217 INFO 	iter: 11680, batch loss: 0.26526042819, batch acc: 0.968750
+2021-04-28 04:23:37,540 INFO 	Eval, eval loss: 2.47723388672, acc: 0.463415
+2021-04-28 04:25:39,632 INFO 	iter: 11700, batch loss: 0.339926600456, batch acc: 0.875000
+2021-04-28 04:26:16,458 INFO 	Eval, eval loss: 2.19628596306, acc: 0.491289
+2021-04-28 04:28:18,533 INFO 	iter: 11720, batch loss: 0.299476802349, batch acc: 0.968750
+2021-04-28 04:28:56,012 INFO 	Eval, eval loss: 2.31726002693, acc: 0.480836
+2021-04-28 04:30:32,377 INFO Epoch: loss: 0.292287, acc: 0.942956
+2021-04-28 04:30:32,378 INFO Epoch: 13/15 start
+2021-04-28 04:31:29,145 INFO 	iter: 11740, batch loss: 0.309199571609, batch acc: 0.968750
+2021-04-28 04:32:07,207 INFO 	Eval, eval loss: 2.25861907005, acc: 0.501742
+2021-04-28 04:34:20,795 INFO 	iter: 11760, batch loss: 0.334554433823, batch acc: 0.906250
+2021-04-28 04:34:58,778 INFO 	Eval, eval loss: 2.33668684959, acc: 0.477352
+2021-04-28 04:36:58,637 INFO 	iter: 11780, batch loss: 0.22997829318, batch acc: 0.968750
+2021-04-28 04:37:37,676 INFO 	Eval, eval loss: 2.46498513222, acc: 0.470383
+2021-04-28 04:39:33,948 INFO Epoch: loss: 0.261185, acc: 0.956845
+2021-04-28 04:39:33,949 INFO Epoch: 14/15 start
+2021-04-28 04:40:06,475 INFO 	iter: 11800, batch loss: 0.224355220795, batch acc: 0.968750
+2021-04-28 04:40:44,829 INFO 	Eval, eval loss: 2.53050017357, acc: 0.470383
+2021-04-28 04:43:08,863 INFO 	iter: 11820, batch loss: 0.334604263306, batch acc: 0.906250
+2021-04-28 04:43:48,998 INFO 	Eval, eval loss: 2.2381336689, acc: 0.498258
+2021-04-28 04:45:52,089 INFO 	iter: 11840, batch loss: 0.301796495914, batch acc: 0.937500
+2021-04-28 04:46:30,815 INFO 	Eval, eval loss: 2.49717760086, acc: 0.477352
+2021-04-28 04:48:33,094 INFO 	iter: 11860, batch loss: 0.273226499557, batch acc: 0.937500
+2021-04-28 04:49:12,164 INFO 	Eval, eval loss: 2.28263616562, acc: 0.491289
+2021-04-28 04:49:24,670 INFO Epoch: loss: 0.313087, acc: 0.943948
+2021-04-28 04:49:24,670 INFO Epoch: 15/15 start
+2021-04-28 04:51:59,608 INFO 	iter: 11880, batch loss: 0.325899541378, batch acc: 0.906250
+2021-04-28 04:52:39,198 INFO 	Eval, eval loss: 2.16156792641, acc: 0.512195
+2021-04-28 04:54:41,253 INFO 	iter: 11900, batch loss: 0.463486373425, batch acc: 0.875000
+2021-04-28 04:55:20,661 INFO 	Eval, eval loss: 2.41707515717, acc: 0.484321
+2021-04-28 04:57:22,855 INFO 	iter: 11920, batch loss: 0.332398176193, batch acc: 0.937500
+2021-04-28 04:58:02,484 INFO 	Eval, eval loss: 2.25157141685, acc: 0.473868
+2021-04-28 04:58:33,297 INFO Epoch: loss: 0.309416, acc: 0.937004
+2021-04-28 04:58:33,479 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2021-04-28 05:04:51,962 INFO 	Eval, eval loss: 2.94619393349, acc: 0.493917
