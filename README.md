@@ -21,4 +21,4 @@ src/stat_logger is where you can find the format of your output.
 
 In src/config.yml you can set the parameters.
 
-I also have uploaded the notebook that can run this project on Google Colab.
+I also have uploaded the notebook that can run this project on Google Colab. (stock_prediction.ipynb)
